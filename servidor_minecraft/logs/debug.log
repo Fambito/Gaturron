@@ -3742,3 +3742,38 @@ java.lang.Throwable: null
 [18Dec2024 18:44:27.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [alexis83: Teleported alexis83 to -1295.500000, 60.000000, -5295.500000]
 [18Dec2024 18:44:27.253] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3998ms or 79 ticks behind
 [18Dec2024 18:44:28.535] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 moved too quickly! 0.0,-10.80652611000901,0.0
+[18Dec2024 18:44:42.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Eye Spy]
+[18Dec2024 18:45:29.175] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=198, y=48, z=187}
+[18Dec2024 18:45:41.572] [Worker-Main-10/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[18Dec2024 18:45:41.576] [Worker-Main-10/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[18Dec2024 18:45:41.577] [Worker-Main-10/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[18Dec2024 18:45:41.577] [Worker-Main-10/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[18Dec2024 18:46:23.687] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[18Dec2024 18:46:23.730] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[18Dec2024 18:48:39.371] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=198, y=48, z=187}
+[18Dec2024 18:51:23.612] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[18Dec2024 18:51:23.622] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[18Dec2024 18:51:43.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [The Beginning of An Adventure]
+[18Dec2024 18:51:43.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Arghh, Where be Me Ship?]
+[18Dec2024 18:51:44.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Cover Me In Emeralds]
+[18Dec2024 18:51:45.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [A Nice-y Look]
+[18Dec2024 18:51:48.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Need A Map?]
+[18Dec2024 18:51:49.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Stare Into Despair]
+[18Dec2024 18:51:50.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Fortune Seeker]
+[18Dec2024 18:51:51.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Welcome To The Jungle]
+[18Dec2024 18:52:14.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [A New Protector...]
+[18Dec2024 18:52:16.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [A Real Blessing]
+[18Dec2024 18:52:17.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Who's Guarding The Temple Now?]
+[18Dec2024 18:52:18.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Fallen Sorcerer]
+[18Dec2024 18:52:20.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Wither You Want It Or Not]
+[18Dec2024 18:52:21.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Trick-or-Treat?]
+[18Dec2024 18:52:22.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [The Mirror Of The Soul]
+[18Dec2024 18:52:34.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [The End?]
+[18Dec2024 18:52:35.380] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2925ms or 58 ticks behind
+[18Dec2024 18:52:38.962] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Scanning for legacy world dragon fight...
+[18Dec2024 18:52:38.963] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Found that the dragon has not yet been killed in this world.
+[18Dec2024 18:53:19.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 fell out of the world
+[18Dec2024 18:53:19.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [alexis83: Killed alexis83]
+[18Dec2024 18:53:38.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 fell out of the world
+[18Dec2024 18:53:38.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [alexis83: Killed alexis83]
+[18Dec2024 18:54:09.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [alexis83: The difficulty has been set to Normal]

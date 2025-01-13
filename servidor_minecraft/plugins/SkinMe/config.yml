@@ -1,0 +1,18 @@
+config:
+  allow_sneak_rightclick: true
+  allow_shortlink: true
+  use_metrics: true
+  show_info: true
+  preview_length_in_seconds: 10
+messages:
+  prefix: '&6[&5Skin&cMe&6]'
+  no_permission: '&cYou dont have permission!'
+  account_doesnt_exist: '&cThis player does not have a valid account! Cracked perhaps?'
+  change_skin: '&2To get %player%''s skin open this url: &6%link%'
+  change_skin_from_url: '&2To change your skin open this url: &6%link%'
+  usage: '&cUsage: /skinme [view] <playername/url>'
+  citizens: '&cThis feature is disabled because Citizens plugin is missing!'
+  already_viewing: '&cYou already view a skin!'
+  config_reloaded: '&2Config has been reloaded!'
+  is_npc: '&cThis is a NPC not a player!'
+  png_not_found: '&cYour skin file has to be a PNG picture!'

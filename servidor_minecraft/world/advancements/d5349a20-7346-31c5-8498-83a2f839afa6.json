@@ -1,155 +1,182 @@
 {
   "infernalexp:recipes/food/cooked_hogchop_smelting": {
     "criteria": {
-      "has_hogchop": "2025-01-13 19:03:10 +0000"
+      "has_hogchop": "2025-01-13 19:37:19 +0000"
     },
     "done": true
   },
   "farmersdelight:main/root": {
     "criteria": {
-      "seeds": "2025-01-13 19:03:10 +0000"
+      "seeds": "2025-01-13 19:37:19 +0000"
     },
     "done": true
   },
   "betterdungeons:root": {
     "criteria": {
-      "always": "2025-01-13 19:03:11 +0000"
+      "always": "2025-01-13 19:37:19 +0000"
     },
     "done": true
   },
   "incendium:technical/using/trailblazer": {
     "criteria": {
-      "log_spam_fixer": "2025-01-13 19:03:11 +0000"
+      "log_spam_fixer": "2025-01-13 19:37:19 +0000"
     },
     "done": false
   },
   "infernalexp:recipes/redstone/smooth_glowstone_button": {
     "criteria": {
-      "has_smooth_glowstone": "2025-01-13 19:03:10 +0000"
+      "has_smooth_glowstone": "2025-01-13 19:37:19 +0000"
     },
     "done": true
   },
   "infernalexp:recipes/building_blocks/glass": {
     "criteria": {
-      "has_silt": "2025-01-13 19:03:10 +0000"
+      "has_silt": "2025-01-13 19:37:19 +0000"
     },
     "done": true
   },
   "infernalexp:recipes/food/cooked_hogchop_smoking": {
     "criteria": {
-      "has_hogchop": "2025-01-13 19:03:10 +0000"
+      "has_hogchop": "2025-01-13 19:37:19 +0000"
     },
     "done": true
   },
   "infernalexp:recipes/food/cooked_hogchop_campfire": {
     "criteria": {
-      "has_hogchop": "2025-01-13 19:03:10 +0000"
+      "has_hogchop": "2025-01-13 19:37:19 +0000"
     },
     "done": true
   },
   "incendium:technical/scroll_of_returning": {
     "criteria": {
-      "log_spam_fixer": "2025-01-13 19:03:11 +0000"
+      "log_spam_fixer": "2025-01-13 19:37:19 +0000"
     },
     "done": false
   },
+  "dungeons_arise:find_heavenly_challenger": {
+    "criteria": {
+      "location0": "2025-01-13 19:51:31 +0000"
+    },
+    "done": true
+  },
   "dungeons_arise:wda_root": {
     "criteria": {
-      "WDA": "2025-01-13 19:03:11 +0000"
+      "WDA": "2025-01-13 19:37:19 +0000"
     },
     "done": true
   },
   "infernalexp:recipes/combat/glowsilk_bow": {
     "criteria": {
-      "has_glowsilk": "2025-01-13 19:03:10 +0000"
+      "has_glowsilk": "2025-01-13 19:37:19 +0000"
     },
     "done": true
   },
   "infernalexp:recipes/redstone/polished_basalt_pressure_plate": {
     "criteria": {
-      "has_polished_basalt": "2025-01-13 19:03:10 +0000"
+      "has_polished_basalt": "2025-01-13 19:37:19 +0000"
     },
     "done": true
   },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna_plateau": "2025-01-13 19:41:08 +0000",
+      "minecraft:mangrove_swamp": "2025-01-13 19:39:27 +0000",
+      "minecraft:river": "2025-01-13 19:38:45 +0000",
+      "minecraft:swamp": "2025-01-13 19:50:19 +0000",
+      "minecraft:cold_ocean": "2025-01-13 19:46:02 +0000",
+      "minecraft:forest": "2025-01-13 19:38:19 +0000",
+      "minecraft:ocean": "2025-01-13 19:43:05 +0000",
+      "minecraft:meadow": "2025-01-13 19:38:04 +0000",
+      "minecraft:savanna": "2025-01-13 19:39:32 +0000",
+      "minecraft:plains": "2025-01-13 19:37:19 +0000"
+    },
+    "done": false
+  },
   "infernalexp:recipes/redstone/smooth_dullstone_button": {
     "criteria": {
-      "has_smooth_dullstone": "2025-01-13 19:03:10 +0000"
+      "has_smooth_dullstone": "2025-01-13 19:37:19 +0000"
+    },
+    "done": true
+  },
+  "mca:root": {
+    "criteria": {
+      "village_plains": "2025-01-13 19:46:48 +0000"
     },
     "done": true
   },
   "infernalexp:recipes/food/cured_jerky": {
     "criteria": {
-      "has_soul_salt_clump": "2025-01-13 19:03:10 +0000"
+      "has_soul_salt_clump": "2025-01-13 19:37:19 +0000"
     },
     "done": true
   },
   "incendium:technical/using/ragnarok": {
     "criteria": {
-      "log_spam_fixer": "2025-01-13 19:03:11 +0000"
+      "log_spam_fixer": "2025-01-13 19:37:19 +0000"
     },
     "done": false
   },
   "infernalexp:recipes/redstone/smooth_glowstone_pressure_plate": {
     "criteria": {
-      "has_smooth_glowstone": "2025-01-13 19:03:10 +0000"
+      "has_smooth_glowstone": "2025-01-13 19:37:19 +0000"
     },
     "done": true
   },
   "infernalexp:recipes/food/blindsight_tounge_stew": {
     "criteria": {
-      "has_tongue": "2025-01-13 19:03:10 +0000",
-      "has_crimson_fungus": "2025-01-13 19:03:10 +0000",
-      "has_warped_fungus": "2025-01-13 19:03:10 +0000",
-      "has_bowl": "2025-01-13 19:03:10 +0000",
-      "has_luminous_fungus": "2025-01-13 19:03:10 +0000"
+      "has_tongue": "2025-01-13 19:37:19 +0000",
+      "has_crimson_fungus": "2025-01-13 19:37:19 +0000",
+      "has_warped_fungus": "2025-01-13 19:37:19 +0000",
+      "has_bowl": "2025-01-13 19:37:19 +0000",
+      "has_luminous_fungus": "2025-01-13 19:37:19 +0000"
     },
     "done": true
   },
   "infernalexp:recipes/redstone/basalt_button": {
     "criteria": {
-      "has_basalt": "2025-01-13 19:03:10 +0000"
+      "has_basalt": "2025-01-13 19:37:19 +0000"
     },
     "done": true
   },
   "incendium:technical/new_player": {
     "criteria": {
-      "requirement": "2025-01-13 19:03:11 +0000"
+      "requirement": "2025-01-13 19:37:19 +0000"
     },
     "done": true
   },
   "knight_quest:kq_quest_source": {
     "criteria": {
-      "kq_quest_source": "2025-01-13 19:03:10 +0000"
+      "kq_quest_source": "2025-01-13 19:37:19 +0000"
     },
     "done": true
   },
   "infernalexp:recipes/combat/blindsight_tongue_whip": {
     "criteria": {
-      "has_molten_gold_cluster": "2025-01-13 19:03:10 +0000"
+      "has_molten_gold_cluster": "2025-01-13 19:37:19 +0000"
     },
     "done": true
   },
   "infernalexp:recipes/redstone/soul_slate_pressure_plate": {
     "criteria": {
-      "has_soul_slate": "2025-01-13 19:03:10 +0000"
+      "has_soul_slate": "2025-01-13 19:37:19 +0000"
     },
     "done": true
   },
   "incendium:technical/using/shield": {
     "criteria": {
-      "log_spam_fixer": "2025-01-13 19:03:11 +0000"
+      "log_spam_fixer": "2025-01-13 19:37:19 +0000"
     },
     "done": false
   },
   "infernalexp:recipes/redstone/soul_slate_button": {
     "criteria": {
-      "has_soul_slate": "2025-01-13 19:03:10 +0000"
+      "has_soul_slate": "2025-01-13 19:37:19 +0000"
     },
     "done": true
   },
   "infernalexp:recipes/redstone/smooth_dimstone_button": {
     "criteria": {
-      "has_smooth_dimstone": "2025-01-13 19:03:10 +0000"
+      "has_smooth_dimstone": "2025-01-13 19:37:19 +0000"
     },
     "done": true
   },

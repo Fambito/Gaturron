@@ -2647,3 +2647,31 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 [19Jan2025 23:32:06.813] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lim0ncit0Dulce lost connection: Disconnected
 [19Jan2025 23:32:06.813] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Lim0ncit0Dulce
 [19Jan2025 23:32:06.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce left the game
+[19Jan2025 23:32:45.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Sweet Dreams]
+[19Jan2025 23:34:23.459] [User Authenticator #11/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Lim0ncit0Dulce is 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[19Jan2025 23:34:26.665] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@16818719
+[19Jan2025 23:34:26.668] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Lim0ncit0Dulce[/127.238.45.75:33495] logged in with entity id 1904 at (7.0403970603480825, 68.0, 27.353233245277018)
+[19Jan2025 23:34:26.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce joined the game
+[19Jan2025 23:34:27.362] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Lim0ncit0Dulce (18)
+[19Jan2025 23:34:27.363] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Lim0ncit0Dulce
+[19Jan2025 23:34:32.536] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[19Jan2025 23:34:33.527] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[19Jan2025 23:34:33.527] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Lim0ncit0Dulce (2ddd9b46-0427-3b1d-9b4e-0259d562a0a6) successfully connected to voice chat
+[19Jan2025 23:34:55.589] [User Authenticator #12/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player PanchikoKW is 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[19Jan2025 23:34:59.613] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@75a59523
+[19Jan2025 23:34:59.618] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PanchikoKW[/127.61.240.200:54485] logged in with entity id 1935 at (2.699999988079071, 66.09801532007664, 40.44060249824822)
+[19Jan2025 23:34:59.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW joined the game
+[19Jan2025 23:35:00.425] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of PanchikoKW (18)
+[19Jan2025 23:35:00.425] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to PanchikoKW
+[19Jan2025 23:35:05.229] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[19Jan2025 23:35:06.226] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[19Jan2025 23:35:06.226] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player PanchikoKW (905d1f7b-6652-3a99-9dd9-a3db220a872b) successfully connected to voice chat
+[19Jan2025 23:35:16.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW was slain by alexis83
+[19Jan2025 23:35:32.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce has made the advancement [Stone Age]
+[19Jan2025 23:35:45.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce has made the advancement [Getting an Upgrade]
+[19Jan2025 23:39:06.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce was slain by PanchikoKW
+[19Jan2025 23:40:00.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo has made the advancement [Alex's Mobs]
+[19Jan2025 23:40:26.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo has made the advancement [Stone Age]
+[19Jan2025 23:40:36.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo was slain by PanchikoKW
+[19Jan2025 23:40:56.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW has made the advancement [Stone Age]
+[19Jan2025 23:41:13.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW has made the advancement [Getting an Upgrade]

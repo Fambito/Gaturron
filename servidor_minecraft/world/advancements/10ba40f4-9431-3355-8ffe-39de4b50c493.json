@@ -1,13 +1,31 @@
 {
+  "minecraft:recipes/decorations/gray_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2025-01-19 23:31:10 +0000"
+    },
+    "done": true
+  },
   "infernalexp:recipes/food/cooked_hogchop_smelting": {
     "criteria": {
       "has_hogchop": "2025-01-19 23:27:37 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2025-01-19 23:31:10 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:main/root": {
     "criteria": {
       "seeds": "2025-01-19 23:27:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2025-01-19 23:31:10 +0000"
     },
     "done": true
   },
@@ -29,6 +47,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/magenta_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2025-01-19 23:31:10 +0000"
+    },
+    "done": true
+  },
   "infernalexp:recipes/building_blocks/glass": {
     "criteria": {
       "has_silt": "2025-01-19 23:27:37 +0000"
@@ -47,11 +71,29 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/orange_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2025-01-19 23:31:10 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/scroll_of_returning": {
     "criteria": {
       "log_spam_fixer": "2025-01-19 23:27:38 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/decorations/brown_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2025-01-19 23:31:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2025-01-19 23:31:10 +0000"
+    },
+    "done": true
   },
   "dungeons_arise:wda_root": {
     "criteria": {
@@ -62,6 +104,12 @@
   "infernalexp:recipes/combat/glowsilk_bow": {
     "criteria": {
       "has_glowsilk": "2025-01-19 23:27:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2025-01-19 23:31:10 +0000"
     },
     "done": true
   },
@@ -83,6 +131,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/purple_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2025-01-19 23:31:10 +0000"
+    },
+    "done": true
+  },
   "infernalexp:recipes/food/cured_jerky": {
     "criteria": {
       "has_soul_salt_clump": "2025-01-19 23:27:37 +0000"
@@ -94,6 +148,12 @@
       "log_spam_fixer": "2025-01-19 23:27:38 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2025-01-19 23:31:10 +0000"
+    },
+    "done": true
   },
   "infernalexp:recipes/redstone/smooth_glowstone_pressure_plate": {
     "criteria": {
@@ -117,15 +177,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2025-01-19 23:31:10 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/new_player": {
     "criteria": {
       "requirement": "2025-01-19 23:27:37 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2025-01-19 23:31:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2025-01-19 23:31:10 +0000"
+    },
+    "done": true
+  },
   "knight_quest:kq_quest_source": {
     "criteria": {
       "kq_quest_source": "2025-01-19 23:27:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2025-01-19 23:31:10 +0000"
     },
     "done": true
   },
@@ -150,6 +234,12 @@
   "infernalexp:recipes/redstone/soul_slate_button": {
     "criteria": {
       "has_soul_slate": "2025-01-19 23:27:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2025-01-19 23:31:10 +0000"
     },
     "done": true
   },

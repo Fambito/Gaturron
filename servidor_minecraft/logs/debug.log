@@ -11929,3 +11929,7 @@ java.lang.IllegalStateException: Asynchronous chunk entity get!
 [20Jan2025 16:24:41.407] [Server thread/DEBUG] [voicechat/]: [voicechat] Removing state of LaCartaTucumana
 [20Jan2025 16:24:41.407] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client LaCartaTucumana
 [20Jan2025 16:24:41.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaCartaTucumana left the game
+[20Jan2025 16:28:45.280] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Jan2025 16:28:45.288] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Jan2025 16:33:45.275] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Jan2025 16:33:45.282] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

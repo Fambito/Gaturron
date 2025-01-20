@@ -5,12 +5,6 @@
     },
     "done": true
   },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-20 01:45:04 +0000"
-    },
-    "done": false
-  },
   "infernalexp:recipes/redstone/smooth_glowstone_button": {
     "criteria": {
       "has_smooth_glowstone": "2025-01-20 01:38:54 +0000"
@@ -53,15 +47,15 @@
     },
     "done": true
   },
-  "mca:recipes/misc/needle_and_thread": {
-    "criteria": {
-      "has_item": "2025-01-20 01:44:23 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-20 01:42:26 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/needle_and_thread": {
+    "criteria": {
+      "has_item": "2025-01-20 01:44:23 +0000"
     },
     "done": true
   },
@@ -135,12 +129,6 @@
     },
     "done": true
   },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-20 01:45:04 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2025-01-20 01:42:25 +0000"
@@ -165,9 +153,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/arrow": {
+  "infernalexp:recipes/combat/blindsight_tongue_whip": {
     "criteria": {
-      "has_feather": "2025-01-20 01:42:28 +0000"
+      "has_molten_gold_cluster": "2025-01-20 01:38:54 +0000"
     },
     "done": true
   },
@@ -177,9 +165,9 @@
     },
     "done": true
   },
-  "infernalexp:recipes/combat/blindsight_tongue_whip": {
+  "minecraft:recipes/combat/arrow": {
     "criteria": {
-      "has_molten_gold_cluster": "2025-01-20 01:38:54 +0000"
+      "has_feather": "2025-01-20 01:42:28 +0000"
     },
     "done": true
   },
@@ -201,15 +189,15 @@
     },
     "done": true
   },
-  "rechiseled:recipes/rechiseled/chisel": {
-    "criteria": {
-      "recipe_condition": "2025-01-20 01:44:23 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2025-01-20 01:42:27 +0000"
+    },
+    "done": true
+  },
+  "rechiseled:recipes/rechiseled/chisel": {
+    "criteria": {
+      "recipe_condition": "2025-01-20 01:44:23 +0000"
     },
     "done": true
   },
@@ -267,15 +255,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/golden_helmet": {
-    "criteria": {
-      "has_gold_ingot": "2025-01-20 01:44:24 +0000"
-    },
-    "done": true
-  },
   "mca:recipes/misc/comb": {
     "criteria": {
       "has_item": "2025-01-20 01:44:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-20 01:44:24 +0000"
     },
     "done": true
   },
@@ -459,12 +447,6 @@
     },
     "done": false
   },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-20 01:45:04 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
       "has_gold_ingot": "2025-01-20 01:44:24 +0000"
@@ -482,12 +464,6 @@
       "get_stone": "2025-01-20 01:42:27 +0000"
     },
     "done": true
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-20 01:45:04 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
@@ -507,8 +483,15 @@
     },
     "done": true
   },
+  "infernalexp:recipes/redstone/smooth_dullstone_button": {
+    "criteria": {
+      "has_smooth_dullstone": "2025-01-20 01:38:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:river": "2025-01-20 16:03:26 +0000",
       "minecraft:plains": "2025-01-20 01:38:55 +0000"
     },
     "done": false
@@ -519,9 +502,9 @@
     },
     "done": true
   },
-  "infernalexp:recipes/redstone/smooth_dullstone_button": {
+  "minecraft:recipes/building_blocks/andesite_stairs": {
     "criteria": {
-      "has_smooth_dullstone": "2025-01-20 01:38:54 +0000"
+      "has_andesite": "2025-01-20 01:42:27 +0000"
     },
     "done": true
   },
@@ -531,21 +514,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/andesite_stairs": {
+  "infernalexp:recipes/food/cured_jerky": {
     "criteria": {
-      "has_andesite": "2025-01-20 01:42:27 +0000"
+      "has_soul_salt_clump": "2025-01-20 01:38:54 +0000"
     },
     "done": true
   },
   "minecraft:recipes/tools/iron_hoe": {
     "criteria": {
       "has_iron_ingot": "2025-01-20 01:44:23 +0000"
-    },
-    "done": true
-  },
-  "infernalexp:recipes/food/cured_jerky": {
-    "criteria": {
-      "has_soul_salt_clump": "2025-01-20 01:38:54 +0000"
     },
     "done": true
   },
@@ -561,15 +538,15 @@
     },
     "done": true
   },
-  "shieldexp:recipes/iron_shield": {
-    "criteria": {
-      "has_iron_ingot": "2025-01-20 01:44:23 +0000"
-    },
-    "done": true
-  },
   "infernalexp:recipes/redstone/basalt_button": {
     "criteria": {
       "has_basalt": "2025-01-20 01:38:54 +0000"
+    },
+    "done": true
+  },
+  "shieldexp:recipes/iron_shield": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-20 01:44:23 +0000"
     },
     "done": true
   },
@@ -645,18 +622,6 @@
     },
     "done": true
   },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-20 01:45:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-20 01:45:04 +0000"
-    },
-    "done": false
-  },
   "knight_quest:kq_quest_source": {
     "criteria": {
       "kq_quest_source": "2025-01-20 01:38:54 +0000"
@@ -668,12 +633,6 @@
       "has_soul_slate": "2025-01-20 01:38:54 +0000"
     },
     "done": true
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-20 01:45:04 +0000"
-    },
-    "done": false
   },
   "infernalexp:recipes/redstone/smooth_dimstone_button": {
     "criteria": {
@@ -692,12 +651,6 @@
       "seeds": "2025-01-20 01:38:54 +0000"
     },
     "done": true
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-20 01:45:04 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
@@ -723,24 +676,11 @@
     },
     "done": true
   },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "requirement": "2025-01-20 01:45:29 +0000",
-      "log_spam_fixer": "2025-01-20 01:45:04 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2025-01-20 01:45:14 +0000"
     },
     "done": true
-  },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-20 01:45:04 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/decorations/yellow_carpet": {
     "criteria": {
@@ -802,12 +742,6 @@
     },
     "done": true
   },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-20 01:45:04 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/yellow_bed": {
     "criteria": {
       "has_yellow_wool": "2025-01-20 01:42:26 +0000"
@@ -820,15 +754,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/blue_dye": {
-    "criteria": {
-      "has_lapis_lazuli": "2025-01-20 01:45:14 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/andesite_wall": {
     "criteria": {
       "has_andesite": "2025-01-20 01:42:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-01-20 01:45:14 +0000"
     },
     "done": true
   },
@@ -879,12 +813,6 @@
       "has_gravel": "2025-01-20 01:42:26 +0000"
     },
     "done": true
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-20 01:45:04 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {

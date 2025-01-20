@@ -2332,3 +2332,373 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 [20Jan2025 15:42:48.291] [luckperms-worker-5/INFO] [Console/]: +  voicechat (true)
 [20Jan2025 15:42:48.292] [luckperms-worker-5/INFO] [Console/]: +  voicechat.speak (true)
 [20Jan2025 15:43:20.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made alexis83 no longer a server operator
+[20Jan2025 15:47:46.024] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player alexis83 is d5349a20-7346-31c5-8498-83a2f839afa6
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: java.io.IOException: Base resource not found: abb$a.class
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.PlayerAdvancements.<clinit>(PlayerAdvancementsMixin.java:55)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.players.PlayerList.m_11296_(PlayerListMixin.java:811)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerPlayer.<init>(ServerPlayerMixin.java:244)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.players.PlayerList.bridge$canPlayerLogin(PlayerListMixin.java:1149)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerLoginPacketListenerImpl.m_10055_(ServerLoginNetHandlerMixin.java:606)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerLoginPacketListenerImpl.m_9933_(ServerLoginNetHandlerMixin.java:75)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.Connection.m_129483_(ConnectionMixin.java:248)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerConnectionListener.m_9721_(ServerConnectionListener.java:143)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServerMixin.java:880)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServerMixin.java:292)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServerMixin.java:806)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2127)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:244)
+[20Jan2025 15:47:50.619] [Server thread/ERROR] [STDERR/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[20Jan2025 15:47:50.666] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@795ce607
+[20Jan2025 15:47:50.711] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: alexis83[/127.205.233.85:34687] logged in with entity id 127 at (639.8739423830965, 69.0, -567.1684050360508)
+[20Jan2025 15:47:50.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 joined the game
+[20Jan2025 15:47:51.690] [Netty Epoll Server IO #2/ERROR] [STDERR/]: java.io.IOException: Base resource not found: te.class
+[20Jan2025 15:47:51.691] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+[20Jan2025 15:47:51.691] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+[20Jan2025 15:47:51.691] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+[20Jan2025 15:47:51.692] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+[20Jan2025 15:47:51.692] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+[20Jan2025 15:47:51.692] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+[20Jan2025 15:47:51.692] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+[20Jan2025 15:47:51.692] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+[20Jan2025 15:47:51.692] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_5617_(ServerPlayNetHandlerMixin.java:1770)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundClientInformationPacket.m_5797_(ServerboundClientInformationPacket.java:48)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundClientInformationPacket.m_5797_(ServerboundClientInformationPacket.java:8)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.Connection.m_129517_(ConnectionMixin.java:163)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.Connection.channelRead0(ConnectionMixin.java:148)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.Connection.channelRead0(ConnectionMixin.java:48)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.codec@4.1.77.Final/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.codec@4.1.77.Final/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.codec@4.1.77.Final/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.codec@4.1.77.Final/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.codec@4.1.77.Final/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.codec@4.1.77.Final/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:314)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.codec@4.1.77.Final/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:435)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.codec@4.1.77.Final/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[20Jan2025 15:47:51.693] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[20Jan2025 15:47:51.694] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.handler@4.1.77.Final/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[20Jan2025 15:47:51.694] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[20Jan2025 15:47:51.694] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[20Jan2025 15:47:51.694] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[20Jan2025 15:47:51.694] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[20Jan2025 15:47:51.694] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[20Jan2025 15:47:51.694] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[20Jan2025 15:47:51.694] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[20Jan2025 15:47:51.694] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.77.Final/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
+[20Jan2025 15:47:51.694] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.77.Final/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:487)
+[20Jan2025 15:47:51.694] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.77.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:385)
+[20Jan2025 15:47:51.694] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+[20Jan2025 15:47:51.694] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[20Jan2025 15:47:51.694] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[20Jan2025 15:47:53.888] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of alexis83 (18)
+[20Jan2025 15:47:53.889] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to alexis83
+[20Jan2025 15:47:53.905] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3202ms or 64 ticks behind
+[20Jan2025 15:47:54.872] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player d5349a20-7346-31c5-8498-83a2f839afa6
+[20Jan2025 15:47:55.869] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player d5349a20-7346-31c5-8498-83a2f839afa6
+[20Jan2025 15:47:55.873] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player alexis83 (d5349a20-7346-31c5-8498-83a2f839afa6) successfully connected to voice chat
+[20Jan2025 15:48:07.945] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.945] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.945] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.945] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.945] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.945] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.945] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.945] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[20Jan2025 15:48:07.945] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.945] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.945] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.945] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.945] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.945] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.945] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.945] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.946] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.946] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.946] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.946] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[20Jan2025 15:48:07.946] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.946] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.946] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[20Jan2025 15:48:07.946] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.946] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[20Jan2025 15:48:07.946] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[20Jan2025 15:48:07.946] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.946] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.946] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.946] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.946] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.946] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.946] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.946] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.946] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.946] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:07.947] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[20Jan2025 15:48:47.006] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /gamemode c
+[20Jan2025 15:48:50.358] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /gamemode creative
+[20Jan2025 15:48:56.725] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /gamemode 1
+[20Jan2025 15:48:58.950] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tp
+[20Jan2025 15:49:05.662] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tp alexis83
+[20Jan2025 15:53:42.704] [Craft Scheduler Thread - 5/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 9
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin}
+[20Jan2025 15:55:35.860] [Server thread/ERROR] [STDERR/]: java.io.IOException: Base resource not found: cay.class
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.item.BucketItem.m_7203_(BucketItemMixin.java:77)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.item.ItemStack.m_41682_(ItemStackMixin.java:266)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerPlayerGameMode.m_6261_(ServerPlayerGameModeMixin.java:286)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_5760_(ServerPlayNetHandlerMixin.java:2712)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundUseItemPacket.m_5797_(CPlayerTryUseItemPacketMixin.java:29)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundUseItemPacket.m_5797_(CPlayerTryUseItemPacketMixin.java:7)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.PacketUtils.mde03ab8$lambda$ensureRunningOnSameThread$0$0(PacketThreadUtilMixin.java:537)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.TickTask.run(TickTask.java:18)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServerMixin.java:763)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServerMixin.java:157)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServerMixin.java:746)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServerMixin.java:740)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServerMixin.java:726)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2131)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:244)
+[20Jan2025 15:55:35.861] [Server thread/ERROR] [STDERR/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[20Jan2025 15:56:17.758] [Worker-Main-17/ERROR] [STDERR/]: java.io.IOException: Base resource not found: dbr.class
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.ChunkStatus.m_223349_(ChunkStatus.java:87)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.ChunkStatus.m_223279_(ChunkStatus.java:292)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$25(ChunkMapMixin.java:621)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/datafixerupper@5.0.28/com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMapMixin.java:619)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[20Jan2025 15:56:17.759] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: java.io.IOException: Base resource not found: dbr$1.class
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.ChunkStatus.m_223349_(ChunkStatus.java:87)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.ChunkStatus.m_223279_(ChunkStatus.java:292)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$25(ChunkMapMixin.java:621)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/datafixerupper@5.0.28/com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMapMixin.java:619)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[20Jan2025 15:56:17.761] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: java.io.IOException: Base resource not found: dbr$a.class
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.NoiseChunk.<init>(NoiseChunk.java:58)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.NoiseChunk.m_224352_(NoiseChunk.java:111)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.m_224256_(NoiseBasedChunkGenerator.java:112)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.m_224336_(NoiseBasedChunkGenerator.java:104)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.ChunkAccess.m_223012_(ChunkAccessMixin.java:345)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.m_224291_(NoiseBasedChunkGenerator.java:104)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.m_224331_(NoiseBasedChunkGenerator.java:98)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[20Jan2025 15:56:18.288] [Worker-Main-17/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[20Jan2025 15:56:36.345] [Server thread/ERROR] [STDERR/]: java.io.IOException: Base resource not found: aft$2.class
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.m_183726_(ChunkMapMixin.java:305)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache_MainThreadExecutorMixin.java:535)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache_MainThreadExecutorMixin.java:629)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerChunkCache.m_8466_(ServerChunkCacheMixin.java:267)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServerMixin.java:751)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServerMixin.java:740)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServerMixin.java:726)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2131)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:244)
+[20Jan2025 15:56:36.346] [Server thread/ERROR] [STDERR/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[20Jan2025 16:03:04.129] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player LaCartaTucumana is eeec4524-8b99-3c22-ba56-e0547f401588
+[20Jan2025 16:03:07.815] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@17d3219e
+[20Jan2025 16:03:07.822] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LaCartaTucumana[/127.4.151.164:38019] logged in with entity id 2141 at (-1293.0092893298604, 74.0, -1059.670555963005)
+[20Jan2025 16:03:07.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaCartaTucumana joined the game
+[20Jan2025 16:03:10.584] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of LaCartaTucumana (18)
+[20Jan2025 16:03:10.584] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to LaCartaTucumana
+[20Jan2025 16:03:10.587] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2685ms or 53 ticks behind
+[20Jan2025 16:03:11.287] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player eeec4524-8b99-3c22-ba56-e0547f401588
+[20Jan2025 16:03:12.295] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player eeec4524-8b99-3c22-ba56-e0547f401588
+[20Jan2025 16:03:12.295] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player LaCartaTucumana (eeec4524-8b99-3c22-ba56-e0547f401588) successfully connected to voice chat
+[20Jan2025 16:03:21.626] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LaCartaTucumana issued server command: /tpa alexis83
+[20Jan2025 16:03:25.151] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[20Jan2025 16:03:42.173] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 16:03:42.182] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaCartaTucumana> no te escucho
+[20Jan2025 16:03:56.255] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 16:03:56.257] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaCartaTucumana> o hay que apretar algo
+[20Jan2025 16:03:59.468] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 16:03:59.469] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> apreta la v corta a ver
+[20Jan2025 16:04:14.399] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 16:04:14.400] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> tenes que desmutearte del juego
+[20Jan2025 16:04:36.071] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 16:04:36.071] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> ahi voy a ds
+[20Jan2025 16:04:42.906] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 16:04:42.907] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaCartaTucumana> e
+[20Jan2025 16:04:47.575] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /lp permission
+[20Jan2025 16:05:21.301] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 16:05:21.302] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaCartaTucumana> dice que notengo permiso para escuchar
+[20Jan2025 16:05:47.359] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 16:05:47.359] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> ahi me falto un permiso
+[20Jan2025 16:05:58.855] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 16:05:58.857] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> di permiso pa hablar pero no para escuchar
+[20Jan2025 16:06:00.342] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 16:06:00.343] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> JAJAJAJ
+[20Jan2025 16:06:04.272] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /LP
+[20Jan2025 16:06:09.479] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /lp
+[20Jan2025 16:06:16.336] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 16:06:16.337] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaCartaTucumana> pedilo
+[20Jan2025 16:06:24.246] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 16:06:24.247] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> ahi toy yendo a discorl
+[20Jan2025 16:07:06.950] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /luckperms applyedits binqovl1qm

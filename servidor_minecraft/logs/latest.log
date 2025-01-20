@@ -3934,3 +3934,99 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 [20Jan2025 04:37:01.016] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa lost connection: Disconnected
 [20Jan2025 04:37:01.016] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ignaciiaa
 [20Jan2025 04:37:01.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa left the game
+[20Jan2025 04:37:51.629] [User Authenticator #35/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Ignaciiaa is 031dfe5e-b202-3181-a70e-a63b1a4fc899
+[20Jan2025 04:37:53.806] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@755b69b3
+[20Jan2025 04:37:53.811] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ignaciiaa[/127.210.146.220:50013] logged in with entity id 155114 at (85.8676449587009, 116.0, 39.1620329194845)
+[20Jan2025 04:37:53.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa joined the game
+[20Jan2025 04:37:54.065] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Ignaciiaa (18)
+[20Jan2025 04:37:54.065] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Ignaciiaa
+[20Jan2025 04:37:55.735] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 031dfe5e-b202-3181-a70e-a63b1a4fc899
+[20Jan2025 04:37:56.749] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 031dfe5e-b202-3181-a70e-a63b1a4fc899
+[20Jan2025 04:37:56.749] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Ignaciiaa (031dfe5e-b202-3181-a70e-a63b1a4fc899) successfully connected to voice chat
+[20Jan2025 04:38:19.343] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 04:38:19.344] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[20Jan2025 04:38:31.703] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager VillagerEntityMCA['Zdzisława'/28, l='ServerLevel[world]', x=56.44, y=116.09, z=83.72] died, message: 'Zdzisława was slain by Door Knight'
+[20Jan2025 04:38:31.704] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VillagerEntityMCA['Zdzisława'/28, l='ServerLevel[world]', x=56.44, y=116.09, z=83.72] died: Zdzisława was slain by Door Knight
+[20Jan2025 04:40:00.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo fell from a high place
+[20Jan2025 04:40:43.723] [Craft Scheduler Thread - 49/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 4
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin}
+[20Jan2025 04:40:48.458] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpa durooo
+[20Jan2025 04:41:00.109] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: durooo issued server command: /tpaccept
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: java.io.FileNotFoundException: https://www.minecraft.net/en-us/haspaid.jsp?user=durooo
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:2032)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1625)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at java.base/java.net.URL.openStream(URL.java:1161)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at de.TrustedCreeper.SkinMe.SkinMe.existAccount(SkinMe.java:115)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at de.TrustedCreeper.SkinMe.SkinMeEventHandler.onPlayerClickPlayer(SkinMeEventHandler.java:35)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/arclight@1.19.2-1.0.5-696a298/org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/arclight@1.19.2-1.0.5-696a298/org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/arclight@1.19.2-1.0.5-696a298/org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl$1Handler$85752dc01f3345eb821b0160f52bc6e9.performInteraction(ServerPlayNetHandlerMixin.java:1273)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl$1Handler$85752dc01f3345eb821b0160f52bc6e9.m_142299_(ServerPlayNetHandlerMixin.java:1319)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerPlayNetHandlerMixin.java:3195)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.PacketUtils.mdecd755$lambda$ensureRunningOnSameThread$0$0(PacketThreadUtilMixin.java:537)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.TickTask.run(TickTask.java:18)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServerMixin.java:763)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServerMixin.java:157)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServerMixin.java:746)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServerMixin.java:740)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServerMixin.java:725)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2131)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:244)
+[20Jan2025 04:41:17.182] [Server thread/ERROR] [STDERR/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: java.io.FileNotFoundException: https://www.minecraft.net/en-us/haspaid.jsp?user=durooo
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:2032)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1625)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at java.base/java.net.URL.openStream(URL.java:1161)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at de.TrustedCreeper.SkinMe.SkinMe.existAccount(SkinMe.java:115)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at de.TrustedCreeper.SkinMe.SkinMeEventHandler.onPlayerClickPlayer(SkinMeEventHandler.java:35)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/arclight@1.19.2-1.0.5-696a298/org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/arclight@1.19.2-1.0.5-696a298/org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/arclight@1.19.2-1.0.5-696a298/org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl$1Handler$85752dc01f3345eb821b0160f52bc6e9.performInteraction(ServerPlayNetHandlerMixin.java:1273)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl$1Handler$85752dc01f3345eb821b0160f52bc6e9.m_142299_(ServerPlayNetHandlerMixin.java:1319)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerPlayNetHandlerMixin.java:3195)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.PacketUtils.mdecd755$lambda$ensureRunningOnSameThread$0$0(PacketThreadUtilMixin.java:537)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.TickTask.run(TickTask.java:18)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServerMixin.java:763)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServerMixin.java:157)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServerMixin.java:746)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServerMixin.java:740)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServerMixin.java:725)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2131)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:244)
+[20Jan2025 04:41:17.432] [Server thread/ERROR] [STDERR/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[20Jan2025 04:41:49.930] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 04:41:49.932] [Async Chat Thread - #25/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <durooo> 640 -570
+[20Jan2025 04:45:47.317] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of alexis83) moved wrongly! 0.2527003518014226
+[20Jan2025 04:45:47.406] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of alexis83) moved wrongly! 0.7576748990699116
+[20Jan2025 04:45:47.424] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of alexis83) moved wrongly! 1.2598472340720264
+[20Jan2025 04:45:47.505] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of alexis83) moved wrongly! 1.7599680184804356
+[20Jan2025 04:45:47.516] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of alexis83) moved wrongly! 0.2589910590696718
+[20Jan2025 04:45:47.605] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of alexis83) moved wrongly! 0.7574267188279009

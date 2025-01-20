@@ -3783,3 +3783,123 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 [20Jan2025 03:32:28.856] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa issued server command: /tpaccept
 [20Jan2025 03:32:29.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo has made the advancement [People Are Strange]
 [20Jan2025 03:32:37.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo has made the advancement [Suit Up]
+[20Jan2025 03:36:51.378] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:36:51.379] [Async Chat Thread - #16/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ignaciiaa> antonia ven
+[20Jan2025 03:37:30.802] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:37:30.810] [Async Chat Thread - #16/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> donde?
+[20Jan2025 03:38:30.165] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:38:30.165] [Async Chat Thread - #16/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ignaciiaa> aca
+[20Jan2025 03:39:41.919] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa issued server command: /tpa durooo
+[20Jan2025 03:39:59.671] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: durooo issued server command: /tpaccept
+[20Jan2025 03:40:08.053] [Craft Scheduler Thread - 38/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 4
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin}
+[20Jan2025 03:40:11.091] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:40:11.092] [Async Chat Thread - #17/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> zzzzç
+[20Jan2025 03:40:19.136] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa issued server command: /tell Antoo manda tp
+[20Jan2025 03:40:29.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo was slain by Lim0ncit0Dulce
+[20Jan2025 03:40:32.661] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa Ignaciiaa
+[20Jan2025 03:40:38.788] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa issued server command: /tpaccept
+[20Jan2025 03:40:44.425] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: durooo issued server command: /tpa Lim0ncit0Dulce
+[20Jan2025 03:40:58.039] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:40:58.040] [Async Chat Thread - #17/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <durooo> aceptame cajetudo
+[20Jan2025 03:41:17.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo has made the advancement [Convergent Evolution...]
+[20Jan2025 03:41:30.054] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lim0ncit0Dulce issued server command: /tpaccept
+[20Jan2025 03:41:36.654] [User Authenticator #33/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player alexis83 is d5349a20-7346-31c5-8498-83a2f839afa6
+[20Jan2025 03:41:40.156] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@77338cd1
+[20Jan2025 03:41:40.161] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: alexis83[/127.205.233.85:59505] logged in with entity id 126184 at (-652.3000000119209, 87.0, -1443.5093090326009)
+[20Jan2025 03:41:40.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 joined the game
+[20Jan2025 03:41:41.085] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of alexis83 (18)
+[20Jan2025 03:41:41.085] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to alexis83
+[20Jan2025 03:41:43.474] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player d5349a20-7346-31c5-8498-83a2f839afa6
+[20Jan2025 03:41:44.474] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player d5349a20-7346-31c5-8498-83a2f839afa6
+[20Jan2025 03:41:44.474] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player alexis83 (d5349a20-7346-31c5-8498-83a2f839afa6) successfully connected to voice chat
+[20Jan2025 03:43:16.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo has made the advancement [Hunt and Gather]
+[20Jan2025 03:44:00.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo has made the advancement [Minecraft Comes Alive]
+[20Jan2025 03:44:15.315] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:44:15.316] [Async Chat Thread - #18/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <durooo> zzzzzzzzzz
+[20Jan2025 03:45:36.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa has made the advancement [Best Friends Forever]
+[20Jan2025 03:45:38.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo has made the advancement [Mine? Mine? Mine?]
+[20Jan2025 03:45:47.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa has made the advancement [Ice Bucket Challenge]
+[20Jan2025 03:46:23.664] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:46:23.666] [Async Chat Thread - #19/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[20Jan2025 03:46:49.563] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:46:49.563] [Async Chat Thread - #19/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[20Jan2025 03:46:52.980] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:46:52.981] [Async Chat Thread - #19/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ignaciiaa> zz
+[20Jan2025 03:47:50.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Not Today, Thank You]
+[20Jan2025 03:48:35.490] [User Authenticator #34/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Ignaciiaa is 031dfe5e-b202-3181-a70e-a63b1a4fc899
+[20Jan2025 03:48:36.458] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 031dfe5e-b202-3181-a70e-a63b1a4fc899 timed out
+[20Jan2025 03:48:36.458] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player Ignaciiaa
+[20Jan2025 03:48:36.458] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to Ignaciiaa
+[20Jan2025 03:48:45.863] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 32769ms or 655 ticks behind
+[20Jan2025 03:48:45.882] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa lost connection: Disconnected
+[20Jan2025 03:48:45.882] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ignaciiaa
+[20Jan2025 03:48:45.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa left the game
+[20Jan2025 03:48:48.015] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@546e90ef
+[20Jan2025 03:48:48.020] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ignaciiaa[/127.210.146.220:32973] logged in with entity id 129165 at (93.30000001192093, 67.0, -656.7850794407349)
+[20Jan2025 03:48:48.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa joined the game
+[20Jan2025 03:48:48.258] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Ignaciiaa (18)
+[20Jan2025 03:48:48.258] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Ignaciiaa
+[20Jan2025 03:48:50.312] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 031dfe5e-b202-3181-a70e-a63b1a4fc899
+[20Jan2025 03:48:51.315] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 031dfe5e-b202-3181-a70e-a63b1a4fc899
+[20Jan2025 03:48:51.315] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Ignaciiaa (031dfe5e-b202-3181-a70e-a63b1a4fc899) successfully connected to voice chat
+[20Jan2025 03:49:08.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Ice Bucket Challenge]
+[20Jan2025 03:51:58.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo was slain by Door Knight
+[20Jan2025 03:52:58.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo fell from a high place
+[20Jan2025 03:53:01.462] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Jan2025 03:53:01.462] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Jan2025 03:53:01.462] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Jan2025 03:53:01.462] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Jan2025 03:53:01.462] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Jan2025 03:53:01.462] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Jan2025 03:54:01.681] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:54:01.681] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:54:02.560] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:54:02.574] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:54:02.850] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:54:02.891] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:55:40.869] [Craft Scheduler Thread - 39/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 4
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin}
+[20Jan2025 03:57:26.663] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo lost connection: Disconnected
+[20Jan2025 03:57:26.663] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Antoo
+[20Jan2025 03:57:26.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo left the game
+[20Jan2025 03:58:21.596] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:58:21.609] [Async Chat Thread - #20/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[20Jan2025 03:59:02.179] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:59:02.180] [Async Chat Thread - #20/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[20Jan2025 04:02:12.439] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 04:02:12.440] [Async Chat Thread - #21/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[20Jan2025 04:02:12.839] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa issued server command: /tpa
+[20Jan2025 04:03:05.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa has made the advancement [Friendship Found]
+[20Jan2025 04:07:36.890] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lim0ncit0Dulce issued server command: /tpa alexis83
+[20Jan2025 04:07:41.718] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[20Jan2025 04:09:14.363] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpa Lim0ncit0Dulce
+[20Jan2025 04:09:15.858] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lim0ncit0Dulce issued server command: /tpaccept
+[20Jan2025 04:10:40.823] [Craft Scheduler Thread - 42/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 4
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin}
+[20Jan2025 04:13:09.362] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 04:13:09.363] [Async Chat Thread - #22/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zz

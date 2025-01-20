@@ -3551,3 +3551,138 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
 	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin}
 [20Jan2025 02:40:42.599] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Edyta'/86722, l='ServerLevel[world]', x=-1440.20, y=64.00, z=-762.70] died: Edyta burned to death
+[20Jan2025 02:46:02.370] [User Authenticator #20/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Ignaciiaa is 031dfe5e-b202-3181-a70e-a63b1a4fc899
+[20Jan2025 02:46:05.454] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3ffba69d
+[20Jan2025 02:46:05.459] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ignaciiaa[/127.210.146.220:48287] logged in with entity id 89296 at (-1931.8161645619457, 67.0, -1276.5208885521708)
+[20Jan2025 02:46:05.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa joined the game
+[20Jan2025 02:46:07.063] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Ignaciiaa (18)
+[20Jan2025 02:46:07.063] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Ignaciiaa
+[20Jan2025 02:46:08.207] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 031dfe5e-b202-3181-a70e-a63b1a4fc899
+[20Jan2025 02:46:09.215] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 031dfe5e-b202-3181-a70e-a63b1a4fc899
+[20Jan2025 02:46:09.215] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Ignaciiaa (031dfe5e-b202-3181-a70e-a63b1a4fc899) successfully connected to voice chat
+[20Jan2025 02:52:11.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo has made the advancement [Sweet Dreams]
+[20Jan2025 02:55:03.601] [Craft Scheduler Thread - 31/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 4
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin}
+[20Jan2025 02:55:12.403] [User Authenticator #21/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Lim0ncit0Dulce is 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 02:55:15.762] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7e1d9969
+[20Jan2025 02:55:15.767] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Lim0ncit0Dulce[/127.238.45.75:53481] logged in with entity id 93550 at (2.08869495352171, 69.0, -591.8124767488065)
+[20Jan2025 02:55:15.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce joined the game
+[20Jan2025 02:55:18.185] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Lim0ncit0Dulce (18)
+[20Jan2025 02:55:18.188] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Lim0ncit0Dulce
+[20Jan2025 02:55:18.198] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2354ms or 47 ticks behind
+[20Jan2025 02:55:18.728] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 02:55:19.728] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 02:55:19.728] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Lim0ncit0Dulce (2ddd9b46-0427-3b1d-9b4e-0259d562a0a6) successfully connected to voice chat
+[20Jan2025 02:56:10.754] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lim0ncit0Dulce lost connection: Disconnected
+[20Jan2025 02:56:10.755] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Lim0ncit0Dulce
+[20Jan2025 02:56:10.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce left the game
+[20Jan2025 02:58:40.724] [User Authenticator #22/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Lim0ncit0Dulce is 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 02:58:44.008] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@aeb2871
+[20Jan2025 02:58:44.011] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Lim0ncit0Dulce[/127.238.45.75:42677] logged in with entity id 95283 at (-2.8154049019358105, 70.0, -598.838565890382)
+[20Jan2025 02:58:44.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce joined the game
+[20Jan2025 02:58:46.220] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Lim0ncit0Dulce (18)
+[20Jan2025 02:58:46.220] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Lim0ncit0Dulce
+[20Jan2025 02:58:46.222] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2128ms or 42 ticks behind
+[20Jan2025 02:58:46.476] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 02:58:47.483] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 02:58:47.483] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Lim0ncit0Dulce (2ddd9b46-0427-3b1d-9b4e-0259d562a0a6) successfully connected to voice chat
+[20Jan2025 02:58:58.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa has made the advancement [Crops of the Wild]
+[20Jan2025 03:00:05.855] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lim0ncit0Dulce lost connection: Disconnected
+[20Jan2025 03:00:05.856] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Lim0ncit0Dulce
+[20Jan2025 03:00:05.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce left the game
+[20Jan2025 03:00:11.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW has made the advancement [Diamonds!]
+[20Jan2025 03:00:52.602] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Michał'/86833, l='ServerLevel[world]', x=-1390.12, y=65.00, z=-782.19] died: Michał burned to death
+[20Jan2025 03:02:03.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW was killed by Witch using magic
+[20Jan2025 03:02:11.360] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:02:11.361] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> weona
+[20Jan2025 03:02:29.759] [User Authenticator #23/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Lim0ncit0Dulce is 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 03:02:33.407] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@c07982
+[20Jan2025 03:02:33.412] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Lim0ncit0Dulce[/127.238.45.75:56781] logged in with entity id 97731 at (-2.8154049019358105, 70.0, -598.838565890382)
+[20Jan2025 03:02:33.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce joined the game
+[20Jan2025 03:02:35.176] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Lim0ncit0Dulce (18)
+[20Jan2025 03:02:35.176] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Lim0ncit0Dulce
+[20Jan2025 03:02:36.050] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 03:02:37.058] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 03:02:37.058] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Lim0ncit0Dulce (2ddd9b46-0427-3b1d-9b4e-0259d562a0a6) successfully connected to voice chat
+[20Jan2025 03:03:18.458] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:03:18.459] [Async Chat Thread - #12/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[20Jan2025 03:03:20.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW was killed by Witch using magic
+[20Jan2025 03:03:20.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa has made the advancement [Sweet Dreams]
+[20Jan2025 03:03:23.005] [Netty Epoll Server IO #5/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:03:23.006] [Async Chat Thread - #12/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ignaciiaa> zzz
+[20Jan2025 03:04:28.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa has made the advancement [All Along The Watchtower]
+[20Jan2025 03:04:29.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW was killed by Witch using magic
+[20Jan2025 03:04:56.813] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lim0ncit0Dulce lost connection: Disconnected
+[20Jan2025 03:04:56.813] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Lim0ncit0Dulce
+[20Jan2025 03:04:56.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce left the game
+[20Jan2025 03:05:32.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa was slain by Vindicator
+[20Jan2025 03:05:47.057] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa issued server command: /tpa
+[20Jan2025 03:06:04.130] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa issued server command: /tpa PanchikoKW
+[20Jan2025 03:06:36.427] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpaccept
+[20Jan2025 03:07:13.237] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa Ignaciiaa
+[20Jan2025 03:07:20.107] [User Authenticator #24/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Lim0ncit0Dulce is 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 03:07:23.406] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@45f31d45
+[20Jan2025 03:07:23.410] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Lim0ncit0Dulce[/127.238.45.75:40863] logged in with entity id 100847 at (45.53294262567983, 76.0, -622.7731256090058)
+[20Jan2025 03:07:23.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce joined the game
+[20Jan2025 03:07:24.901] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Lim0ncit0Dulce (18)
+[20Jan2025 03:07:24.901] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Lim0ncit0Dulce
+[20Jan2025 03:07:27.736] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa issued server command: /tpacancel
+[20Jan2025 03:07:28.186] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 03:07:29.187] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 03:07:29.187] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Lim0ncit0Dulce (2ddd9b46-0427-3b1d-9b4e-0259d562a0a6) successfully connected to voice chat
+[20Jan2025 03:08:09.565] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa PanchikoKW
+[20Jan2025 03:09:54.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW was blown up by Pillager
+[20Jan2025 03:10:08.060] [Craft Scheduler Thread - 33/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 4
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin}
+[20Jan2025 03:11:31.806] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lim0ncit0Dulce lost connection: Disconnected
+[20Jan2025 03:11:31.806] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Lim0ncit0Dulce
+[20Jan2025 03:11:31.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce left the game
+[20Jan2025 03:11:34.572] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa Ignaciiaa
+[20Jan2025 03:11:39.911] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpaccept
+[20Jan2025 03:11:42.634] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa issued server command: /tpaccept
+[20Jan2025 03:11:43.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo has made the advancement [All Along The Watchtower]
+[20Jan2025 03:12:00.574] [User Authenticator #25/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player durooo is 10ba40f4-9431-3355-8ffe-39de4b50c493
+[20Jan2025 03:12:04.501] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5664b7ac
+[20Jan2025 03:12:04.505] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: durooo[/127.51.165.174:35457] logged in with entity id 103680 at (27.555202860293786, 73.0, 1.2299380730112048)
+[20Jan2025 03:12:04.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo joined the game
+[20Jan2025 03:12:05.423] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of durooo (18)
+[20Jan2025 03:12:05.423] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to durooo
+[20Jan2025 03:12:09.080] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 10ba40f4-9431-3355-8ffe-39de4b50c493
+[20Jan2025 03:12:10.085] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 10ba40f4-9431-3355-8ffe-39de4b50c493
+[20Jan2025 03:12:10.085] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player durooo (10ba40f4-9431-3355-8ffe-39de4b50c493) successfully connected to voice chat
+[20Jan2025 03:14:01.866] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa issued server command: /tpa antoo
+[20Jan2025 03:14:11.549] [User Authenticator #26/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Lim0ncit0Dulce is 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 03:14:14.812] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3a86c69f
+[20Jan2025 03:14:14.816] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Lim0ncit0Dulce[/127.238.45.75:52981] logged in with entity id 105211 at (103.84597961701441, 68.0, -606.7363267431815)
+[20Jan2025 03:14:14.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce joined the game
+[20Jan2025 03:14:16.579] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Lim0ncit0Dulce (18)
+[20Jan2025 03:14:16.579] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Lim0ncit0Dulce
+[20Jan2025 03:14:16.580] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpaccept
+[20Jan2025 03:14:17.281] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 03:14:18.281] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 03:14:18.281] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Lim0ncit0Dulce (2ddd9b46-0427-3b1d-9b4e-0259d562a0a6) successfully connected to voice chat
+[20Jan2025 03:15:00.104] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:15:00.112] [Async Chat Thread - #13/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[20Jan2025 03:15:03.406] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: durooo lost connection: Disconnected
+[20Jan2025 03:15:03.406] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client durooo
+[20Jan2025 03:15:03.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo left the game
+[20Jan2025 03:15:05.176] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:15:05.177] [Async Chat Thread - #13/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> zzz
+[20Jan2025 03:15:05.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa was slain by Vindicator
+[20Jan2025 03:15:13.166] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa issued server command: /tpa antoo

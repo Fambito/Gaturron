@@ -3686,3 +3686,100 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 [20Jan2025 03:15:05.177] [Async Chat Thread - #13/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> zzz
 [20Jan2025 03:15:05.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa was slain by Vindicator
 [20Jan2025 03:15:13.166] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa issued server command: /tpa antoo
+[20Jan2025 03:15:48.929] [User Authenticator #27/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player durooo is 10ba40f4-9431-3355-8ffe-39de4b50c493
+[20Jan2025 03:15:51.661] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@54bc9905
+[20Jan2025 03:15:51.665] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: durooo[/127.51.165.174:55299] logged in with entity id 106234 at (-16.30000001192093, 75.0, 89.69999998807907)
+[20Jan2025 03:15:51.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo joined the game
+[20Jan2025 03:15:51.910] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of durooo (18)
+[20Jan2025 03:15:51.911] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to durooo
+[20Jan2025 03:15:52.476] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpaccept
+[20Jan2025 03:15:54.904] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 10ba40f4-9431-3355-8ffe-39de4b50c493
+[20Jan2025 03:15:55.870] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo lost connection: Disconnected
+[20Jan2025 03:15:55.870] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Antoo
+[20Jan2025 03:15:55.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo left the game
+[20Jan2025 03:15:55.908] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 10ba40f4-9431-3355-8ffe-39de4b50c493
+[20Jan2025 03:15:55.908] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player durooo (10ba40f4-9431-3355-8ffe-39de4b50c493) successfully connected to voice chat
+[20Jan2025 03:15:58.518] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: durooo lost connection: Disconnected
+[20Jan2025 03:15:58.518] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client durooo
+[20Jan2025 03:15:58.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo left the game
+[20Jan2025 03:16:09.050] [User Authenticator #28/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Antoo is 926f7f75-e294-302f-bf87-3723814d111d
+[20Jan2025 03:16:12.504] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2769524
+[20Jan2025 03:16:12.507] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Antoo[/127.48.184.143:45467] logged in with entity id 106363 at (-1204.4877604015596, 67.0, -610.8999923889579)
+[20Jan2025 03:16:12.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo joined the game
+[20Jan2025 03:16:12.843] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Antoo (18)
+[20Jan2025 03:16:12.844] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Antoo
+[20Jan2025 03:16:17.703] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 926f7f75-e294-302f-bf87-3723814d111d
+[20Jan2025 03:16:18.702] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 926f7f75-e294-302f-bf87-3723814d111d
+[20Jan2025 03:16:18.702] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Antoo (926f7f75-e294-302f-bf87-3723814d111d) successfully connected to voice chat
+[20Jan2025 03:16:19.657] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lim0ncit0Dulce lost connection: Disconnected
+[20Jan2025 03:16:19.657] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Lim0ncit0Dulce
+[20Jan2025 03:16:19.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce left the game
+[20Jan2025 03:16:23.351] [User Authenticator #29/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Lim0ncit0Dulce is 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 03:16:25.907] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3fb1aded
+[20Jan2025 03:16:25.910] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Lim0ncit0Dulce[/127.238.45.75:43859] logged in with entity id 106390 at (94.5, 67.0, -662.5)
+[20Jan2025 03:16:25.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce joined the game
+[20Jan2025 03:16:27.535] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Lim0ncit0Dulce (18)
+[20Jan2025 03:16:27.535] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Lim0ncit0Dulce
+[20Jan2025 03:16:28.123] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 03:16:29.112] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 03:16:29.113] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Lim0ncit0Dulce (2ddd9b46-0427-3b1d-9b4e-0259d562a0a6) successfully connected to voice chat
+[20Jan2025 03:16:29.909] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa lost connection: Disconnected
+[20Jan2025 03:16:29.909] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ignaciiaa
+[20Jan2025 03:16:29.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa left the game
+[20Jan2025 03:16:38.722] [User Authenticator #30/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Ignaciiaa is 031dfe5e-b202-3181-a70e-a63b1a4fc899
+[20Jan2025 03:16:40.960] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3b8d5fce
+[20Jan2025 03:16:40.964] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ignaciiaa[/127.210.146.220:52571] logged in with entity id 106654 at (-1204.4209814958974, 69.0, -609.6995238164361)
+[20Jan2025 03:16:40.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa joined the game
+[20Jan2025 03:16:41.206] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Ignaciiaa (18)
+[20Jan2025 03:16:41.206] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Ignaciiaa
+[20Jan2025 03:16:43.146] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 031dfe5e-b202-3181-a70e-a63b1a4fc899
+[20Jan2025 03:16:44.145] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 031dfe5e-b202-3181-a70e-a63b1a4fc899
+[20Jan2025 03:16:44.145] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Ignaciiaa (031dfe5e-b202-3181-a70e-a63b1a4fc899) successfully connected to voice chat
+[20Jan2025 03:16:44.896] [User Authenticator #31/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player durooo is 10ba40f4-9431-3355-8ffe-39de4b50c493
+[20Jan2025 03:16:47.662] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@373b28a
+[20Jan2025 03:16:47.666] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: durooo[/127.51.165.174:48889] logged in with entity id 106744 at (-17.240658760022125, 75.0, 88.81961837593077)
+[20Jan2025 03:16:47.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo joined the game
+[20Jan2025 03:16:47.914] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of durooo (18)
+[20Jan2025 03:16:47.914] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to durooo
+[20Jan2025 03:16:52.405] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 10ba40f4-9431-3355-8ffe-39de4b50c493
+[20Jan2025 03:16:53.408] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 10ba40f4-9431-3355-8ffe-39de4b50c493
+[20Jan2025 03:16:53.408] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player durooo (10ba40f4-9431-3355-8ffe-39de4b50c493) successfully connected to voice chat
+[20Jan2025 03:20:13.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa has made the advancement [Convergent Evolution...]
+[20Jan2025 03:23:48.249] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW lost connection: Disconnected
+[20Jan2025 03:23:48.249] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client PanchikoKW
+[20Jan2025 03:23:48.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW left the game
+[20Jan2025 03:24:45.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa has made the advancement [People Are Strange]
+[20Jan2025 03:25:08.055] [Craft Scheduler Thread - 36/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 4
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin}
+[20Jan2025 03:27:29.008] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: durooo lost connection: Disconnected
+[20Jan2025 03:27:29.008] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client durooo
+[20Jan2025 03:27:29.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo left the game
+[20Jan2025 03:27:41.807] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:27:41.808] [Async Chat Thread - #14/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzzz
+[20Jan2025 03:27:44.192] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:27:44.194] [Async Chat Thread - #14/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ignaciiaa> zzz
+[20Jan2025 03:28:39.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo was slain by Restless Spirit
+[20Jan2025 03:28:39.839] [User Authenticator #32/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player durooo is 10ba40f4-9431-3355-8ffe-39de4b50c493
+[20Jan2025 03:28:42.556] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6677efbd
+[20Jan2025 03:28:42.559] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: durooo[/127.51.165.174:37267] logged in with entity id 118284 at (-58.575952260511514, 77.0, -208.96973320434495)
+[20Jan2025 03:28:42.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo joined the game
+[20Jan2025 03:28:42.858] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of durooo (18)
+[20Jan2025 03:28:42.858] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to durooo
+[20Jan2025 03:28:45.500] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 10ba40f4-9431-3355-8ffe-39de4b50c493
+[20Jan2025 03:28:46.495] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 10ba40f4-9431-3355-8ffe-39de4b50c493
+[20Jan2025 03:28:46.496] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player durooo (10ba40f4-9431-3355-8ffe-39de4b50c493) successfully connected to voice chat
+[20Jan2025 03:29:50.237] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /msg Ignaciiaa oye como veo donde estan mis cosas
+[20Jan2025 03:30:07.717] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 03:30:07.718] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ignaciiaa> tienes que ir donde te moriste y listo
+[20Jan2025 03:32:11.914] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa Ignaciiaa
+[20Jan2025 03:32:28.856] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa issued server command: /tpaccept
+[20Jan2025 03:32:29.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo has made the advancement [People Are Strange]
+[20Jan2025 03:32:37.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo has made the advancement [Suit Up]

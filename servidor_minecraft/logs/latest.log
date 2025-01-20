@@ -2702,3 +2702,37 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 [20Jan2025 16:06:24.246] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
 [20Jan2025 16:06:24.247] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> ahi toy yendo a discorl
 [20Jan2025 16:07:06.950] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /luckperms applyedits binqovl1qm
+[20Jan2025 16:07:24.399] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 16:07:24.400] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaCartaTucumana> pq no tengo skin
+[20Jan2025 16:08:02.842] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 16:08:02.843] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> porque sos peruano
+[20Jan2025 16:08:13.958] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /luckperms editor
+[20Jan2025 16:08:34.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made alexis83 a server operator
+[20Jan2025 16:08:42.906] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /luckperms
+[20Jan2025 16:08:45.348] [Craft Scheduler Thread - 7/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 9
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin}
+[20Jan2025 16:08:53.893] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /op LaCartaTucumana
+[20Jan2025 16:08:53.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [alexis83: Made LaCartaTucumana a server operator]
+[20Jan2025 16:11:59.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaCartaTucumana has made the advancement [Suit Up]
+[20Jan2025 16:12:03.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Voluntary Exile]
+[20Jan2025 16:12:50.566] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /luckperms editor
+[20Jan2025 16:13:07.495] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /luckperms trusteditor 4961-e69d
+[20Jan2025 16:13:21.888] [luckperms-worker-11/INFO] [Console/]: [LP] LOG > (alexis83) [G] (default)
+[20Jan2025 16:13:21.889] [luckperms-worker-11/INFO] [Console/]: [LP] LOG > webeditor add voicechat.listen true
+[20Jan2025 16:13:32.729] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /deop LaCartaTucumana
+[20Jan2025 16:13:32.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [alexis83: Made LaCartaTucumana no longer a server operator]
+[20Jan2025 16:13:37.116] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /deop alexis83
+[20Jan2025 16:13:37.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [alexis83: Made alexis83 no longer a server operator]
+[20Jan2025 16:15:38.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaCartaTucumana has made the advancement [Isn't It Iron Pick]
+[20Jan2025 16:15:53.355] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 16:15:53.362] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> tpa
+[20Jan2025 16:15:53.907] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LaCartaTucumana issued server command: /tpa alexis83
+[20Jan2025 16:15:58.611] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept

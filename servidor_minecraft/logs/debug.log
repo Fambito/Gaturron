@@ -11662,3 +11662,144 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 [19Jan2025 23:40:36.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo was slain by PanchikoKW
 [19Jan2025 23:40:56.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW has made the advancement [Stone Age]
 [19Jan2025 23:41:13.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW has made the advancement [Getting an Upgrade]
+[19Jan2025 23:42:48.290] [Worker-Main-14/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/levelgen/Beardifier$1
+[19Jan2025 23:42:55.598] [Worker-Main-21/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/WallBlock$1
+[19Jan2025 23:42:55.599] [Worker-Main-21/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/VineBlock$1
+[19Jan2025 23:42:55.600] [Worker-Main-21/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/StairBlock$1
+[19Jan2025 23:42:55.661] [Worker-Main-21/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-258, y=-58, z=-343}
+[19Jan2025 23:42:55.661] [Worker-Main-21/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/entity/decoration/HangingEntity$1
+[19Jan2025 23:42:55.662] [Worker-Main-21/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-258, y=-57, z=-348}
+[19Jan2025 23:42:55.662] [Worker-Main-21/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-260, y=-53, z=-342}
+[19Jan2025 23:42:55.662] [Worker-Main-21/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-253, y=-51, z=-346}
+[19Jan2025 23:43:31.515] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[19Jan2025 23:43:31.523] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[19Jan2025 23:43:31.563] [Craft Scheduler Thread - 3/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 4
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin}
+[19Jan2025 23:43:51.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Monster Hunter]
+[19Jan2025 23:44:25.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW has made the advancement [Sweet Dreams]
+[19Jan2025 23:45:13.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo has made the advancement [Monster Hunter]
+[19Jan2025 23:46:33.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce has made the advancement [Sweet Dreams]
+[19Jan2025 23:46:36.063] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager VillagerEntityMCA['Krystyna'/29, l='ServerLevel[world]', x=30.50, y=116.00, z=85.50] died, message: 'Krystyna was slain by Zombie Girl'
+[19Jan2025 23:46:36.064] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VillagerEntityMCA['Krystyna'/29, l='ServerLevel[world]', x=30.50, y=116.00, z=85.50] died: Krystyna was slain by Zombie Girl
+[19Jan2025 23:46:36.490] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz}
+[19Jan2025 23:46:37.464] [Server thread/INFO] [forge.net.mca.MCA/]: literal{Paulina}[style={}] has been infected
+[19Jan2025 23:47:06.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce has made the advancement [Monster Hunter]
+[19Jan2025 23:47:42.528] [Worker-Main-14/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class com/mojang/math/OctahedralGroup$1
+[19Jan2025 23:48:04.251] [Worker-Main-12/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/entity/Entity$1
+[19Jan2025 23:48:31.538] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[19Jan2025 23:48:31.547] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[19Jan2025 23:50:11.885] [Worker-Main-14/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class com/yungnickyoung/minecraft/betterdungeons/world/processor/small_dungeon/SmallDungeonBannerProcessor$1
+[19Jan2025 23:50:11.988] [Worker-Main-13/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/Mirror$1
+[19Jan2025 23:50:52.326] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-109, y=68, z=-42} BlockPos{x=-110, y=69, z=-43}
+[19Jan2025 23:50:52.370] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-109, y=68, z=-42} BlockPos{x=-110, y=69, z=-43}
+[19Jan2025 23:50:52.422] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-109, y=68, z=-42} BlockPos{x=-110, y=69, z=-43}
+[19Jan2025 23:50:52.469] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-109, y=68, z=-42} BlockPos{x=-110, y=69, z=-43}
+[19Jan2025 23:50:52.520] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-109, y=68, z=-42} BlockPos{x=-110, y=69, z=-43}
+[19Jan2025 23:51:00.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo has made the advancement [Getting an Upgrade]
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: java.io.IOException: Base resource not found: aft$2.class
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.m_183726_(ChunkMapMixin.java:305)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache_MainThreadExecutorMixin.java:535)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache_MainThreadExecutorMixin.java:629)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerChunkCache.m_8466_(ServerChunkCacheMixin.java:267)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServerMixin.java:751)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServerMixin.java:740)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServerMixin.java:726)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2131)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:244)
+[19Jan2025 23:51:22.843] [Server thread/ERROR] [STDERR/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[19Jan2025 23:51:25.642] [Worker-Main-13/DEBUG] [mixin/]: Mixing world.entity.ai.behavior.VillagerMakeLoveMixin from mixins.arclight.core.json into net.minecraft.world.entity.ai.behavior.VillagerMakeLove
+[19Jan2025 23:52:23.631] [Server thread/DEBUG] [mixin/]: Mixing world.item.MerchantOfferMixin from mixins.arclight.core.json into net.minecraft.world.item.trading.MerchantOffer
+[19Jan2025 23:52:25.841] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/entity/decoration/ItemFrame$2
+[19Jan2025 23:52:29.216] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/FenceGateBlock$1
+[19Jan2025 23:53:22.494] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/blay09/mods/waystones/worldgen/namegen/NameGenerator$1
+[19Jan2025 23:53:31.531] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[19Jan2025 23:53:31.539] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[19Jan2025 23:53:39.370] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class io/izzel/arclight/common/mixin/core/world/level/block/PressurePlateBlockMixin$1
+[19Jan2025 23:55:58.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Acquire Hardware]
+[19Jan2025 23:56:38.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Isn't It Iron Pick]
+[19Jan2025 23:56:55.493] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpa alexis83
+[19Jan2025 23:57:02.076] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[19Jan2025 23:58:31.521] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[19Jan2025 23:58:31.530] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[19Jan2025 23:58:31.575] [Craft Scheduler Thread - 9/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 4
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin}
+[19Jan2025 23:59:41.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Suit Up]
+[20Jan2025 00:00:08.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo was slain by Nightmare Stalker
+[20Jan2025 00:01:37.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo has made the advancement [Sweet Dreams]
+[20Jan2025 00:01:39.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW has made the advancement [Monster Hunter]
+[20Jan2025 00:02:04.114] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/entity/animal/frog/ShootTongue$1
+[20Jan2025 00:02:12.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo was slain by Decaying Zombie
+[20Jan2025 00:02:12.339] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[20Jan2025 00:02:12.339] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Combo count: 0 is dual wielding: false
+[20Jan2025 00:02:12.340] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Main-hand stack: 1 air
+[20Jan2025 00:02:12.340] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Off-hand stack: 1 air
+[20Jan2025 00:02:12.340] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Selected slot server: 0 | client: 0
+[20Jan2025 00:02:49.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW has made the advancement [Local Brewery]
+[20Jan2025 00:03:26.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce has made the advancement [Acquire Hardware]
+[20Jan2025 00:03:31.533] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Jan2025 00:03:31.541] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Jan2025 00:05:02.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce has made the advancement [Isn't It Iron Pick]
+[20Jan2025 00:06:04.093] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/blay09/mods/waystones/core/PlayerWaystoneManager$1
+[20Jan2025 00:08:31.532] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Jan2025 00:08:31.541] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Jan2025 00:09:17.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo has made the advancement [Isn't It Iron Pick]
+[20Jan2025 00:09:22.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo has made the advancement [Acquire Hardware]
+[20Jan2025 00:09:44.426] [Server thread/DEBUG] [voicechat/]: [voicechat] Got state of durooo: {disabled=false, disconnected=false, uuid=10ba40f4-9431-3355-8ffe-39de4b50c493, name=durooo, group=null}
+[20Jan2025 00:09:45.294] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 10ba40f4-9431-3355-8ffe-39de4b50c493 timed out
+[20Jan2025 00:09:45.294] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player durooo
+[20Jan2025 00:09:45.294] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Sending initial states to durooo
+[20Jan2025 00:09:45.294] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Synchronizing 0 groups with durooo
+[20Jan2025 00:09:45.294] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Synchronizing 0 volume categories with durooo
+[20Jan2025 00:09:45.294] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to durooo
+[20Jan2025 00:09:45.295] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Set state of 10ba40f4-9431-3355-8ffe-39de4b50c493 to disconnected: {disabled=false, disconnected=true, uuid=10ba40f4-9431-3355-8ffe-39de4b50c493, name=durooo, group=null}
+[20Jan2025 00:09:45.982] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 10ba40f4-9431-3355-8ffe-39de4b50c493
+[20Jan2025 00:09:46.984] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 10ba40f4-9431-3355-8ffe-39de4b50c493
+[20Jan2025 00:09:46.984] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Set state of durooo to connected: {disabled=false, disconnected=false, uuid=10ba40f4-9431-3355-8ffe-39de4b50c493, name=durooo, group=null}
+[20Jan2025 00:09:46.984] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player durooo (10ba40f4-9431-3355-8ffe-39de4b50c493) successfully connected to voice chat
+[20Jan2025 00:09:47.176] [Server thread/DEBUG] [voicechat/]: [voicechat] Got state of durooo: {disabled=false, disconnected=false, uuid=10ba40f4-9431-3355-8ffe-39de4b50c493, name=durooo, group=null}
+[20Jan2025 00:11:19.571] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-48, y=117, z=158} BlockPos{x=-47, y=117, z=156}
+[20Jan2025 00:11:27.203] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpa alexis83
+[20Jan2025 00:11:42.128] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpa PanchikoKW
+[20Jan2025 00:11:49.625] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpaccept

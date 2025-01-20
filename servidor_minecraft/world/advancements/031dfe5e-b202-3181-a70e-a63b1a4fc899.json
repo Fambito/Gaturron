@@ -11,9 +11,21 @@
     },
     "done": true
   },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:22:03 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2025-01-20 01:23:17 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooking/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2025-01-20 02:21:50 +0000"
     },
     "done": true
   },
@@ -201,6 +213,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-20 02:21:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_button": {
     "criteria": {
       "has_planks": "2025-01-20 01:52:18 +0000"
@@ -243,6 +261,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2025-01-20 02:21:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
       "has_gunpowder": "2025-01-20 01:32:59 +0000"
@@ -276,7 +300,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "bread": "2025-01-20 01:32:32 +0000",
-      "glow_berries": "2025-01-20 02:04:40 +0000"
+      "glow_berries": "2025-01-20 02:04:40 +0000",
+      "beetroot": "2025-01-20 02:21:54 +0000"
     },
     "done": false
   },
@@ -355,6 +380,12 @@
   "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-20 02:08:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2025-01-20 02:18:34 +0000"
     },
     "done": true
   },
@@ -475,6 +506,12 @@
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2025-01-20 01:35:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2025-01-20 02:21:50 +0000"
     },
     "done": true
   },
@@ -610,6 +647,12 @@
     },
     "done": true
   },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:22:03 +0000"
+    },
+    "done": false
+  },
   "knight_quest:kq_quest_source": {
     "criteria": {
       "kq_quest_source": "2025-01-20 01:21:33 +0000"
@@ -690,6 +733,12 @@
     },
     "done": true
   },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:22:03 +0000"
+    },
+    "done": false
+  },
   "farmersdelight:recipes/farmersdelight/cooking_pot": {
     "criteria": {
       "has_iron_ingot": "2025-01-20 01:35:29 +0000"
@@ -750,6 +799,12 @@
     },
     "done": true
   },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:22:03 +0000"
+    },
+    "done": false
+  },
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2025-01-20 01:22:44 +0000"
@@ -798,6 +853,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2025-01-20 02:22:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2025-01-20 01:30:19 +0000"
@@ -810,9 +871,21 @@
     },
     "done": true
   },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:22:03 +0000"
+    },
+    "done": false
+  },
   "mca:recipes/building_blocks/headstones": {
     "criteria": {
       "has_ingredients": "2025-01-20 01:23:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2025-01-20 02:22:35 +0000"
     },
     "done": true
   },
@@ -894,6 +967,18 @@
     },
     "done": true
   },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:22:03 +0000"
+    },
+    "done": false
+  },
+  "farmersdelight:recipes/farmersdelight/cooking/ratatouille": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-20 02:21:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
     "criteria": {
       "has_moss_block": "2025-01-20 02:05:20 +0000"
@@ -921,6 +1006,12 @@
   "minecraft:recipes/building_blocks/spruce_wood": {
     "criteria": {
       "has_log": "2025-01-20 01:45:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2025-01-20 02:18:34 +0000"
     },
     "done": true
   },
@@ -1104,9 +1195,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2025-01-20 02:22:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_trapdoor": {
     "criteria": {
       "has_planks": "2025-01-20 01:30:19 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooking/noodle_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-20 02:22:35 +0000"
     },
     "done": true
   },
@@ -1170,6 +1273,12 @@
     },
     "done": true
   },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:22:03 +0000"
+    },
+    "done": false
+  },
   "infernalexp:recipes/combat/glowsilk_bow": {
     "criteria": {
       "has_glowsilk": "2025-01-20 01:21:33 +0000"
@@ -1193,6 +1302,12 @@
       "has_andesite": "2025-01-20 01:33:13 +0000"
     },
     "done": true
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:22:03 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/redstone/dark_oak_pressure_plate": {
     "criteria": {
@@ -1220,7 +1335,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_pine_taiga": "2025-01-20 02:16:49 +0000",
       "minecraft:taiga": "2025-01-20 01:41:53 +0000",
+      "minecraft:beach": "2025-01-20 02:20:13 +0000",
       "minecraft:dark_forest": "2025-01-20 01:42:47 +0000",
       "minecraft:grove": "2025-01-20 01:59:40 +0000",
       "minecraft:forest": "2025-01-20 01:29:48 +0000",
@@ -1302,6 +1419,12 @@
     },
     "done": true
   },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:22:03 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_leather": "2025-01-20 01:54:09 +0000"
@@ -1326,11 +1449,23 @@
     },
     "done": true
   },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:22:03 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2025-01-20 01:35:29 +0000"
     },
     "done": true
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:22:03 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
@@ -1341,6 +1476,19 @@
   "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-01-20 01:33:13 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "requirement": "2025-01-20 02:22:29 +0000",
+      "log_spam_fixer": "2025-01-20 02:22:03 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooking/pumpkin_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-20 02:22:35 +0000"
     },
     "done": true
   },

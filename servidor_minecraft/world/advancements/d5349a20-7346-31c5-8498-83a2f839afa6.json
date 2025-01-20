@@ -517,6 +517,12 @@
     },
     "done": false
   },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:16:03 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
       "has_log": "2025-01-20 00:49:48 +0000"
@@ -714,6 +720,12 @@
       "has_planks": "2025-01-20 00:49:53 +0000"
     },
     "done": true
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:16:03 +0000"
+    },
+    "done": false
   },
   "sereneseasons:recipes/tools/calendar": {
     "criteria": {
@@ -979,6 +991,12 @@
     },
     "done": true
   },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:16:03 +0000"
+    },
+    "done": false
+  },
   "infernalexp:recipes/combat/glowsilk_bow": {
     "criteria": {
       "has_glowsilk": "2025-01-13 19:37:19 +0000"
@@ -996,6 +1014,12 @@
       "has_cobblestone": "2025-01-19 23:27:58 +0000"
     },
     "done": true
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:16:03 +0000"
+    },
+    "done": false
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
@@ -1077,6 +1101,12 @@
       "has_iron_ingot": "2025-01-19 23:55:58 +0000"
     },
     "done": true
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:16:03 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
     "criteria": {
@@ -1233,6 +1263,12 @@
       "has_white_wool": "2025-01-19 23:30:33 +0000"
     },
     "done": true
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:16:03 +0000"
+    },
+    "done": false
   },
   "infernalexp:recipes/redstone/smooth_glowstone_button": {
     "criteria": {
@@ -1397,6 +1433,12 @@
   "minecraft:recipes/decorations/jukebox": {
     "criteria": {
       "has_diamond": "2025-01-20 01:57:05 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_abandoned_temple": {
+    "criteria": {
+      "location0": "2025-01-20 02:15:27 +0000"
     },
     "done": true
   },
@@ -1729,6 +1771,12 @@
     },
     "done": true
   },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:16:03 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-01-19 23:30:50 +0000"
@@ -1855,6 +1903,12 @@
     },
     "done": true
   },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:16:03 +0000"
+    },
+    "done": false
+  },
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2025-01-20 01:57:05 +0000"
@@ -1911,7 +1965,7 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "requirement": "2025-01-20 02:10:03 +0000"
+      "log_spam_fixer": "2025-01-20 02:16:03 +0000"
     },
     "done": false
   },
@@ -2305,6 +2359,12 @@
     },
     "done": true
   },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:16:03 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2025-01-20 00:49:53 +0000"
@@ -2322,6 +2382,12 @@
       "has_iron_ingot": "2025-01-19 23:55:58 +0000"
     },
     "done": true
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 02:16:03 +0000"
+    },
+    "done": false
   },
   "farmersdelight:recipes/farmersdelight/golden_knife": {
     "criteria": {
@@ -2350,6 +2416,13 @@
   "minecraft:recipes/building_blocks/pink_wool": {
     "criteria": {
       "has_white_wool": "2025-01-19 23:30:33 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "requirement": "2025-01-20 02:16:09 +0000",
+      "log_spam_fixer": "2025-01-20 02:16:03 +0000"
     },
     "done": true
   },

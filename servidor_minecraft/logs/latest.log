@@ -3464,3 +3464,90 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 [20Jan2025 02:12:35.079] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
 [20Jan2025 02:12:35.087] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
 [20Jan2025 02:13:13.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa was shot by Skeleton
+[20Jan2025 02:14:30.108] [User Authenticator #17/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player PanchikoKW is 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[20Jan2025 02:14:33.068] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@424a76cd
+[20Jan2025 02:14:33.073] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PanchikoKW[/127.61.240.200:55561] logged in with entity id 76973 at (-1405.6913217360748, 5.0, -628.3000000119209)
+[20Jan2025 02:14:33.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW joined the game
+[20Jan2025 02:14:34.563] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of PanchikoKW (18)
+[20Jan2025 02:14:34.563] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to PanchikoKW
+[20Jan2025 02:14:36.475] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[20Jan2025 02:14:37.479] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[20Jan2025 02:14:37.479] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player PanchikoKW (905d1f7b-6652-3a99-9dd9-a3db220a872b) successfully connected to voice chat
+[20Jan2025 02:16:26.069] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 lost connection: Disconnected
+[20Jan2025 02:16:26.070] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client alexis83
+[20Jan2025 02:16:26.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 left the game
+[20Jan2025 02:16:31.337] [User Authenticator #18/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Antoo is 926f7f75-e294-302f-bf87-3723814d111d
+[20Jan2025 02:16:47.571] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2c3e3d13
+[20Jan2025 02:16:47.578] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Antoo[/127.48.184.143:45903] logged in with entity id 79051 at (10.5, 68.0, 42.5)
+[20Jan2025 02:16:47.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo joined the game
+[20Jan2025 02:16:50.485] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Antoo (18)
+[20Jan2025 02:16:50.485] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Antoo
+[20Jan2025 02:17:01.326] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 926f7f75-e294-302f-bf87-3723814d111d
+[20Jan2025 02:17:02.325] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 926f7f75-e294-302f-bf87-3723814d111d
+[20Jan2025 02:17:02.325] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Antoo (926f7f75-e294-302f-bf87-3723814d111d) successfully connected to voice chat
+[20Jan2025 02:17:24.101] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Jan2025 02:17:24.101] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Jan2025 02:17:24.101] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Jan2025 02:17:24.101] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Jan2025 02:18:10.827] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa issued server command: /tpa ahir Antoo
+[20Jan2025 02:18:25.206] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa issued server command: /tpa ignaciiaa a Antoo
+[20Jan2025 02:18:38.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo was slain by Door Knight
+[20Jan2025 02:18:39.168] [Netty Epoll Server IO #0/ERROR] [net.bettercombat.network.ServerNetwork/]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[20Jan2025 02:18:39.168] [Netty Epoll Server IO #0/ERROR] [net.bettercombat.network.ServerNetwork/]: Combo count: 3 is dual wielding: false
+[20Jan2025 02:18:39.168] [Netty Epoll Server IO #0/ERROR] [net.bettercombat.network.ServerNetwork/]: Main-hand stack: 1 air
+[20Jan2025 02:18:39.168] [Netty Epoll Server IO #0/ERROR] [net.bettercombat.network.ServerNetwork/]: Off-hand stack: 1 air
+[20Jan2025 02:18:39.168] [Netty Epoll Server IO #0/ERROR] [net.bettercombat.network.ServerNetwork/]: Selected slot server: 0 | client: 0
+[20Jan2025 02:19:15.706] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: durooo lost connection: Disconnected
+[20Jan2025 02:19:15.707] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client durooo
+[20Jan2025 02:19:15.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo left the game
+[20Jan2025 02:20:02.054] [Server thread/INFO] [forge.net.mca.MCA/]: literal{Cecylia}[style={}] has been infected
+[20Jan2025 02:20:13.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo has made the advancement [Alex's Mobs]
+[20Jan2025 02:20:14.252] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager VillagerEntityMCA['Cecylia'/21, l='ServerLevel[world]', x=41.30, y=121.00, z=127.61] died, message: 'Cecylia was slain by Zombie'
+[20Jan2025 02:20:14.253] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VillagerEntityMCA['Cecylia'/21, l='ServerLevel[world]', x=41.30, y=121.00, z=127.61] died: Cecylia was slain by Zombie
+[20Jan2025 02:20:44.184] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 02:20:44.185] [Async Chat Thread - #10/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ignaciiaa> : /tpa ignaciiaa
+[20Jan2025 02:20:47.915] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa Ignaciiaa
+[20Jan2025 02:21:00.802] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager VillagerEntityMCA['Juliusz'/22, l='ServerLevel[world]', x=47.00, y=120.00, z=120.00] died, message: 'Juliusz was slain by Decaying Zombie'
+[20Jan2025 02:21:00.802] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VillagerEntityMCA['Juliusz'/22, l='ServerLevel[world]', x=47.00, y=120.00, z=120.00] died: Juliusz was slain by Decaying Zombie
+[20Jan2025 02:21:11.702] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa issued server command: /tpaccept
+[20Jan2025 02:22:38.202] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa lost connection: Disconnected
+[20Jan2025 02:22:38.203] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ignaciiaa
+[20Jan2025 02:22:38.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa left the game
+[20Jan2025 02:24:46.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW has made the advancement [Bonfire Lit]
+[20Jan2025 02:25:00.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo has made the advancement [Monster Hunter]
+[20Jan2025 02:25:03.592] [Craft Scheduler Thread - 27/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 4
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin}
+[20Jan2025 02:25:50.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo was slain by Shy Spirit
+[20Jan2025 02:31:28.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo has made the advancement [Stone Age]
+[20Jan2025 02:31:43.321] [User Authenticator #19/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Lim0ncit0Dulce is 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 02:31:46.705] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@717eeba7
+[20Jan2025 02:31:46.708] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Lim0ncit0Dulce[/127.238.45.75:44685] logged in with entity id 84992 at (0.9882339220738775, 69.7531999805212, -592.5523956236552)
+[20Jan2025 02:31:46.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce joined the game
+[20Jan2025 02:31:48.664] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Lim0ncit0Dulce (18)
+[20Jan2025 02:31:48.664] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Lim0ncit0Dulce
+[20Jan2025 02:31:49.244] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 02:31:50.243] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[20Jan2025 02:31:50.243] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Lim0ncit0Dulce (2ddd9b46-0427-3b1d-9b4e-0259d562a0a6) successfully connected to voice chat
+[20Jan2025 02:32:04.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo has made the advancement [Getting an Upgrade]
+[20Jan2025 02:32:52.753] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lim0ncit0Dulce lost connection: Disconnected
+[20Jan2025 02:32:52.753] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Lim0ncit0Dulce
+[20Jan2025 02:32:52.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce left the game
+[20Jan2025 02:40:03.594] [Craft Scheduler Thread - 29/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 4
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin}
+[20Jan2025 02:40:42.599] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Edyta'/86722, l='ServerLevel[world]', x=-1440.20, y=64.00, z=-762.70] died: Edyta burned to death

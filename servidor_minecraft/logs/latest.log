@@ -2660,3 +2660,6 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 [20Jan2025 23:16:27.691] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2131)
 [20Jan2025 23:16:27.691] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:244)
 [20Jan2025 23:16:27.691] [Server thread/ERROR] [STDERR/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[20Jan2025 23:26:33.908] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 lost connection: Disconnected
+[20Jan2025 23:26:33.910] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client alexis83
+[20Jan2025 23:26:33.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 left the game

@@ -2687,3 +2687,26 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
 	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin,re:mixin}
+[20Jan2025 23:48:27.668] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player durooo is 10ba40f4-9431-3355-8ffe-39de4b50c493
+[20Jan2025 23:48:31.421] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@10efd5f
+[20Jan2025 23:48:31.432] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: durooo[/127.51.165.174:59119] logged in with entity id 1787 at (636.8740714817333, 69.0, -573.7355699877111)
+[20Jan2025 23:48:31.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo joined the game
+[20Jan2025 23:48:33.772] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of durooo (18)
+[20Jan2025 23:48:33.773] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to durooo
+[20Jan2025 23:48:33.788] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2286ms or 45 ticks behind
+[20Jan2025 23:48:35.343] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 10ba40f4-9431-3355-8ffe-39de4b50c493
+[20Jan2025 23:48:36.343] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 10ba40f4-9431-3355-8ffe-39de4b50c493
+[20Jan2025 23:48:36.343] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player durooo (10ba40f4-9431-3355-8ffe-39de4b50c493) successfully connected to voice chat
+[20Jan2025 23:55:33.091] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player alexis83 is d5349a20-7346-31c5-8498-83a2f839afa6
+[20Jan2025 23:55:36.665] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@59241f3a
+[20Jan2025 23:55:36.671] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: alexis83[/127.205.233.85:60661] logged in with entity id 2522 at (555.6999999880791, 67.0, -703.6999999880791)
+[20Jan2025 23:55:36.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 joined the game
+[20Jan2025 23:55:36.904] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of alexis83 (18)
+[20Jan2025 23:55:36.905] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to alexis83
+[20Jan2025 23:55:40.037] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player d5349a20-7346-31c5-8498-83a2f839afa6
+[20Jan2025 23:55:41.038] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player d5349a20-7346-31c5-8498-83a2f839afa6
+[20Jan2025 23:55:41.038] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player alexis83 (d5349a20-7346-31c5-8498-83a2f839afa6) successfully connected to voice chat
+[20Jan2025 23:55:46.262] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 23:55:46.270] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <durooo> o7
+[20Jan2025 23:56:14.314] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 23:56:14.315] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <durooo> la pala de diamante era para mi?

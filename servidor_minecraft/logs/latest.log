@@ -2736,3 +2736,27 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 [20Jan2025 16:15:53.362] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> tpa
 [20Jan2025 16:15:53.907] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LaCartaTucumana issued server command: /tpa alexis83
 [20Jan2025 16:15:58.611] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[20Jan2025 16:18:15.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaCartaTucumana has made the advancement [Diamonds!]
+[20Jan2025 16:23:45.355] [Craft Scheduler Thread - 7/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 9
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23204!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin,re:mixin}
+[20Jan2025 16:24:25.351] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 16:24:25.353] [Async Chat Thread - #3/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> en un shato volvo
+[20Jan2025 16:24:26.463] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 16:24:26.464] [Async Chat Thread - #3/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> jijij
+[20Jan2025 16:24:29.283] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 16:24:29.284] [Async Chat Thread - #3/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaCartaTucumana> ok
+[20Jan2025 16:24:33.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaCartaTucumana has made the advancement [Sweet Dreams]
+[20Jan2025 16:24:36.757] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 lost connection: Disconnected
+[20Jan2025 16:24:36.759] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client alexis83
+[20Jan2025 16:24:36.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 left the game
+[20Jan2025 16:24:41.407] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LaCartaTucumana lost connection: Disconnected
+[20Jan2025 16:24:41.407] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client LaCartaTucumana
+[20Jan2025 16:24:41.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaCartaTucumana left the game

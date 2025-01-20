@@ -1,13 +1,19 @@
 {
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-01-19 23:42:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/smoker": {
     "criteria": {
       "has_furnace": "2025-01-19 23:42:56 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+  "farmersdelight:recipes/farmersdelight/wheat_dough_from_eggs": {
     "criteria": {
-      "has_mutton": "2025-01-19 23:42:05 +0000"
+      "has_wheat": "2025-01-20 00:38:39 +0000"
     },
     "done": true
   },
@@ -16,6 +22,12 @@
       "has_white_wool": "2025-01-19 23:42:05 +0000"
     },
     "done": true
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 00:46:55 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
@@ -29,15 +41,15 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/farmersdelight/cooking/chicken_soup": {
-    "criteria": {
-      "has_any_ingredient": "2025-01-19 23:59:03 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2025-01-19 23:35:32 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooking/chicken_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-19 23:59:03 +0000"
     },
     "done": true
   },
@@ -56,6 +68,12 @@
   "infernalexp:recipes/food/cooked_hogchop_campfire": {
     "criteria": {
       "has_hogchop": "2025-01-19 23:22:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-01-20 00:31:35 +0000"
     },
     "done": true
   },
@@ -89,15 +107,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2025-01-19 23:35:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_wool": {
     "criteria": {
       "has_white_wool": "2025-01-19 23:42:05 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/campfire": {
+  "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
-      "has_stick": "2025-01-19 23:35:16 +0000"
+      "has_gold_ingot": "2025-01-20 00:38:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-01-20 00:38:39 +0000"
     },
     "done": true
   },
@@ -123,9 +153,21 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/pie_crust": {
+    "criteria": {
+      "has_wheat": "2025-01-20 00:38:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2025-01-19 23:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-20 00:38:02 +0000"
     },
     "done": true
   },
@@ -150,6 +192,12 @@
   "minecraft:recipes/decorations/torch": {
     "criteria": {
       "has_stone_pickaxe": "2025-01-19 23:35:45 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/iron_nugget_from_blasting_knife": {
+    "criteria": {
+      "has_iron_knife": "2025-01-20 00:38:49 +0000"
     },
     "done": true
   },
@@ -207,6 +255,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-20 00:38:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2025-01-20 00:03:26 +0000"
@@ -216,7 +270,10 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-01-19 23:51:34 +0000",
-      "cooked_mutton": "2025-01-19 23:45:03 +0000"
+      "cooked_mutton": "2025-01-19 23:45:03 +0000",
+      "cooked_beef": "2025-01-20 00:10:10 +0000",
+      "bread": "2025-01-20 00:42:47 +0000",
+      "cooked_chicken": "2025-01-20 00:12:48 +0000"
     },
     "done": false
   },
@@ -232,15 +289,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cobblestone_slab": {
-    "criteria": {
-      "has_cobblestone": "2025-01-19 23:35:32 +0000"
-    },
-    "done": true
-  },
   "decorative_blocks:recipes/decorative_blocks.general/lattice": {
     "criteria": {
       "has_stick": "2025-01-19 23:35:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2025-01-19 23:35:32 +0000"
     },
     "done": true
   },
@@ -298,9 +355,21 @@
     },
     "done": false
   },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-01-20 00:38:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2025-01-20 00:03:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-20 00:38:02 +0000"
     },
     "done": true
   },
@@ -313,6 +382,12 @@
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2025-01-19 23:59:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-01-20 00:31:35 +0000"
     },
     "done": true
   },
@@ -349,6 +424,18 @@
   "minecraft:recipes/building_blocks/blue_wool": {
     "criteria": {
       "has_white_wool": "2025-01-19 23:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-20 00:38:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2025-01-20 00:37:59 +0000"
     },
     "done": true
   },
@@ -394,15 +481,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/iron_hoe": {
-    "criteria": {
-      "has_iron_ingot": "2025-01-20 00:03:26 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
       "has_stick": "2025-01-19 23:35:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-20 00:03:26 +0000"
     },
     "done": true
   },
@@ -430,15 +517,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-01-19 23:47:04 +0000"
+    },
+    "done": true
+  },
   "shieldexp:recipes/iron_shield": {
     "criteria": {
       "has_iron_ingot": "2025-01-20 00:03:26 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/birch_boat": {
+  "minecraft:recipes/food/golden_apple": {
     "criteria": {
-      "in_water": "2025-01-19 23:47:04 +0000"
+      "has_gold_ingot": "2025-01-20 00:38:02 +0000"
     },
     "done": true
   },
@@ -460,15 +553,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-01-19 23:47:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_shovel": {
     "criteria": {
       "has_iron_ingot": "2025-01-20 00:03:26 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/acacia_boat": {
+  "farmersdelight:recipes/misc/iron_nugget_from_smelting_knife": {
     "criteria": {
-      "in_water": "2025-01-19 23:47:04 +0000"
+      "has_iron_knife": "2025-01-20 00:38:49 +0000"
     },
     "done": true
   },
@@ -483,6 +582,12 @@
       "has_stick": "2025-01-19 23:35:16 +0000"
     },
     "done": true
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 00:46:55 +0000"
+    },
+    "done": false
   },
   "knight_quest:kq_quest_source": {
     "criteria": {
@@ -520,6 +625,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/chicken_sandwich": {
+    "criteria": {
+      "has_cooked_chicken": "2025-01-20 00:11:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-01-19 23:31:00 +0000"
@@ -538,6 +649,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-01-20 00:31:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-01-19 23:47:06 +0000"
@@ -549,6 +666,12 @@
       "has_bed": "2025-01-19 23:31:00 +0000"
     },
     "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 00:46:55 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/yellow_banner": {
     "criteria": {
@@ -568,9 +691,21 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/wheat_dough_from_water": {
+    "criteria": {
+      "has_wheat": "2025-01-20 00:38:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2025-01-19 23:55:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-01-20 00:31:34 +0000"
     },
     "done": true
   },
@@ -604,21 +739,33 @@
     },
     "done": true
   },
+  "mca:recipes/misc/family_tree": {
+    "criteria": {
+      "has_item": "2025-01-20 00:31:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_nugget": "2025-01-19 23:59:48 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/yellow_bed": {
+  "incendium:technical/feed_ghastling": {
     "criteria": {
-      "has_yellow_wool": "2025-01-19 23:50:18 +0000"
+      "log_spam_fixer": "2025-01-20 00:46:55 +0000"
     },
-    "done": true
+    "done": false
   },
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2025-01-19 23:35:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_bed": {
+    "criteria": {
+      "has_yellow_wool": "2025-01-19 23:50:18 +0000"
     },
     "done": true
   },
@@ -631,6 +778,12 @@
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2025-01-19 23:47:04 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooking/apple_cider": {
+    "criteria": {
+      "has_apple": "2025-01-20 00:31:35 +0000"
     },
     "done": true
   },
@@ -652,9 +805,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-01-20 00:31:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2025-01-19 23:30:54 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 00:46:55 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-20 00:38:02 +0000"
     },
     "done": true
   },
@@ -664,15 +835,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+  "farmersdelight:recipes/farmersdelight/roast_chicken_block": {
     "criteria": {
-      "has_porkchop": "2025-01-19 23:44:26 +0000"
+      "has_cooked_chicken": "2025-01-20 00:11:00 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/raw_copper_block": {
     "criteria": {
       "has_raw_copper": "2025-01-19 23:37:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2025-01-19 23:44:26 +0000"
     },
     "done": true
   },
@@ -706,6 +883,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-20 00:38:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2025-01-19 23:40:35 +0000"
@@ -718,15 +901,15 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/farmersdelight/mutton_wrap": {
-    "criteria": {
-      "has_mutton": "2025-01-19 23:43:42 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_white_wool": "2025-01-19 23:42:05 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/mutton_wrap": {
+    "criteria": {
+      "has_mutton": "2025-01-19 23:43:42 +0000"
     },
     "done": true
   },
@@ -739,6 +922,12 @@
   "farmersdelight:recipes/farmersdelight/cooking/pasta_with_mutton_chop": {
     "criteria": {
       "has_any_ingredient": "2025-01-19 23:42:05 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooking/baked_cod_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-20 00:31:34 +0000"
     },
     "done": true
   },
@@ -766,6 +955,12 @@
     },
     "done": true
   },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 00:46:55 +0000"
+    },
+    "done": false
+  },
   "sereneseasons:recipes/tools/calendar": {
     "criteria": {
       "has_paper": "2025-01-19 23:23:28 +0000"
@@ -784,15 +979,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_blue_wool": {
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
-      "has_white_wool": "2025-01-19 23:42:05 +0000"
+      "has_gold_ingot": "2025-01-20 00:38:02 +0000"
     },
     "done": true
   },
-  "rechiseled:recipes/rechiseled/chisel": {
+  "minecraft:recipes/building_blocks/light_blue_wool": {
     "criteria": {
-      "recipe_condition": "2025-01-20 00:03:26 +0000"
+      "has_white_wool": "2025-01-19 23:42:05 +0000"
     },
     "done": true
   },
@@ -808,6 +1003,12 @@
     },
     "done": true
   },
+  "rechiseled:recipes/rechiseled/chisel": {
+    "criteria": {
+      "recipe_condition": "2025-01-20 00:03:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
       "has_logs": "2025-01-19 23:23:17 +0000"
@@ -820,6 +1021,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-01-20 00:31:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-20 00:38:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_axe": {
     "criteria": {
       "has_iron_ingot": "2025-01-20 00:03:26 +0000"
@@ -829,6 +1042,12 @@
   "mca:recipes/misc/comb": {
     "criteria": {
       "has_item": "2025-01-20 00:03:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-20 00:38:02 +0000"
     },
     "done": true
   },
@@ -898,15 +1117,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/iron_chestplate": {
-    "criteria": {
-      "has_iron_ingot": "2025-01-20 00:03:26 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/crossbow": {
     "criteria": {
       "has_stick": "2025-01-19 23:35:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-20 00:03:26 +0000"
     },
     "done": true
   },
@@ -994,6 +1213,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-20 00:38:02 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 00:46:55 +0000"
+    },
+    "done": false
+  },
   "infernalexp:recipes/combat/glowsilk_bow": {
     "criteria": {
       "has_glowsilk": "2025-01-19 23:22:44 +0000"
@@ -1011,6 +1242,12 @@
       "has_cobblestone": "2025-01-19 23:35:32 +0000"
     },
     "done": true
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 00:46:55 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/food/cooked_beef": {
     "criteria": {
@@ -1032,6 +1269,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:river": "2025-01-20 00:35:07 +0000",
       "minecraft:forest": "2025-01-19 23:48:20 +0000",
       "minecraft:meadow": "2025-01-19 23:38:34 +0000",
       "minecraft:plains": "2025-01-19 23:22:45 +0000"
@@ -1128,6 +1366,12 @@
     },
     "done": true
   },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 00:46:55 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2025-01-19 23:47:04 +0000"
@@ -1146,9 +1390,27 @@
     },
     "done": true
   },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 00:46:55 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2025-01-20 00:03:26 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 00:46:55 +0000"
+    },
+    "done": false
+  },
+  "farmersdelight:recipes/farmersdelight/golden_knife": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-20 00:38:02 +0000"
     },
     "done": true
   },
@@ -1163,6 +1425,12 @@
       "has_white_wool": "2025-01-19 23:42:05 +0000"
     },
     "done": true
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-20 00:46:55 +0000"
+    },
+    "done": false
   },
   "farmersdelight:recipes/farmersdelight/cooking/pumpkin_soup": {
     "criteria": {
@@ -1185,6 +1453,18 @@
   "dungeons_arise:wda_root": {
     "criteria": {
       "WDA": "2025-01-19 23:22:44 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/craft_knife": {
+    "criteria": {
+      "iron_knife": "2025-01-20 00:38:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-20 00:38:02 +0000"
     },
     "done": true
   },
@@ -1239,6 +1519,12 @@
   "minecraft:recipes/building_blocks/red_wool": {
     "criteria": {
       "has_white_wool": "2025-01-19 23:42:05 +0000"
+    },
+    "done": true
+  },
+  "shieldexp:recipes/golden_shield": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-20 00:38:02 +0000"
     },
     "done": true
   },

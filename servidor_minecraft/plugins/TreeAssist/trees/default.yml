@@ -98,7 +98,7 @@ Blocks:
 
   # Here you can add extra blocks that can be expected inside or around tree leaves
   Materials:
-  - 'minecraft:bee_nest'
+  - minecraft:bee_nest
   Middle:
 
     # Allow air pockets in leaves
@@ -128,68 +128,68 @@ Blocks:
 
 # Valid blocks that are below and around the saplings
 Ground Blocks:
-- 'minecraft:podzol'
-- 'minecraft:mycelium'
-- 'minecraft:grass_block'
-- 'minecraft:dirt'
-- 'minecraft:coarse_dirt'
-- 'minecraft:sand'
+- minecraft:podzol
+- minecraft:mycelium
+- minecraft:grass_block
+- minecraft:dirt
+- minecraft:coarse_dirt
+- minecraft:sand
 
 # Blocks that you can expect to be around the tree - these are the exceptions from player building safeguards
 Natural Blocks:
-- 'minecraft:air'
-- 'minecraft:water'
-- 'minecraft:fire'
-- 'minecraft:snow'
-- 'minecraft:snow_block'
-- 'minecraft:stone'
-- 'minecraft:grass_block'
-- 'minecraft:dirt'
-- 'minecraft:coarse_dirt'
-- 'minecraft:sand'
-- 'minecraft:terracotta'
+- minecraft:air
+- minecraft:water
+- minecraft:fire
+- minecraft:snow
+- minecraft:snow_block
+- minecraft:stone
+- minecraft:grass_block
+- minecraft:dirt
+- minecraft:coarse_dirt
+- minecraft:sand
+- minecraft:terracotta
 - '*_terracotta'
-- 'minecraft:mycelium'
-- 'minecraft:podzol'
+- minecraft:mycelium
+- minecraft:podzol
 - '*_sapling'
 - '*_leaves'
-- 'minecraft:dandelion'
+- minecraft:dandelion
 - '*_tulip'
-- 'minecraft:poppy'
+- minecraft:poppy
 - '*_orchid'
-- 'minecraft:allium'
-- 'minecraft:azure_bluet'
-- 'minecraft:oxeye_daisy'
-- 'minecraft:lilac'
-- 'minecraft:short_grass'
-- 'minecraft:tall_grass'
-- 'minecraft:fern'
-- 'minecraft:dead_bush'
-- 'minecraft:sugar_cane'
+- minecraft:allium
+- minecraft:azure_bluet
+- minecraft:oxeye_daisy
+- minecraft:lilac
+- minecraft:short_grass
+- minecraft:tall_grass
+- minecraft:fern
+- minecraft:dead_bush
+- minecraft:sugar_cane
 - '*_mushroom_block'
-- 'minecraft:mushroom_stem'
-- 'minecraft:melon'
-- 'minecraft:pumpkin'
-- 'minecraft:bee_nest'
-- 'minecraft:cocoa'
-- 'minecraft:torch'
-- 'minecraft:rail'
-- 'minecraft:hopper'
-- 'minecraft:oak_sapling'
-- 'minecraft:birch_sapling'
-- 'minecraft:spruce_sapling'
-- 'minecraft:jungle_sapling'
-- 'minecraft:dark_oak_sapling'
-- 'minecraft:acacia_sapling'
-- 'minecraft:bamboo'
-- 'minecraft:vine'
-- 'minecraft:cave_air'
-- 'minecraft:void_air'
-- 'minecraft:large_fern'
-- 'minecraft:peony'
-- 'red_mushroom'
-- 'brown_mushroom'
-- 'minecraft:pink_petals'
+- minecraft:mushroom_stem
+- minecraft:melon
+- minecraft:pumpkin
+- minecraft:bee_nest
+- minecraft:cocoa
+- minecraft:torch
+- minecraft:rail
+- minecraft:hopper
+- minecraft:oak_sapling
+- minecraft:birch_sapling
+- minecraft:spruce_sapling
+- minecraft:jungle_sapling
+- minecraft:dark_oak_sapling
+- minecraft:acacia_sapling
+- minecraft:bamboo
+- minecraft:vine
+- minecraft:cave_air
+- minecraft:void_air
+- minecraft:large_fern
+- minecraft:peony
+- red_mushroom
+- brown_mushroom
+- minecraft:pink_petals
 
 # The permission required for this tree type
 Permission: treeassist.destroy.*
@@ -240,12 +240,13 @@ Replanting:
 
 # This is the list that can be required to use when auto destructing or sapling replanting
 Tool List:
-- 'minecraft:netherite_axe'
-- 'minecraft:diamond_axe'
-- 'minecraft:wooden_axe'
-- 'minecraft:golden_axe'
-- 'minecraft:iron_axe'
-- 'minecraft:stone_axe'
+- minecraft:netherite_axe
+- minecraft:diamond_axe
+- minecraft:wooden_axe
+- minecraft:golden_axe
+- minecraft:iron_axe
+- minecraft:stone_axe
+- DIRT
 Trunk:
 
   # Look for branches
@@ -257,7 +258,7 @@ Trunk:
 
     # Drop chances for extra drops. 1.0 would be 100% chance!
     Items:
-      minecraft:golden_apple: 0.0001
+      minecraft:golden_apple: 1.0E-4
 
     # These are additional factors, for example, by default, iron has half the chance to get custom drops
     Factors:

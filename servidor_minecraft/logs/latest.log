@@ -3921,3 +3921,16 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 [20Jan2025 04:26:30.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa has made the advancement [Minecraft Comes Alive]
 [20Jan2025 04:26:44.800] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2906ms or 58 ticks behind
 [20Jan2025 04:27:02.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa has made the advancement [Mine? Mine? Mine?]
+[20Jan2025 04:29:02.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce has completed the challenge [Quest: Find Three Great Essence]
+[20Jan2025 04:30:21.075] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@bd420ff
+[20Jan2025 04:32:03.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce has made the advancement [Diamonds!]
+[20Jan2025 04:34:09.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Convergent Evolution...]
+[20Jan2025 04:35:37.887] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[20Jan2025 04:35:37.889] [Async Chat Thread - #23/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[20Jan2025 04:36:33.506] [Server thread/INFO] [forge.net.mca.MCA/]: literal{Walery}[style={}] has been infected
+[20Jan2025 04:36:36.257] [Server thread/INFO] [forge.net.mca.MCA/]: literal{Walery}[style={}] has been infected
+[20Jan2025 04:36:45.156] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager VillagerEntityMCA['Walery'/9, l='ServerLevel[world]', x=63.70, y=117.42, z=87.55] died, message: 'Walery was slain by Zombie'
+[20Jan2025 04:36:45.157] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VillagerEntityMCA['Walery'/9, l='ServerLevel[world]', x=63.70, y=117.42, z=87.55] died: Walery was slain by Zombie
+[20Jan2025 04:37:01.016] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignaciiaa lost connection: Disconnected
+[20Jan2025 04:37:01.016] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ignaciiaa
+[20Jan2025 04:37:01.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ignaciiaa left the game

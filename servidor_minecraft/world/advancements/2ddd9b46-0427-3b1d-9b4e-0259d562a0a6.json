@@ -1324,6 +1324,12 @@
     },
     "done": true
   },
+  "simplytools:recipes/simplytools/iron_excavator_head": {
+    "criteria": {
+      "criterion0": "2025-01-21 02:39:29 +0000"
+    },
+    "done": true
+  },
   "infernalexp:recipes/food/cooked_hogchop_campfire": {
     "criteria": {
       "has_hogchop": "2025-01-19 23:22:44 +0000"
@@ -1896,6 +1902,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
+    "criteria": {
+      "has_pink_tulip": "2025-01-21 02:38:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mangrove_stairs": {
     "criteria": {
       "has_planks": "2025-01-20 03:52:31 +0000"
@@ -1983,6 +1995,12 @@
   "farmersdelight:recipes/farmersdelight/cooking/pasta_with_meatballs": {
     "criteria": {
       "has_any_ingredient": "2025-01-19 23:55:45 +0000"
+    },
+    "done": true
+  },
+  "simplytools:recipes/simplytools/iron_hammer_head": {
+    "criteria": {
+      "criterion0": "2025-01-21 02:39:29 +0000"
     },
     "done": true
   },

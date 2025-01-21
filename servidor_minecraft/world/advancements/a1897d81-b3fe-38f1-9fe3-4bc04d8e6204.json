@@ -147,6 +147,12 @@
     },
     "done": true
   },
+  "decorative_blocks:recipes/decorative_blocks.general/rocky_dirt": {
+    "criteria": {
+      "has_dirt": "2025-01-21 04:51:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-01-21 03:22:36 +0000"
@@ -673,6 +679,12 @@
   "farmersdelight:recipes/farmersdelight/stuffed_potato": {
     "criteria": {
       "has_baked_potato": "2025-01-21 03:17:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-01-21 04:57:01 +0000"
     },
     "done": true
   },

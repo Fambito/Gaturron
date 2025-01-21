@@ -15767,3 +15767,38 @@ java.lang.IllegalStateException: Asynchronous chunk entity get!
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
 	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
 [21Jan2025 04:49:01.677] [Async Chat Thread - #21/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[21Jan2025 04:51:07.011] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Jan2025 04:51:07.022] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21Jan2025 04:51:07.067] [Craft Scheduler Thread - 29/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 9
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[21Jan2025 04:56:06.978] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Jan2025 04:56:06.985] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21Jan2025 04:56:13.470] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-1705, y=72, z=-820} BlockPos{x=-1705, y=70, z=-819}
+[21Jan2025 04:56:13.489] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-1705, y=72, z=-820} BlockPos{x=-1705, y=70, z=-819}
+[21Jan2025 04:56:13.887] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-1706, y=72, z=-822} BlockPos{x=-1707, y=70, z=-821}
+[21Jan2025 04:56:16.200] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-1705, y=72, z=-826} BlockPos{x=-1704, y=70, z=-826}
+[21Jan2025 04:56:16.222] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-1705, y=72, z=-826} BlockPos{x=-1704, y=70, z=-826}
+[21Jan2025 04:56:16.241] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-1705, y=72, z=-826} BlockPos{x=-1704, y=70, z=-826}
+[21Jan2025 04:56:16.331] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-1705, y=72, z=-826} BlockPos{x=-1704, y=70, z=-826}
+[21Jan2025 04:56:16.371] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-1705, y=72, z=-826} BlockPos{x=-1704, y=70, z=-826}
+[21Jan2025 04:56:16.386] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-1705, y=72, z=-826} BlockPos{x=-1704, y=70, z=-826}
+[21Jan2025 04:56:16.472] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-1705, y=72, z=-826} BlockPos{x=-1704, y=70, z=-826}
+[21Jan2025 04:56:16.607] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-1706, y=72, z=-828} BlockPos{x=-1707, y=70, z=-829}
+[21Jan2025 04:56:16.622] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-1705, y=72, z=-828} BlockPos{x=-1707, y=70, z=-829}
+[21Jan2025 04:56:16.641] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-1705, y=72, z=-828} BlockPos{x=-1707, y=70, z=-829}
+[21Jan2025 04:56:16.752] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-1705, y=72, z=-828} BlockPos{x=-1707, y=70, z=-829}
+[21Jan2025 04:56:20.837] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-1698, y=71, z=-827} BlockPos{x=-1699, y=70, z=-829}
+[21Jan2025 04:56:20.888] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-1698, y=71, z=-827} BlockPos{x=-1699, y=70, z=-829}
+[21Jan2025 04:56:21.241] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-1697, y=72, z=-828} BlockPos{x=-1697, y=70, z=-825}
+[21Jan2025 04:56:21.284] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-1697, y=72, z=-828} BlockPos{x=-1697, y=70, z=-825}
+[21Jan2025 04:56:21.341] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-1697, y=72, z=-828} BlockPos{x=-1697, y=70, z=-825}
+[21Jan2025 05:01:06.979] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Jan2025 05:01:06.985] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

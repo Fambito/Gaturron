@@ -2803,3 +2803,22 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 [21Jan2025 23:42:44.311] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to PanchikoKW
 [21Jan2025 23:42:44.318] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2739ms or 54 ticks behind
 [21Jan2025 23:42:45.579] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[21Jan2025 23:42:46.577] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[21Jan2025 23:42:46.578] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player PanchikoKW (905d1f7b-6652-3a99-9dd9-a3db220a872b) successfully connected to voice chat
+[21Jan2025 23:42:52.301] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[21Jan2025 23:42:52.303] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <durooo> ou shet
+[21Jan2025 23:42:54.108] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[21Jan2025 23:42:54.108] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> estas en tu casa gordo?
+[21Jan2025 23:42:58.417] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[21Jan2025 23:42:58.417] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <durooo> quere ayuda?
+[21Jan2025 23:43:04.411] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[21Jan2025 23:43:04.412] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> :v
+[21Jan2025 23:43:22.396] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[21Jan2025 23:43:22.397] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> nono me voy a la mierda
+[21Jan2025 23:43:42.415] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpa durooo
+[21Jan2025 23:43:57.406] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: durooo issued server command: /tpaccept
+[21Jan2025 23:49:06.546] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpa alexis83
+[21Jan2025 23:49:13.624] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpa alexis83
+[21Jan2025 23:49:19.178] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[21Jan2025 23:49:51.059] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[21Jan2025 23:49:51.060] [Async Chat Thread - #12/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <durooo> zzzz

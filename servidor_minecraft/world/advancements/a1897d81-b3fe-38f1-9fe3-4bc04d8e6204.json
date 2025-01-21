@@ -17,6 +17,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/cooking/chicken_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-21 05:38:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2025-01-21 03:30:21 +0000"
@@ -141,6 +147,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-21 05:38:39 +0000"
+    },
+    "done": true
+  },
   "simplytools:recipes/simplytools/stone_excavator_head": {
     "criteria": {
       "criterion0": "2025-01-21 03:30:21 +0000"
@@ -168,6 +180,12 @@
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2025-01-21 04:42:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-01-21 05:11:30 +0000"
     },
     "done": true
   },
@@ -204,6 +222,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "baked_potato": "2025-01-21 03:49:36 +0000",
+      "cooked_cod": "2025-01-21 05:38:06 +0000",
       "bread": "2025-01-21 04:18:55 +0000"
     },
     "done": false
@@ -268,6 +287,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/cooking/beef_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-21 05:28:15 +0000"
+    },
+    "done": true
+  },
   "simplytools:recipes/simplytools/iron_hammer": {
     "criteria": {
       "criterion1": "2025-01-21 04:01:29 +0000"
@@ -283,6 +308,12 @@
   "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-21 03:32:00 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-21 05:38:39 +0000"
     },
     "done": true
   },
@@ -385,6 +416,12 @@
   "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
       "has_gold_ingot": "2025-01-21 05:05:34 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/fried_egg_from_campfire_cooking": {
+    "criteria": {
+      "fried_egg": "2025-01-21 05:11:30 +0000"
     },
     "done": true
   },
@@ -604,6 +641,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-01-21 05:28:15 +0000"
+    },
+    "done": true
+  },
   "simplytools:recipes/simplytools/stone_hammer_head": {
     "criteria": {
       "criterion0": "2025-01-21 03:30:21 +0000"
@@ -612,6 +655,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2025-01-21 05:13:33 +0000",
       "minecraft:spider": "2025-01-21 04:06:36 +0000"
     },
     "done": false
@@ -631,6 +675,12 @@
   "farmersdelight:recipes/farmersdelight/cooking/dog_food": {
     "criteria": {
       "has_any_ingredient": "2025-01-21 04:05:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-01-21 05:28:15 +0000"
     },
     "done": true
   },
@@ -661,6 +711,12 @@
   "simplytools:recipes/simplytools/wooden_excavator": {
     "criteria": {
       "criterion1": "2025-01-21 04:01:29 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/fried_egg_from_smoking": {
+    "criteria": {
+      "fried_egg": "2025-01-21 05:11:30 +0000"
     },
     "done": true
   },
@@ -703,6 +759,12 @@
   "infernalexp:recipes/redstone/soul_slate_pressure_plate": {
     "criteria": {
       "has_soul_slate": "2025-01-21 03:10:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-01-21 05:28:15 +0000"
     },
     "done": true
   },
@@ -760,6 +822,14 @@
     },
     "done": true
   },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "potato": "2025-01-21 05:31:07 +0000",
+      "wheat": "2025-01-21 05:33:59 +0000",
+      "carrot": "2025-01-21 05:39:16 +0000"
+    },
+    "done": false
+  },
   "decorative_blocks:recipes/decorative_blocks.general/dark_oak_palisade": {
     "criteria": {
       "has_log": "2025-01-21 04:01:20 +0000"
@@ -772,15 +842,33 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/cooking/fried_rice": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-21 05:11:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2025-01-21 03:32:01 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-01-21 05:28:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/moss_carpet": {
     "criteria": {
       "has_moss_block": "2025-01-21 03:36:59 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooking/baked_cod_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-21 05:11:30 +0000"
     },
     "done": true
   },
@@ -838,6 +926,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/fried_egg": {
+    "criteria": {
+      "fried_egg": "2025-01-21 05:11:30 +0000"
+    },
+    "done": true
+  },
   "simplytools:recipes/simplytools/netherite_hammer": {
     "criteria": {
       "criterion1": "2025-01-21 04:01:29 +0000"
@@ -865,6 +959,12 @@
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-21 03:32:00 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooking/bone_broth": {
+    "criteria": {
+      "has_bone": "2025-01-21 05:13:34 +0000"
     },
     "done": true
   },
@@ -913,6 +1013,12 @@
   "minecraft:recipes/building_blocks/raw_gold_block": {
     "criteria": {
       "has_raw_gold": "2025-01-21 03:36:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-01-21 05:13:34 +0000"
     },
     "done": true
   },
@@ -1021,6 +1127,12 @@
   "betterdungeons:root": {
     "criteria": {
       "always": "2025-01-21 03:10:16 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/potions": {
+    "criteria": {
+      "has_item": "2025-01-21 05:11:30 +0000"
     },
     "done": true
   },
@@ -1157,6 +1269,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-01-21 05:33:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2025-01-21 03:30:23 +0000"
@@ -1178,6 +1296,12 @@
   "farmersdelight:recipes/farmersdelight/golden_knife": {
     "criteria": {
       "has_gold_ingot": "2025-01-21 05:05:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-01-21 05:38:39 +0000"
     },
     "done": true
   },

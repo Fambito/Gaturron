@@ -65,6 +65,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2025-01-21 04:13:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
     "criteria": {
       "has_white_tulip": "2025-01-21 02:52:12 +0000"
@@ -86,6 +92,12 @@
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-21 03:15:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-01-21 04:13:25 +0000"
     },
     "done": true
   },
@@ -170,6 +182,12 @@
   "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2025-01-19 23:47:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2025-01-21 04:13:25 +0000"
     },
     "done": true
   },
@@ -266,6 +284,12 @@
   "minecraft:recipes/redstone/dark_oak_door": {
     "criteria": {
       "has_planks": "2025-01-21 03:24:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2025-01-21 04:14:27 +0000"
     },
     "done": true
   },
@@ -371,6 +395,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2025-01-21 04:14:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lectern": {
     "criteria": {
       "has_book": "2025-01-20 00:31:35 +0000"
@@ -458,6 +488,12 @@
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2025-01-19 23:46:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-01-21 04:11:34 +0000"
     },
     "done": true
   },
@@ -698,6 +734,12 @@
   "mca:recipes/misc/family_tree": {
     "criteria": {
       "has_item": "2025-01-20 00:31:35 +0000"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/decorative_blocks.general/spruce_support": {
+    "criteria": {
+      "has_plank": "2025-01-21 04:13:25 +0000"
     },
     "done": true
   },
@@ -1049,6 +1091,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-21 04:14:27 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/iron_knife": {
     "criteria": {
       "has_iron_ingot": "2025-01-20 00:03:26 +0000"
@@ -1097,6 +1145,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-01-21 04:13:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_trapdoor": {
     "criteria": {
       "has_planks": "2025-01-21 03:24:15 +0000"
@@ -1130,6 +1184,12 @@
   "simplytools:recipes/simplytools/golden_hammer": {
     "criteria": {
       "criterion1": "2025-01-21 02:29:24 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/black_eye": {
+    "criteria": {
+      "black_eye": "2025-01-21 04:12:29 +0000"
     },
     "done": true
   },
@@ -1202,6 +1262,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2025-01-21 03:09:48 +0000",
+      "minecraft:beach": "2025-01-21 04:10:25 +0000",
       "minecraft:dark_forest": "2025-01-20 04:08:11 +0000",
       "minecraft:river": "2025-01-20 00:35:07 +0000",
       "minecraft:dripstone_caves": "2025-01-20 04:49:34 +0000",
@@ -1412,6 +1473,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2025-01-21 04:14:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_wool": {
     "criteria": {
       "has_white_wool": "2025-01-19 23:42:05 +0000"
@@ -1556,6 +1623,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-21 04:14:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/magenta_bed": {
     "criteria": {
       "has_magenta_wool": "2025-01-19 23:50:24 +0000"
@@ -1686,6 +1759,18 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/safety_net": {
+    "criteria": {
+      "has_rope": "2025-01-21 04:14:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-01-21 04:31:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
       "has_bowl": "2025-01-20 05:11:03 +0000"
@@ -1756,6 +1841,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-21 04:14:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-01-19 23:31:00 +0000"
@@ -1822,6 +1913,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_sand": "2025-01-21 04:11:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2025-01-20 00:03:26 +0000"
@@ -1855,6 +1952,18 @@
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2025-01-19 23:59:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-01-21 04:31:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-01-21 04:14:27 +0000"
     },
     "done": true
   },
@@ -2050,6 +2159,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2025-01-21 04:13:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/baked_potato_from_smoking": {
     "criteria": {
       "has_potato": "2025-01-20 00:31:34 +0000"
@@ -2128,6 +2243,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2025-01-21 04:13:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mangrove_slab": {
     "criteria": {
       "has_planks": "2025-01-20 03:52:31 +0000"
@@ -2188,6 +2309,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-21 04:14:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mangrove_stairs": {
     "criteria": {
       "has_planks": "2025-01-20 03:52:31 +0000"
@@ -2239,6 +2366,12 @@
   "minecraft:recipes/building_blocks/lime_wool": {
     "criteria": {
       "has_white_wool": "2025-01-19 23:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2025-01-21 04:13:25 +0000"
     },
     "done": true
   },
@@ -2314,6 +2447,12 @@
     },
     "done": true
   },
+  "decorative_blocks:recipes/decorative_blocks.general/spruce_seat": {
+    "criteria": {
+      "has_plank": "2025-01-21 04:13:25 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/cooked_bacon": {
     "criteria": {
       "cooked_bacon": "2025-01-20 03:37:31 +0000"
@@ -2329,6 +2468,12 @@
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2025-01-19 23:42:05 +0000"
+    },
+    "done": true
+  },
+  "simplytools:recipes/simplytools/paper_compress": {
+    "criteria": {
+      "has_item": "2025-01-21 04:14:44 +0000"
     },
     "done": true
   },
@@ -2392,15 +2537,21 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/cooking/mushroom_rice": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-21 02:29:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
     "criteria": {
       "has_mossy_cobblestone": "2025-01-21 03:13:25 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/farmersdelight/cooking/mushroom_rice": {
+  "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
-      "has_any_ingredient": "2025-01-21 02:29:32 +0000"
+      "has_planks": "2025-01-21 04:13:25 +0000"
     },
     "done": true
   },
@@ -2434,6 +2585,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-21 04:14:27 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/shepherds_pie_block": {
     "criteria": {
       "has_cooked_mutton": "2025-01-19 23:43:42 +0000"
@@ -2455,6 +2612,12 @@
   "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
     "criteria": {
       "has_moss_block": "2025-01-21 03:46:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-01-21 04:14:27 +0000"
     },
     "done": true
   },
@@ -2497,6 +2660,12 @@
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2025-01-20 04:25:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-21 04:14:27 +0000"
     },
     "done": true
   },
@@ -2743,6 +2912,18 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2025-01-20 04:29:32 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/root": {
+    "criteria": {
+      "black_eye": "2025-01-21 04:12:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-01-21 04:13:25 +0000"
     },
     "done": true
   },

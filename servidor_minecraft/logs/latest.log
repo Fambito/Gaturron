@@ -61,3 +61,44 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 [21Jan2025 00:15:02.313] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: durooo lost connection: Disconnected
 [21Jan2025 00:15:02.314] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client durooo
 [21Jan2025 00:15:02.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo left the game
+[21Jan2025 00:17:33.552] [User Authenticator #6/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player durooo is 10ba40f4-9431-3355-8ffe-39de4b50c493
+[21Jan2025 00:17:36.111] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4da8ff51
+[21Jan2025 00:17:36.116] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: durooo[/127.51.165.174:50577] logged in with entity id 5422 at (574.5227363735996, 72.0, -643.1022004967878)
+[21Jan2025 00:17:36.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: durooo joined the game
+[21Jan2025 00:17:36.359] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of durooo (18)
+[21Jan2025 00:17:36.360] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to durooo
+[21Jan2025 00:17:39.083] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 10ba40f4-9431-3355-8ffe-39de4b50c493
+[21Jan2025 00:17:40.079] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 10ba40f4-9431-3355-8ffe-39de4b50c493
+[21Jan2025 00:17:40.079] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player durooo (10ba40f4-9431-3355-8ffe-39de4b50c493) successfully connected to voice chat
+[21Jan2025 00:18:46.041] [User Authenticator #7/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Lim0ncit0Dulce is 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[21Jan2025 00:18:46.723] [Netty Epoll Server IO #5/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [libx:netchannel] rejected their client side version number
+[21Jan2025 00:18:46.723] [Netty Epoll Server IO #5/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[21Jan2025 00:18:46.757] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@61d64dea[id=2ddd9b46-0427-3b1d-9b4e-0259d562a0a6,name=Lim0ncit0Dulce,properties={},legacy=false] (/127.238.45.75:35985) lost connection: Connection closed - mismatched mod channel list
+[21Jan2025 00:19:00.667] [User Authenticator #8/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Lim0ncit0Dulce is 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[21Jan2025 00:19:01.331] [Netty Epoll Server IO #7/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [libx:netchannel] rejected their client side version number
+[21Jan2025 00:19:01.331] [Netty Epoll Server IO #7/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[21Jan2025 00:19:01.356] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6a533e14[id=2ddd9b46-0427-3b1d-9b4e-0259d562a0a6,name=Lim0ncit0Dulce,properties={},legacy=false] (/127.238.45.75:54357) lost connection: Connection closed - mismatched mod channel list
+[21Jan2025 00:19:10.259] [User Authenticator #9/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Lim0ncit0Dulce is 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[21Jan2025 00:19:10.950] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [libx:netchannel] rejected their client side version number
+[21Jan2025 00:19:10.950] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[21Jan2025 00:19:10.960] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4587aee[id=2ddd9b46-0427-3b1d-9b4e-0259d562a0a6,name=Lim0ncit0Dulce,properties={},legacy=false] (/127.238.45.75:41181) lost connection: Connection closed - mismatched mod channel list
+[21Jan2025 00:20:48.932] [User Authenticator #10/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Lim0ncit0Dulce is 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[21Jan2025 00:20:49.600] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [libx:netchannel] rejected their client side version number
+[21Jan2025 00:20:49.600] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[21Jan2025 00:20:49.607] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@731cfbd1[id=2ddd9b46-0427-3b1d-9b4e-0259d562a0a6,name=Lim0ncit0Dulce,properties={},legacy=false] (/127.238.45.75:38455) lost connection: Connection closed - mismatched mod channel list
+[21Jan2025 00:21:39.691] [User Authenticator #11/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Lim0ncit0Dulce is 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[21Jan2025 00:21:40.395] [Netty Epoll Server IO #7/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [libx:netchannel] rejected their client side version number
+[21Jan2025 00:21:40.395] [Netty Epoll Server IO #7/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[21Jan2025 00:21:40.406] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2ab3f569[id=2ddd9b46-0427-3b1d-9b4e-0259d562a0a6,name=Lim0ncit0Dulce,properties={},legacy=false] (/127.238.45.75:33107) lost connection: Connection closed - mismatched mod channel list
+[21Jan2025 00:22:11.334] [User Authenticator #12/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Lim0ncit0Dulce is 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[21Jan2025 00:22:11.973] [Netty Epoll Server IO #2/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [libx:netchannel] rejected their client side version number
+[21Jan2025 00:22:11.973] [Netty Epoll Server IO #2/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[21Jan2025 00:22:12.006] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@70c14b64[id=2ddd9b46-0427-3b1d-9b4e-0259d562a0a6,name=Lim0ncit0Dulce,properties={},legacy=false] (/127.238.45.75:48671) lost connection: Connection closed - mismatched mod channel list
+[21Jan2025 00:23:14.026] [User Authenticator #13/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Lim0ncit0Dulce is 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[21Jan2025 00:23:14.672] [Netty Epoll Server IO #7/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [libx:netchannel] rejected their client side version number
+[21Jan2025 00:23:14.672] [Netty Epoll Server IO #7/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[21Jan2025 00:23:14.706] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@b19a36[id=2ddd9b46-0427-3b1d-9b4e-0259d562a0a6,name=Lim0ncit0Dulce,properties={},legacy=false] (/127.238.45.75:42645) lost connection: Connection closed - mismatched mod channel list
+[21Jan2025 00:27:06.158] [User Authenticator #14/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Lim0ncit0Dulce is 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[21Jan2025 00:27:06.866] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [libx:netchannel] rejected their client side version number
+[21Jan2025 00:27:06.866] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[21Jan2025 00:27:06.906] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4fe2141c[id=2ddd9b46-0427-3b1d-9b4e-0259d562a0a6,name=Lim0ncit0Dulce,properties={},legacy=false] (/127.238.45.75:43617) lost connection: Connection closed - mismatched mod channel list

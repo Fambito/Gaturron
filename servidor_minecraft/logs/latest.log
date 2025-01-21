@@ -2734,3 +2734,32 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 [21Jan2025 23:20:02.145] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <durooo> a mirá vos
 [21Jan2025 23:20:11.853] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
 [21Jan2025 23:20:11.854] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <durooo> miralo al nene
+[21Jan2025 23:23:22.032] [Craft Scheduler Thread - 16/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 9
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[21Jan2025 23:31:34.290] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/18815, l='ServerLevel[world]', x=644.50, y=12.00, z=-679.50]
+[21Jan2025 23:31:34.290] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/18816, l='ServerLevel[world]', x=644.50, y=11.00, z=-679.50]
+[21Jan2025 23:31:34.290] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/18817, l='ServerLevel[world]', x=644.50, y=10.00, z=-678.50]
+[21Jan2025 23:31:34.291] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/18818, l='ServerLevel[world]', x=643.50, y=10.00, z=-677.50]
+[21Jan2025 23:31:34.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [KEEP ROLLIN' ROLLIN' ROLLIN']
+[21Jan2025 23:31:45.582] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/18863, l='ServerLevel[world]', x=633.50, y=12.00, z=-668.50]
+[21Jan2025 23:31:48.061] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[21Jan2025 23:31:48.062] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <durooo> je
+[21Jan2025 23:31:50.382] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/18866, l='ServerLevel[world]', x=650.50, y=10.00, z=-665.50]
+[21Jan2025 23:31:50.382] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/18867, l='ServerLevel[world]', x=650.50, y=10.00, z=-663.50]
+[21Jan2025 23:31:59.232] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/18912, l='ServerLevel[world]', x=657.50, y=9.00, z=-656.50]
+[21Jan2025 23:31:59.232] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/18913, l='ServerLevel[world]', x=657.50, y=9.00, z=-655.50]
+[21Jan2025 23:31:59.232] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/18914, l='ServerLevel[world]', x=654.50, y=9.00, z=-655.50]
+[21Jan2025 23:31:59.232] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/18915, l='ServerLevel[world]', x=656.50, y=9.00, z=-655.50]
+[21Jan2025 23:32:05.833] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/18951, l='ServerLevel[world]', x=651.50, y=11.00, z=-670.50]
+[21Jan2025 23:32:05.834] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/18952, l='ServerLevel[world]', x=653.50, y=11.00, z=-668.50]
+[21Jan2025 23:32:06.682] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/18954, l='ServerLevel[world]', x=653.50, y=11.00, z=-668.50]
+[21Jan2025 23:32:09.482] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/18960, l='ServerLevel[world]', x=653.50, y=12.00, z=-672.50]
+[21Jan2025 23:32:09.482] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/18961, l='ServerLevel[world]', x=654.50, y=11.00, z=-671.50]

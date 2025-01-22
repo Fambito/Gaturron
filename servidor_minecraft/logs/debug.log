@@ -21389,3 +21389,516 @@ java.lang.IllegalStateException: Asynchronous chunk entity get!
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
 	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
 [22Jan2025 19:23:52.351] [Async Chat Thread - #27/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzzz
+[22Jan2025 19:24:41.786] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Jan2025 19:24:41.793] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Jan2025 19:24:47.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo was slain by Spider
+[22Jan2025 19:25:22.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: franciscum was slain by Baby Skeleton
+[22Jan2025 19:25:57.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW was slain by Crocodile
+[22Jan2025 19:26:06.183] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpa alexis83
+[22Jan2025 19:26:08.914] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:26:08.914] [Netty Epoll Server IO #7/DEBUG] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+java.lang.IllegalStateException: Asynchronous chunk entity get!
+	at io.izzel.arclight.boot.asm.AsyncCatcher.checkOp(AsyncCatcher.java:235) [arclight.jar%2381!/:arclight-1.19.2-1.0.5-696a298] {}
+	at net.minecraft.server.level.ServerLevel.m_142646_(ServerLevelMixin.java) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,re:classloading,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,pl:mixin:APP:mixins.arclight.core.json:server.level.ServerLevelMixin,pl:mixin:APP:forge-mca.mixin.json:MixinServerWorld,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:activationrange.ServerWorldMixin_ActivationRange,pl:mixin:A,pl:arclight_implementer:async,pl:arclight_implementer:A,re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer}
+	at net.minecraft.world.level.Level.m_142425_(LevelMixin.java:614) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:world.level.LevelMixin,pl:mixin:APP:citadel.mixins.json:LevelMixin,pl:mixin:APP:sereneseasons.mixins.json:MixinLevel,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.world.level.EntityGetter.m_6443_(EntityGetter.java:27) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,re:mixin,re:classloading,re:mixin}
+	at net.minecraft.world.level.EntityGetter.m_45976_(EntityGetter.java:52) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,re:mixin,re:classloading,re:mixin}
+	at forge.net.mca.util.WorldUtils.getCloseEntities(WorldUtils.java:42) [minecraft-comes-alive-7.5.14+1.19.2-universal.jar%23233!/:?] {re:mixin,re:classloading}
+	at forge.net.mca.util.WorldUtils.getCloseEntities(WorldUtils.java:38) [minecraft-comes-alive-7.5.14+1.19.2-universal.jar%23233!/:?] {re:mixin,re:classloading}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handler$zbh000$sendMessage(ServerPlayNetHandlerMixin.java:3900) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7388_(ServerPlayNetHandlerMixin.java) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:38) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,re:classloading}
+	at net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:14) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,re:classloading}
+	at net.minecraft.network.Connection.m_129517_(ConnectionMixin.java:163) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at net.minecraft.network.Connection.channelRead0(ConnectionMixin.java:148) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at net.minecraft.network.Connection.channelRead0(ConnectionMixin.java:48) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {re:mixin,re:computing_frames}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [netty-handler-4.1.77.Final.jar%23115!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:487) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:385) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) [netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 19:26:08.923] [Async Chat Thread - #28/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[22Jan2025 19:26:10.820] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 19:26:55.383] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:26:55.383] [Netty Epoll Server IO #6/DEBUG] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+java.lang.IllegalStateException: Asynchronous chunk entity get!
+	at io.izzel.arclight.boot.asm.AsyncCatcher.checkOp(AsyncCatcher.java:235) [arclight.jar%2381!/:arclight-1.19.2-1.0.5-696a298] {}
+	at net.minecraft.server.level.ServerLevel.m_142646_(ServerLevelMixin.java) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,re:classloading,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,pl:mixin:APP:mixins.arclight.core.json:server.level.ServerLevelMixin,pl:mixin:APP:forge-mca.mixin.json:MixinServerWorld,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:activationrange.ServerWorldMixin_ActivationRange,pl:mixin:A,pl:arclight_implementer:async,pl:arclight_implementer:A,re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer}
+	at net.minecraft.world.level.Level.m_142425_(LevelMixin.java:614) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:world.level.LevelMixin,pl:mixin:APP:citadel.mixins.json:LevelMixin,pl:mixin:APP:sereneseasons.mixins.json:MixinLevel,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.world.level.EntityGetter.m_6443_(EntityGetter.java:27) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,re:mixin,re:classloading,re:mixin}
+	at net.minecraft.world.level.EntityGetter.m_45976_(EntityGetter.java:52) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,re:mixin,re:classloading,re:mixin}
+	at forge.net.mca.util.WorldUtils.getCloseEntities(WorldUtils.java:42) [minecraft-comes-alive-7.5.14+1.19.2-universal.jar%23233!/:?] {re:mixin,re:classloading}
+	at forge.net.mca.util.WorldUtils.getCloseEntities(WorldUtils.java:38) [minecraft-comes-alive-7.5.14+1.19.2-universal.jar%23233!/:?] {re:mixin,re:classloading}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handler$zbh000$sendMessage(ServerPlayNetHandlerMixin.java:3900) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7388_(ServerPlayNetHandlerMixin.java) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:38) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,re:classloading}
+	at net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:14) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,re:classloading}
+	at net.minecraft.network.Connection.m_129517_(ConnectionMixin.java:163) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at net.minecraft.network.Connection.channelRead0(ConnectionMixin.java:148) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at net.minecraft.network.Connection.channelRead0(ConnectionMixin.java:48) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {re:mixin,re:computing_frames}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [netty-handler-4.1.77.Final.jar%23115!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:487) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:385) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) [netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 19:26:55.384] [Async Chat Thread - #28/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> che anto
+[22Jan2025 19:26:59.919] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:26:59.919] [Netty Epoll Server IO #6/DEBUG] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+java.lang.IllegalStateException: Asynchronous chunk entity get!
+	at io.izzel.arclight.boot.asm.AsyncCatcher.checkOp(AsyncCatcher.java:235) [arclight.jar%2381!/:arclight-1.19.2-1.0.5-696a298] {}
+	at net.minecraft.server.level.ServerLevel.m_142646_(ServerLevelMixin.java) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,re:classloading,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,pl:mixin:APP:mixins.arclight.core.json:server.level.ServerLevelMixin,pl:mixin:APP:forge-mca.mixin.json:MixinServerWorld,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:activationrange.ServerWorldMixin_ActivationRange,pl:mixin:A,pl:arclight_implementer:async,pl:arclight_implementer:A,re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer}
+	at net.minecraft.world.level.Level.m_142425_(LevelMixin.java:614) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:world.level.LevelMixin,pl:mixin:APP:citadel.mixins.json:LevelMixin,pl:mixin:APP:sereneseasons.mixins.json:MixinLevel,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.world.level.EntityGetter.m_6443_(EntityGetter.java:27) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,re:mixin,re:classloading,re:mixin}
+	at net.minecraft.world.level.EntityGetter.m_45976_(EntityGetter.java:52) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,re:mixin,re:classloading,re:mixin}
+	at forge.net.mca.util.WorldUtils.getCloseEntities(WorldUtils.java:42) [minecraft-comes-alive-7.5.14+1.19.2-universal.jar%23233!/:?] {re:mixin,re:classloading}
+	at forge.net.mca.util.WorldUtils.getCloseEntities(WorldUtils.java:38) [minecraft-comes-alive-7.5.14+1.19.2-universal.jar%23233!/:?] {re:mixin,re:classloading}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handler$zbh000$sendMessage(ServerPlayNetHandlerMixin.java:3900) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7388_(ServerPlayNetHandlerMixin.java) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:38) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,re:classloading}
+	at net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:14) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,re:classloading}
+	at net.minecraft.network.Connection.m_129517_(ConnectionMixin.java:163) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at net.minecraft.network.Connection.channelRead0(ConnectionMixin.java:148) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at net.minecraft.network.Connection.channelRead0(ConnectionMixin.java:48) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {re:mixin,re:computing_frames}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [netty-handler-4.1.77.Final.jar%23115!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:487) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:385) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) [netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 19:26:59.919] [Async Chat Thread - #28/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> encontramos un cocodrilo
+[22Jan2025 19:27:02.736] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:27:02.736] [Netty Epoll Server IO #6/DEBUG] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+java.lang.IllegalStateException: Asynchronous chunk entity get!
+	at io.izzel.arclight.boot.asm.AsyncCatcher.checkOp(AsyncCatcher.java:235) [arclight.jar%2381!/:arclight-1.19.2-1.0.5-696a298] {}
+	at net.minecraft.server.level.ServerLevel.m_142646_(ServerLevelMixin.java) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,re:classloading,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,pl:mixin:APP:mixins.arclight.core.json:server.level.ServerLevelMixin,pl:mixin:APP:forge-mca.mixin.json:MixinServerWorld,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:activationrange.ServerWorldMixin_ActivationRange,pl:mixin:A,pl:arclight_implementer:async,pl:arclight_implementer:A,re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer}
+	at net.minecraft.world.level.Level.m_142425_(LevelMixin.java:614) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:world.level.LevelMixin,pl:mixin:APP:citadel.mixins.json:LevelMixin,pl:mixin:APP:sereneseasons.mixins.json:MixinLevel,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.world.level.EntityGetter.m_6443_(EntityGetter.java:27) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,re:mixin,re:classloading,re:mixin}
+	at net.minecraft.world.level.EntityGetter.m_45976_(EntityGetter.java:52) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,re:mixin,re:classloading,re:mixin}
+	at forge.net.mca.util.WorldUtils.getCloseEntities(WorldUtils.java:42) [minecraft-comes-alive-7.5.14+1.19.2-universal.jar%23233!/:?] {re:mixin,re:classloading}
+	at forge.net.mca.util.WorldUtils.getCloseEntities(WorldUtils.java:38) [minecraft-comes-alive-7.5.14+1.19.2-universal.jar%23233!/:?] {re:mixin,re:classloading}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handler$zbh000$sendMessage(ServerPlayNetHandlerMixin.java:3900) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7388_(ServerPlayNetHandlerMixin.java) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:38) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,re:classloading}
+	at net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:14) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,re:classloading}
+	at net.minecraft.network.Connection.m_129517_(ConnectionMixin.java:163) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at net.minecraft.network.Connection.channelRead0(ConnectionMixin.java:148) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at net.minecraft.network.Connection.channelRead0(ConnectionMixin.java:48) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {re:mixin,re:computing_frames}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [netty-handler-4.1.77.Final.jar%23115!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:487) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:385) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) [netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 19:27:02.737] [Async Chat Thread - #28/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> capaz que es aa
+[22Jan2025 19:27:09.121] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa alexis83
+[22Jan2025 19:27:13.498] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 19:27:25.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Chompy]
+[22Jan2025 19:28:08.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW has made the advancement [Cobweb Entanglement]
+[22Jan2025 19:28:10.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo has made the advancement [Cobweb Entanglement]
+[22Jan2025 19:28:28.177] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo moved wrongly!
+[22Jan2025 19:28:41.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Cobweb Entanglement]
+[22Jan2025 19:29:09.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo was slain by Cave Spider
+[22Jan2025 19:29:21.415] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa alexis83
+[22Jan2025 19:29:25.448] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 19:29:41.775] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Jan2025 19:29:41.782] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Jan2025 19:29:41.822] [Craft Scheduler Thread - 34/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 9
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 19:32:00.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo was doomed to fall by PanchikoKW
+[22Jan2025 19:32:05.456] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:32:05.456] [Netty Epoll Server IO #7/DEBUG] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+java.lang.IllegalStateException: Asynchronous chunk entity get!
+	at io.izzel.arclight.boot.asm.AsyncCatcher.checkOp(AsyncCatcher.java:235) [arclight.jar%2381!/:arclight-1.19.2-1.0.5-696a298] {}
+	at net.minecraft.server.level.ServerLevel.m_142646_(ServerLevelMixin.java) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,re:classloading,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,pl:mixin:APP:mixins.arclight.core.json:server.level.ServerLevelMixin,pl:mixin:APP:forge-mca.mixin.json:MixinServerWorld,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:activationrange.ServerWorldMixin_ActivationRange,pl:mixin:A,pl:arclight_implementer:async,pl:arclight_implementer:A,re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer}
+	at net.minecraft.world.level.Level.m_142425_(LevelMixin.java:614) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:world.level.LevelMixin,pl:mixin:APP:citadel.mixins.json:LevelMixin,pl:mixin:APP:sereneseasons.mixins.json:MixinLevel,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.world.level.EntityGetter.m_6443_(EntityGetter.java:27) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,re:mixin,re:classloading,re:mixin}
+	at net.minecraft.world.level.EntityGetter.m_45976_(EntityGetter.java:52) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,re:mixin,re:classloading,re:mixin}
+	at forge.net.mca.util.WorldUtils.getCloseEntities(WorldUtils.java:42) [minecraft-comes-alive-7.5.14+1.19.2-universal.jar%23233!/:?] {re:mixin,re:classloading}
+	at forge.net.mca.util.WorldUtils.getCloseEntities(WorldUtils.java:38) [minecraft-comes-alive-7.5.14+1.19.2-universal.jar%23233!/:?] {re:mixin,re:classloading}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handler$zbh000$sendMessage(ServerPlayNetHandlerMixin.java:3900) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7388_(ServerPlayNetHandlerMixin.java) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:38) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,re:classloading}
+	at net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:14) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,re:classloading}
+	at net.minecraft.network.Connection.m_129517_(ConnectionMixin.java:163) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at net.minecraft.network.Connection.channelRead0(ConnectionMixin.java:148) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at net.minecraft.network.Connection.channelRead0(ConnectionMixin.java:48) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {re:mixin,re:computing_frames}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [netty-handler-4.1.77.Final.jar%23115!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:487) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:385) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) [netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 19:32:05.471] [Async Chat Thread - #29/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> NOO
+[22Jan2025 19:32:14.917] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa PanchikoKW
+[22Jan2025 19:32:23.721] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpaccept
+[22Jan2025 19:34:41.781] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Jan2025 19:34:41.788] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Jan2025 19:34:55.668] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa alexis83
+[22Jan2025 19:36:42.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo was slain by Ogre
+[22Jan2025 19:36:42.939] [Netty Epoll Server IO #1/ERROR] [net.bettercombat.network.ServerNetwork/]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[22Jan2025 19:36:42.939] [Netty Epoll Server IO #1/ERROR] [net.bettercombat.network.ServerNetwork/]: Combo count: 3 is dual wielding: false
+[22Jan2025 19:36:42.939] [Netty Epoll Server IO #1/ERROR] [net.bettercombat.network.ServerNetwork/]: Main-hand stack: 1 air
+[22Jan2025 19:36:42.939] [Netty Epoll Server IO #1/ERROR] [net.bettercombat.network.ServerNetwork/]: Off-hand stack: 1 air
+[22Jan2025 19:36:42.939] [Netty Epoll Server IO #1/ERROR] [net.bettercombat.network.ServerNetwork/]: Selected slot server: 1 | client: 1
+[22Jan2025 19:36:51.716] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa PanchikoKW
+[22Jan2025 19:36:54.379] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpaccept
+[22Jan2025 19:37:50.669] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:37:50.669] [Netty Epoll Server IO #7/DEBUG] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+java.lang.IllegalStateException: Asynchronous chunk entity get!
+	at io.izzel.arclight.boot.asm.AsyncCatcher.checkOp(AsyncCatcher.java:235) [arclight.jar%2381!/:arclight-1.19.2-1.0.5-696a298] {}
+	at net.minecraft.server.level.ServerLevel.m_142646_(ServerLevelMixin.java) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,re:classloading,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,pl:mixin:APP:mixins.arclight.core.json:server.level.ServerLevelMixin,pl:mixin:APP:forge-mca.mixin.json:MixinServerWorld,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:activationrange.ServerWorldMixin_ActivationRange,pl:mixin:A,pl:arclight_implementer:async,pl:arclight_implementer:A,re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer}
+	at net.minecraft.world.level.Level.m_142425_(LevelMixin.java:614) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:world.level.LevelMixin,pl:mixin:APP:citadel.mixins.json:LevelMixin,pl:mixin:APP:sereneseasons.mixins.json:MixinLevel,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.world.level.EntityGetter.m_6443_(EntityGetter.java:27) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,re:mixin,re:classloading,re:mixin}
+	at net.minecraft.world.level.EntityGetter.m_45976_(EntityGetter.java:52) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,re:mixin,re:classloading,re:mixin}
+	at forge.net.mca.util.WorldUtils.getCloseEntities(WorldUtils.java:42) [minecraft-comes-alive-7.5.14+1.19.2-universal.jar%23233!/:?] {re:mixin,re:classloading}
+	at forge.net.mca.util.WorldUtils.getCloseEntities(WorldUtils.java:38) [minecraft-comes-alive-7.5.14+1.19.2-universal.jar%23233!/:?] {re:mixin,re:classloading}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handler$zbh000$sendMessage(ServerPlayNetHandlerMixin.java:3900) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7388_(ServerPlayNetHandlerMixin.java) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:38) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,re:classloading}
+	at net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:14) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,re:classloading}
+	at net.minecraft.network.Connection.m_129517_(ConnectionMixin.java:163) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at net.minecraft.network.Connection.channelRead0(ConnectionMixin.java:148) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at net.minecraft.network.Connection.channelRead0(ConnectionMixin.java:48) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {re:mixin,re:computing_frames}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [netty-handler-4.1.77.Final.jar%23115!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:487) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:385) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) [netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 19:37:50.670] [Async Chat Thread - #30/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzzz
+[22Jan2025 19:38:13.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo was shot by Skeleton
+[22Jan2025 19:38:15.378] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:38:15.378] [Netty Epoll Server IO #7/DEBUG] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+java.lang.IllegalStateException: Asynchronous chunk entity get!
+	at io.izzel.arclight.boot.asm.AsyncCatcher.checkOp(AsyncCatcher.java:235) [arclight.jar%2381!/:arclight-1.19.2-1.0.5-696a298] {}
+	at net.minecraft.server.level.ServerLevel.m_142646_(ServerLevelMixin.java) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,re:classloading,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,pl:mixin:APP:mixins.arclight.core.json:server.level.ServerLevelMixin,pl:mixin:APP:forge-mca.mixin.json:MixinServerWorld,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:activationrange.ServerWorldMixin_ActivationRange,pl:mixin:A,pl:arclight_implementer:async,pl:arclight_implementer:A,re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer}
+	at net.minecraft.world.level.Level.m_142425_(LevelMixin.java:614) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:world.level.LevelMixin,pl:mixin:APP:citadel.mixins.json:LevelMixin,pl:mixin:APP:sereneseasons.mixins.json:MixinLevel,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.world.level.EntityGetter.m_6443_(EntityGetter.java:27) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,re:mixin,re:classloading,re:mixin}
+	at net.minecraft.world.level.EntityGetter.m_45976_(EntityGetter.java:52) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,re:mixin,re:classloading,re:mixin}
+	at forge.net.mca.util.WorldUtils.getCloseEntities(WorldUtils.java:42) [minecraft-comes-alive-7.5.14+1.19.2-universal.jar%23233!/:?] {re:mixin,re:classloading}
+	at forge.net.mca.util.WorldUtils.getCloseEntities(WorldUtils.java:38) [minecraft-comes-alive-7.5.14+1.19.2-universal.jar%23233!/:?] {re:mixin,re:classloading}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handler$zbh000$sendMessage(ServerPlayNetHandlerMixin.java:3900) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7388_(ServerPlayNetHandlerMixin.java) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:38) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,re:classloading}
+	at net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:14) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,re:classloading}
+	at net.minecraft.network.Connection.m_129517_(ConnectionMixin.java:163) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at net.minecraft.network.Connection.channelRead0(ConnectionMixin.java:148) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at net.minecraft.network.Connection.channelRead0(ConnectionMixin.java:48) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {re:mixin,re:computing_frames}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [netty-handler-4.1.77.Final.jar%23115!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:487) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:385) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) [netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 19:38:15.379] [Async Chat Thread - #30/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[22Jan2025 19:38:23.648] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:38:23.649] [Netty Epoll Server IO #4/DEBUG] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+java.lang.IllegalStateException: Asynchronous chunk entity get!
+	at io.izzel.arclight.boot.asm.AsyncCatcher.checkOp(AsyncCatcher.java:235) [arclight.jar%2381!/:arclight-1.19.2-1.0.5-696a298] {}
+	at net.minecraft.server.level.ServerLevel.m_142646_(ServerLevelMixin.java) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,re:classloading,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,pl:mixin:APP:mixins.arclight.core.json:server.level.ServerLevelMixin,pl:mixin:APP:forge-mca.mixin.json:MixinServerWorld,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:activationrange.ServerWorldMixin_ActivationRange,pl:mixin:A,pl:arclight_implementer:async,pl:arclight_implementer:A,re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer}
+	at net.minecraft.world.level.Level.m_142425_(LevelMixin.java:614) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:world.level.LevelMixin,pl:mixin:APP:citadel.mixins.json:LevelMixin,pl:mixin:APP:sereneseasons.mixins.json:MixinLevel,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.world.level.EntityGetter.m_6443_(EntityGetter.java:27) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,re:mixin,re:classloading,re:mixin}
+	at net.minecraft.world.level.EntityGetter.m_45976_(EntityGetter.java:52) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,re:mixin,re:classloading,re:mixin}
+	at forge.net.mca.util.WorldUtils.getCloseEntities(WorldUtils.java:42) [minecraft-comes-alive-7.5.14+1.19.2-universal.jar%23233!/:?] {re:mixin,re:classloading}
+	at forge.net.mca.util.WorldUtils.getCloseEntities(WorldUtils.java:38) [minecraft-comes-alive-7.5.14+1.19.2-universal.jar%23233!/:?] {re:mixin,re:classloading}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handler$zbh000$sendMessage(ServerPlayNetHandlerMixin.java:3900) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7388_(ServerPlayNetHandlerMixin.java) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:38) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,re:classloading}
+	at net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:14) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,re:classloading}
+	at net.minecraft.network.Connection.m_129517_(ConnectionMixin.java:163) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at net.minecraft.network.Connection.channelRead0(ConnectionMixin.java:148) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at net.minecraft.network.Connection.channelRead0(ConnectionMixin.java:48) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {re:mixin,re:computing_frames}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [netty-handler-4.1.77.Final.jar%23115!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:487) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:385) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) [netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 19:38:23.649] [Async Chat Thread - #30/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <franciscum> zzz
+[22Jan2025 19:38:25.133] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa alexis83
+[22Jan2025 19:38:27.049] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 19:39:41.781] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Jan2025 19:39:41.788] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Jan2025 19:41:52.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo tried to swim in lava
+[22Jan2025 19:41:58.568] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:41:58.568] [Netty Epoll Server IO #1/DEBUG] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+java.lang.IllegalStateException: Asynchronous chunk entity get!
+	at io.izzel.arclight.boot.asm.AsyncCatcher.checkOp(AsyncCatcher.java:235) [arclight.jar%2381!/:arclight-1.19.2-1.0.5-696a298] {}
+	at net.minecraft.server.level.ServerLevel.m_142646_(ServerLevelMixin.java) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,re:classloading,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer,pl:mixin:APP:mixins.arclight.core.json:server.level.ServerLevelMixin,pl:mixin:APP:forge-mca.mixin.json:MixinServerWorld,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:activationrange.ServerWorldMixin_ActivationRange,pl:mixin:A,pl:arclight_implementer:async,pl:arclight_implementer:A,re:mixin,pl:accesstransformer:B,xf:fml:sereneseasons:temperature_transformer}
+	at net.minecraft.world.level.Level.m_142425_(LevelMixin.java:614) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:world.level.LevelMixin,pl:mixin:APP:citadel.mixins.json:LevelMixin,pl:mixin:APP:sereneseasons.mixins.json:MixinLevel,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.world.level.EntityGetter.m_6443_(EntityGetter.java:27) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,re:mixin,re:classloading,re:mixin}
+	at net.minecraft.world.level.EntityGetter.m_45976_(EntityGetter.java:52) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:computing_frames,re:mixin,re:classloading,re:mixin}
+	at forge.net.mca.util.WorldUtils.getCloseEntities(WorldUtils.java:42) [minecraft-comes-alive-7.5.14+1.19.2-universal.jar%23233!/:?] {re:mixin,re:classloading}
+	at forge.net.mca.util.WorldUtils.getCloseEntities(WorldUtils.java:38) [minecraft-comes-alive-7.5.14+1.19.2-universal.jar%23233!/:?] {re:mixin,re:classloading}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handler$zbh000$sendMessage(ServerPlayNetHandlerMixin.java:3900) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7388_(ServerPlayNetHandlerMixin.java) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:38) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,re:classloading}
+	at net.minecraft.network.protocol.game.ServerboundChatPacket.m_5797_(ServerboundChatPacket.java:14) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,re:classloading}
+	at net.minecraft.network.Connection.m_129517_(ConnectionMixin.java:163) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at net.minecraft.network.Connection.channelRead0(ConnectionMixin.java:148) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at net.minecraft.network.Connection.channelRead0(ConnectionMixin.java:48) [server-1.19.2-20220805.130853-srg.jar%23253!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A}
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {re:mixin,re:computing_frames}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [netty-handler-4.1.77.Final.jar%23115!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:487) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:385) [netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) [netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 19:41:58.569] [Async Chat Thread - #31/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> AAAAA
+[22Jan2025 19:42:05.823] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa alexis83
+[22Jan2025 19:42:08.319] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 19:43:26.188] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Grażyna'/106853, l='ServerLevel[world]', x=-1494.72, y=64.94, z=-748.01] died: Grażyna was slain by Lim0ncit0Dulce
+[22Jan2025 19:43:27.493] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Kazimierz'/106854, l='ServerLevel[world]', x=-1494.09, y=64.94, z=-749.78] died: Kazimierz was slain by Lim0ncit0Dulce
+[22Jan2025 19:44:19.986] [Server thread/DEBUG] [Arclight/]: Mismatch in destroy block pos: BlockPos{x=-1473, y=67, z=-731} BlockPos{x=-1473, y=66, z=-730}

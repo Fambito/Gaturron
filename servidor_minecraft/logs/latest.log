@@ -214,3 +214,102 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 [22Jan2025 01:30:19.635] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 lost connection: Disconnected
 [22Jan2025 01:30:19.635] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client alexis83
 [22Jan2025 01:30:19.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 left the game
+[22Jan2025 01:36:20.661] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 905d1f7b-6652-3a99-9dd9-a3db220a872b timed out
+[22Jan2025 01:36:20.661] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player PanchikoKW
+[22Jan2025 01:36:20.662] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to PanchikoKW
+[22Jan2025 01:36:26.715] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 01:36:27.749] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 01:36:27.749] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player PanchikoKW (905d1f7b-6652-3a99-9dd9-a3db220a872b) successfully connected to voice chat
+[22Jan2025 01:36:31.135] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo lost connection: Disconnected
+[22Jan2025 01:36:31.135] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Antoo
+[22Jan2025 01:36:31.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo left the game
+[22Jan2025 01:37:03.708] [User Authenticator #10/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Antoo is 926f7f75-e294-302f-bf87-3723814d111d
+[22Jan2025 01:37:09.835] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@66cb8b68
+[22Jan2025 01:37:09.841] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Antoo[/127.135.177.225:49557] logged in with entity id 64083 at (742.1419043014796, 124.7531999805212, -750.6999999880791)
+[22Jan2025 01:37:09.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo joined the game
+[22Jan2025 01:37:11.220] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Antoo (18)
+[22Jan2025 01:37:11.220] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Antoo
+[22Jan2025 01:37:11.994] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW lost connection: Disconnected
+[22Jan2025 01:37:11.994] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client PanchikoKW
+[22Jan2025 01:37:12.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW left the game
+[22Jan2025 01:37:22.373] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 926f7f75-e294-302f-bf87-3723814d111d
+[22Jan2025 01:37:24.372] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 926f7f75-e294-302f-bf87-3723814d111d
+[22Jan2025 01:37:24.372] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Antoo (926f7f75-e294-302f-bf87-3723814d111d) successfully connected to voice chat
+[22Jan2025 01:38:22.030] [User Authenticator #11/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player PanchikoKW is 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 01:38:24.720] [Craft Scheduler Thread - 46/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 9
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 01:38:24.987] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@71ccb901
+[22Jan2025 01:38:24.992] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PanchikoKW[/127.61.240.200:48127] logged in with entity id 64394 at (315.09417297888604, 35.0, -695.8742155176456)
+[22Jan2025 01:38:24.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW joined the game
+[22Jan2025 01:38:26.042] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of PanchikoKW (18)
+[22Jan2025 01:38:26.043] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to PanchikoKW
+[22Jan2025 01:38:28.662] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 01:38:29.657] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 01:38:29.658] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player PanchikoKW (905d1f7b-6652-3a99-9dd9-a3db220a872b) successfully connected to voice chat
+[22Jan2025 01:39:08.683] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo lost connection: Disconnected
+[22Jan2025 01:39:08.683] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Antoo
+[22Jan2025 01:39:08.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo left the game
+[22Jan2025 01:41:08.411] [User Authenticator #12/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player alexis83 is d5349a20-7346-31c5-8498-83a2f839afa6
+[22Jan2025 01:41:12.140] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7717f5da
+[22Jan2025 01:41:12.146] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: alexis83[/127.205.233.85:33601] logged in with entity id 65382 at (704.6673099142286, 101.0, -735.4078417404446)
+[22Jan2025 01:41:12.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 joined the game
+[22Jan2025 01:41:14.358] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of alexis83 (18)
+[22Jan2025 01:41:14.358] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to alexis83
+[22Jan2025 01:41:14.359] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW moved too quickly! -8.684866561640888,-4.23363200604248,2.846573848184221
+[22Jan2025 01:41:14.359] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2131ms or 42 ticks behind
+[22Jan2025 01:41:15.268] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player d5349a20-7346-31c5-8498-83a2f839afa6
+[22Jan2025 01:41:16.269] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player d5349a20-7346-31c5-8498-83a2f839afa6
+[22Jan2025 01:41:16.269] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player alexis83 (d5349a20-7346-31c5-8498-83a2f839afa6) successfully connected to voice chat
+[22Jan2025 01:44:03.097] [Server thread/INFO] [forge.net.mca.MCA/]: literal{Volkmar}[style={}] has been infected
+[22Jan2025 01:44:08.742] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager VillagerEntityMCA['Volkmar'/64898, l='ServerLevel[world]', x=130.98, y=70.00, z=-837.54] died, message: 'Volkmar was slain by Zombie'
+[22Jan2025 01:44:08.742] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VillagerEntityMCA['Volkmar'/64898, l='ServerLevel[world]', x=130.98, y=70.00, z=-837.54] died: Volkmar was slain by Zombie
+[22Jan2025 01:45:36.289] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 lost connection: Disconnected
+[22Jan2025 01:45:36.289] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client alexis83
+[22Jan2025 01:45:36.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 left the game
+[22Jan2025 01:53:26.819] [Craft Scheduler Thread - 50/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 9
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 01:58:12.974] [User Authenticator #13/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player alexis83 is d5349a20-7346-31c5-8498-83a2f839afa6
+[22Jan2025 01:58:18.140] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1dfc83ce
+[22Jan2025 01:58:18.146] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: alexis83[/127.205.233.85:40405] logged in with entity id 69006 at (707.7600614657372, 115.0, -742.8478761357132)
+[22Jan2025 01:58:18.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 joined the game
+[22Jan2025 01:58:20.211] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of alexis83 (18)
+[22Jan2025 01:58:20.211] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to alexis83
+[22Jan2025 01:58:22.536] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player d5349a20-7346-31c5-8498-83a2f839afa6
+[22Jan2025 01:58:23.539] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player d5349a20-7346-31c5-8498-83a2f839afa6
+[22Jan2025 01:58:23.539] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player alexis83 (d5349a20-7346-31c5-8498-83a2f839afa6) successfully connected to voice chat
+[22Jan2025 01:58:23.863] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 01:58:23.864] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Pollera
+[22Jan2025 01:58:41.152] [Netty Epoll Server IO #0/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 01:58:41.153] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> conchudita
+[22Jan2025 01:59:22.195] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 01:59:22.196] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Como le pegue eh
+[22Jan2025 01:59:28.835] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 01:59:28.835] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Y si, si te re conozco
+[22Jan2025 02:01:57.632] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 lost connection: Disconnected
+[22Jan2025 02:01:57.632] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client alexis83
+[22Jan2025 02:01:57.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 left the game
+[22Jan2025 02:03:13.499] [User Authenticator #14/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Antoo is 926f7f75-e294-302f-bf87-3723814d111d
+[22Jan2025 02:03:20.085] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@77c4bafe
+[22Jan2025 02:03:20.089] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Antoo[/127.135.177.225:37163] logged in with entity id 70636 at (644.2412200517151, 87.0, -676.6865840342501)
+[22Jan2025 02:03:20.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo joined the game
+[22Jan2025 02:03:21.711] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Antoo (18)
+[22Jan2025 02:03:21.712] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Antoo
+[22Jan2025 02:03:29.590] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 926f7f75-e294-302f-bf87-3723814d111d
+[22Jan2025 02:03:30.597] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 926f7f75-e294-302f-bf87-3723814d111d
+[22Jan2025 02:03:30.597] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Antoo (926f7f75-e294-302f-bf87-3723814d111d) successfully connected to voice chat

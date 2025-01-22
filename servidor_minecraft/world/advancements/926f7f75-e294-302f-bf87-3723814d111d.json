@@ -263,6 +263,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-22 17:27:13 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/cooking/beef_stew": {
     "criteria": {
       "has_any_ingredient": "2025-01-20 02:32:41 +0000"
@@ -362,6 +368,12 @@
   "minecraft:recipes/building_blocks/blue_wool": {
     "criteria": {
       "has_white_wool": "2025-01-22 00:51:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-22 17:27:13 +0000"
     },
     "done": true
   },
@@ -473,6 +485,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-22 17:27:13 +0000"
+    },
+    "done": true
+  },
   "infernalexp:recipes/redstone/soul_slate_button": {
     "criteria": {
       "has_soul_slate": "2025-01-20 02:16:47 +0000"
@@ -513,12 +531,6 @@
     "criteria": {
       "minecraft:skeleton": "2025-01-20 02:43:49 +0000",
       "minecraft:zombie": "2025-01-20 02:25:00 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-22 02:54:56 +0000"
     },
     "done": false
   },
@@ -702,6 +714,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-01-22 17:34:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/blue_dye_from_cornflower": {
     "criteria": {
       "has_cornflower": "2025-01-20 03:48:12 +0000"
@@ -737,12 +755,6 @@
       "has_iron_ingot": "2025-01-21 02:45:10 +0000"
     },
     "done": true
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-22 02:54:56 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/building_blocks/spruce_wood": {
     "criteria": {
@@ -825,6 +837,12 @@
   "minecraft:recipes/tools/iron_axe": {
     "criteria": {
       "has_iron_ingot": "2025-01-21 02:45:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-22 17:27:13 +0000"
     },
     "done": true
   },
@@ -948,6 +966,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-01-22 17:34:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-01-21 02:48:01 +0000"
@@ -996,11 +1020,17 @@
     },
     "done": true
   },
-  "incendium:technical/multiplex_crossbow": {
+  "alexsmobs:alexsmobs/seagull_steal": {
     "criteria": {
-      "log_spam_fixer": "2025-01-22 02:54:56 +0000"
+      "ex": "2025-01-22 17:24:20 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall": {
+    "criteria": {
+      "has_diorite": "2025-01-22 17:34:18 +0000"
+    },
+    "done": true
   },
   "infernalexp:recipes/combat/glowsilk_bow": {
     "criteria": {
@@ -1013,12 +1043,6 @@
       "has_cobblestone": "2025-01-20 02:31:28 +0000"
     },
     "done": true
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-22 02:54:56 +0000"
-    },
-    "done": false
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
@@ -1110,12 +1134,6 @@
       "has_iron_ingot": "2025-01-21 02:45:10 +0000"
     },
     "done": true
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-22 02:54:56 +0000"
-    },
-    "done": false
   },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
@@ -1219,6 +1237,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_diorite": "2025-01-22 17:34:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/andesite_wall": {
     "criteria": {
       "has_andesite": "2025-01-21 21:59:13 +0000"
@@ -1296,12 +1320,6 @@
       "has_white_wool": "2025-01-22 00:51:14 +0000"
     },
     "done": true
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-22 02:54:56 +0000"
-    },
-    "done": false
   },
   "infernalexp:recipes/redstone/smooth_glowstone_button": {
     "criteria": {
@@ -1396,6 +1414,12 @@
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2025-01-20 03:12:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-01-22 17:34:18 +0000"
     },
     "done": true
   },
@@ -1544,6 +1568,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diorite_slab": {
+    "criteria": {
+      "has_diorite": "2025-01-22 17:34:18 +0000"
+    },
+    "done": true
+  },
   "decorative_blocks:recipes/decorative_blocks.general/oak_palisade": {
     "criteria": {
       "has_log": "2025-01-20 02:29:52 +0000"
@@ -1580,6 +1610,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-01-22 17:34:18 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/using/shield": {
     "criteria": {
       "log_spam_fixer": "2025-01-20 02:16:48 +0000"
@@ -1601,6 +1637,12 @@
   "minecraft:recipes/building_blocks/glass": {
     "criteria": {
       "has_sand": "2025-01-21 05:34:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2025-01-22 17:26:10 +0000"
     },
     "done": true
   },
@@ -1658,6 +1700,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-01-22 17:34:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-01-21 02:48:01 +0000"
@@ -1679,6 +1727,12 @@
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2025-01-22 01:15:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-22 17:27:13 +0000"
     },
     "done": true
   },
@@ -1802,12 +1856,6 @@
     },
     "done": true
   },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-22 02:54:56 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-01-21 02:48:01 +0000"
@@ -1922,17 +1970,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-22 17:27:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
       "has_gold_nugget": "2025-01-21 03:02:39 +0000"
     },
     "done": true
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-22 02:54:56 +0000"
-    },
-    "done": false
   },
   "minecraft:story/mine_diamond": {
     "criteria": {
@@ -1994,12 +2042,6 @@
     },
     "done": true
   },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-22 02:54:56 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2025-01-20 03:49:14 +0000"
@@ -2037,6 +2079,12 @@
       "carrot": "2025-01-22 01:20:14 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-01-22 17:34:18 +0000"
+    },
+    "done": true
   },
   "shieldexp:recipes/diamond_shield": {
     "criteria": {
@@ -2188,6 +2236,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diorite_stairs": {
+    "criteria": {
+      "has_diorite": "2025-01-22 17:34:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2025-01-20 02:24:23 +0000"
@@ -2197,6 +2251,12 @@
   "simplytools:recipes/simplytools/stone_hammer": {
     "criteria": {
       "criterion1": "2025-01-21 02:33:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2025-01-22 17:34:18 +0000"
     },
     "done": true
   },
@@ -2257,6 +2317,12 @@
   "mca:recipes/misc/whistle": {
     "criteria": {
       "has_item": "2025-01-21 02:45:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-22 17:27:13 +0000"
     },
     "done": true
   },
@@ -2398,12 +2464,6 @@
     },
     "done": true
   },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-22 02:54:56 +0000"
-    },
-    "done": false
-  },
   "farmersdelight:recipes/farmersdelight/onion_crate": {
     "criteria": {
       "has_onion": "2025-01-21 21:45:38 +0000"
@@ -2415,12 +2475,6 @@
       "has_iron_ingot": "2025-01-21 02:45:10 +0000"
     },
     "done": true
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-22 02:54:56 +0000"
-    },
-    "done": false
   },
   "farmersdelight:recipes/farmersdelight/golden_knife": {
     "criteria": {
@@ -2457,12 +2511,6 @@
       "has_white_wool": "2025-01-22 00:51:14 +0000"
     },
     "done": true
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-22 02:54:56 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {

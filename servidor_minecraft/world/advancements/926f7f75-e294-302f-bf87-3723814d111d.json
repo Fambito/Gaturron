@@ -29,12 +29,6 @@
     },
     "done": true
   },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 22:02:21 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2025-01-20 02:31:28 +0000"
@@ -74,6 +68,12 @@
   "simplytools:recipes/simplytools/iron_excavator_head": {
     "criteria": {
       "criterion0": "2025-01-21 02:45:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_button": {
+    "criteria": {
+      "has_planks": "2025-01-21 23:58:08 +0000"
     },
     "done": true
   },
@@ -612,6 +612,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/acacia_slab": {
+    "criteria": {
+      "has_planks": "2025-01-21 23:58:08 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/using/trailblazer": {
     "criteria": {
       "log_spam_fixer": "2025-01-20 02:16:48 +0000"
@@ -627,6 +633,12 @@
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_sand": "2025-01-21 05:34:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_fence": {
+    "criteria": {
+      "has_planks": "2025-01-21 23:58:08 +0000"
     },
     "done": true
   },
@@ -669,6 +681,12 @@
   "minecraft:recipes/decorations/orange_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-01-21 02:48:01 +0000"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/decorative_blocks.general/acacia_support": {
+    "criteria": {
+      "has_plank": "2025-01-21 23:58:08 +0000"
     },
     "done": true
   },
@@ -870,17 +888,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_door": {
+    "criteria": {
+      "has_planks": "2025-01-21 23:58:08 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/cutting_board": {
     "criteria": {
       "has_stick": "2025-01-20 02:24:58 +0000"
     },
     "done": true
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 22:02:21 +0000"
-    },
-    "done": false
   },
   "knight_quest:kq_quest_source": {
     "criteria": {
@@ -997,12 +1015,6 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 22:02:21 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/yellow_banner": {
     "criteria": {
       "has_yellow_wool": "2025-01-20 02:28:45 +0000"
@@ -1105,12 +1117,6 @@
     },
     "done": true
   },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 22:02:21 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/yellow_bed": {
     "criteria": {
       "has_yellow_wool": "2025-01-20 02:28:45 +0000"
@@ -1200,12 +1206,6 @@
       "has_sand": "2025-01-21 05:34:00 +0000"
     },
     "done": true
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 22:02:21 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
@@ -1297,6 +1297,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-01-21 23:58:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/blue_dye_from_cornflower": {
     "criteria": {
       "has_cornflower": "2025-01-20 03:48:12 +0000"
@@ -1375,12 +1381,6 @@
     },
     "done": true
   },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 22:02:21 +0000"
-    },
-    "done": false
-  },
   "farmersdelight:recipes/farmersdelight/cooking/ratatouille": {
     "criteria": {
       "has_any_ingredient": "2025-01-21 21:45:38 +0000"
@@ -1396,6 +1396,12 @@
   "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-01-21 21:59:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-01-21 23:58:08 +0000"
     },
     "done": true
   },
@@ -1546,6 +1552,12 @@
   "mca:recipes/misc/comb": {
     "criteria": {
       "has_item": "2025-01-21 02:45:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-01-21 23:58:08 +0000"
     },
     "done": true
   },
@@ -1789,12 +1801,6 @@
     },
     "done": true
   },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 22:02:21 +0000"
-    },
-    "done": false
-  },
   "infernalexp:recipes/combat/glowsilk_bow": {
     "criteria": {
       "has_glowsilk": "2025-01-20 02:16:47 +0000"
@@ -1818,12 +1824,6 @@
       "acacia_blossom": "2025-01-21 21:57:56 +0000"
     },
     "done": true
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 22:02:21 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
@@ -1886,6 +1886,12 @@
   "minecraft:recipes/decorations/purple_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-01-21 02:48:01 +0000"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/decorative_blocks.general/acacia_seat": {
+    "criteria": {
+      "has_plank": "2025-01-21 23:58:08 +0000"
     },
     "done": true
   },
@@ -1967,12 +1973,6 @@
     },
     "done": true
   },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 22:02:21 +0000"
-    },
-    "done": false
-  },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2025-01-21 02:53:35 +0000"
@@ -2003,12 +2003,6 @@
     },
     "done": true
   },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 22:02:21 +0000"
-    },
-    "done": false
-  },
   "farmersdelight:recipes/farmersdelight/onion_crate": {
     "criteria": {
       "has_onion": "2025-01-21 21:45:38 +0000"
@@ -2026,12 +2020,6 @@
       "has_iron_ingot": "2025-01-21 02:45:10 +0000"
     },
     "done": true
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 22:02:21 +0000"
-    },
-    "done": false
   },
   "farmersdelight:recipes/farmersdelight/golden_knife": {
     "criteria": {
@@ -2063,16 +2051,15 @@
     },
     "done": true
   },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "requirement": "2025-01-21 22:02:33 +0000",
-      "log_spam_fixer": "2025-01-21 22:02:21 +0000"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/farmersdelight/cooking/pumpkin_soup": {
     "criteria": {
       "has_any_ingredient": "2025-01-20 03:43:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_sign": {
+    "criteria": {
+      "has_planks": "2025-01-21 23:58:08 +0000"
     },
     "done": true
   },
@@ -2193,6 +2180,12 @@
   "shieldexp:recipes/golden_shield": {
     "criteria": {
       "has_gold_ingot": "2025-01-20 03:49:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_stairs": {
+    "criteria": {
+      "has_planks": "2025-01-21 23:58:08 +0000"
     },
     "done": true
   },

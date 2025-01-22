@@ -683,12 +683,6 @@
     },
     "done": false
   },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 05:46:12 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
       "has_log": "2025-01-20 03:43:19 +0000"
@@ -964,12 +958,6 @@
       "has_chiseled_quartz_block": "2025-01-20 04:30:07 +0000"
     },
     "done": true
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 05:46:12 +0000"
-    },
-    "done": false
   },
   "sereneseasons:recipes/tools/calendar": {
     "criteria": {
@@ -1295,12 +1283,6 @@
     },
     "done": true
   },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 05:46:12 +0000"
-    },
-    "done": false
-  },
   "infernalexp:recipes/combat/glowsilk_bow": {
     "criteria": {
       "has_glowsilk": "2025-01-19 23:22:44 +0000"
@@ -1312,12 +1294,6 @@
       "has_cobblestone": "2025-01-19 23:35:32 +0000"
     },
     "done": true
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 05:46:12 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/decorations/stonecutter": {
     "criteria": {
@@ -1430,12 +1406,6 @@
       "has_iron_ingot": "2025-01-20 00:03:26 +0000"
     },
     "done": true
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 05:46:12 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/redstone/stone_pressure_plate": {
     "criteria": {
@@ -1622,12 +1592,6 @@
       "has_white_wool": "2025-01-19 23:42:05 +0000"
     },
     "done": true
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 05:46:12 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/building_blocks/quartz_pillar": {
     "criteria": {
@@ -2202,12 +2166,6 @@
     },
     "done": true
   },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 05:46:12 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-01-19 23:31:00 +0000"
@@ -2364,12 +2322,6 @@
     },
     "done": true
   },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 05:46:12 +0000"
-    },
-    "done": false
-  },
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2025-01-20 04:32:03 +0000"
@@ -2447,12 +2399,6 @@
       "has_gravel": "2025-01-21 03:15:04 +0000"
     },
     "done": true
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 05:46:12 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
@@ -2958,12 +2904,6 @@
     },
     "done": true
   },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 05:46:12 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2025-01-20 04:20:50 +0000"
@@ -2987,12 +2927,6 @@
       "has_iron_ingot": "2025-01-20 00:03:26 +0000"
     },
     "done": true
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 05:46:12 +0000"
-    },
-    "done": false
   },
   "farmersdelight:recipes/farmersdelight/golden_knife": {
     "criteria": {
@@ -3023,12 +2957,6 @@
       "has_white_wool": "2025-01-19 23:42:05 +0000"
     },
     "done": true
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-21 05:46:12 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {

@@ -53,6 +53,12 @@
     },
     "done": true
   },
+  "simplytools:recipes/simplytools/golden_excavator_head": {
+    "criteria": {
+      "criterion0": "2025-01-22 00:55:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2025-01-20 02:27:32 +0000"
@@ -413,6 +419,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2025-01-22 00:50:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2025-01-20 02:15:19 +0000"
@@ -554,6 +566,12 @@
   "shieldexp:recipes/iron_shield": {
     "criteria": {
       "has_iron_ingot": "2025-01-20 00:31:30 +0000"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/decorative_blocks.general/jungle_beam": {
+    "criteria": {
+      "has_stripped_log": "2025-01-22 00:50:34 +0000"
     },
     "done": true
   },
@@ -1095,6 +1113,12 @@
   "mca:recipes/misc/comb": {
     "criteria": {
       "has_item": "2025-01-20 00:31:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2025-01-22 00:50:34 +0000"
     },
     "done": true
   },
@@ -2301,6 +2325,12 @@
     },
     "done": true
   },
+  "decorative_blocks:recipes/decorative_blocks.general/birch_beam": {
+    "criteria": {
+      "has_stripped_log": "2025-01-22 00:50:29 +0000"
+    },
+    "done": true
+  },
   "simplytools:recipes/simplytools/wooden_excavator_head": {
     "criteria": {
       "criterion0": "2025-01-21 23:42:41 +0000"
@@ -2385,6 +2415,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-01-22 00:56:10 +0000"
+    },
+    "done": true
+  },
   "infernalexp:recipes/redstone/soul_slate_pressure_plate": {
     "criteria": {
       "has_soul_slate": "2025-01-19 23:23:24 +0000"
@@ -2394,6 +2430,12 @@
   "minecraft:recipes/decorations/birch_fence": {
     "criteria": {
       "has_planks": "2025-01-20 00:35:04 +0000"
+    },
+    "done": true
+  },
+  "simplytools:recipes/simplytools/golden_hammer_head": {
+    "criteria": {
+      "criterion0": "2025-01-22 00:55:03 +0000"
     },
     "done": true
   },
@@ -2914,6 +2956,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-01-22 00:56:10 +0000"
+    },
+    "done": true
+  },
   "decorative_blocks:recipes/decorative_blocks.general/stone_pillar": {
     "criteria": {
       "has_stone": "2025-01-20 02:27:32 +0000"
@@ -2983,6 +3031,12 @@
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2025-01-20 01:11:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_jungle_wood": {
+    "criteria": {
+      "has_log": "2025-01-22 00:50:34 +0000"
     },
     "done": true
   },

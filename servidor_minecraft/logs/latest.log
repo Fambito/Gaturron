@@ -3333,3 +3333,39 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 [22Jan2025 19:42:08.319] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
 [22Jan2025 19:43:26.188] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Grażyna'/106853, l='ServerLevel[world]', x=-1494.72, y=64.94, z=-748.01] died: Grażyna was slain by Lim0ncit0Dulce
 [22Jan2025 19:43:27.493] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Kazimierz'/106854, l='ServerLevel[world]', x=-1494.09, y=64.94, z=-749.78] died: Kazimierz was slain by Lim0ncit0Dulce
+[22Jan2025 19:44:41.928] [Craft Scheduler Thread - 36/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 9
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 19:48:54.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW was slain by Cave Spider
+[22Jan2025 19:49:00.444] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpa alexis83
+[22Jan2025 19:49:02.978] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpa Antoo
+[22Jan2025 19:49:04.878] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 19:49:23.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo has made the advancement [Ice Bucket Challenge]
+[22Jan2025 19:49:52.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo was slain by PanchikoKW
+[22Jan2025 19:49:53.611] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW lost connection: Internal Exception: java.util.ConcurrentModificationException
+[22Jan2025 19:49:53.611] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client PanchikoKW
+[22Jan2025 19:49:53.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW left the game
+[22Jan2025 19:49:59.428] [User Authenticator #17/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player PanchikoKW is 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 19:50:02.319] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3981d9d0
+[22Jan2025 19:50:02.323] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PanchikoKW[/127.61.240.200:48805] logged in with entity id 110441 at (-1397.0261667738666, -27.0, -443.9579932236295)
+[22Jan2025 19:50:02.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW joined the game
+[22Jan2025 19:50:02.583] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of PanchikoKW (18)
+[22Jan2025 19:50:02.583] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to PanchikoKW
+[22Jan2025 19:50:05.302] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 19:50:06.308] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 19:50:06.308] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player PanchikoKW (905d1f7b-6652-3a99-9dd9-a3db220a872b) successfully connected to voice chat
+[22Jan2025 19:50:06.474] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa alexis83
+[22Jan2025 19:50:09.378] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 19:50:12.065] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:50:12.066] [Async Chat Thread - #32/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <franciscum> verano maldiito llego a chihuahua en pito
+[22Jan2025 19:54:22.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Hot Stuff]
+[22Jan2025 19:54:23.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 tried to swim in lava to escape Antoo
+[22Jan2025 19:54:32.346] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpa Antoo
+[22Jan2025 19:54:39.688] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpaccept

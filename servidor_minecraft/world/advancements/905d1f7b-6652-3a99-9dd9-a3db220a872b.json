@@ -325,6 +325,7 @@
   },
   "betterdungeons:all_dungeons": {
     "criteria": {
+      "in_better_zombie_dungeon": "2025-01-22 20:06:24 +0000",
       "in_better_spider_dungeon": "2025-01-22 19:28:08 +0000"
     },
     "done": false
@@ -1909,6 +1910,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-01-22 20:11:00 +0000"
+    },
+    "done": true
+  },
   "simplytools:recipes/simplytools/diamond_excavator": {
     "criteria": {
       "criterion1": "2025-01-21 23:47:19 +0000"
@@ -2221,6 +2228,7 @@
       "cooked_beef": "2025-01-20 00:46:52 +0000",
       "beef": "2025-01-20 01:57:08 +0000",
       "baked_potato": "2025-01-22 18:47:11 +0000",
+      "porkchop": "2025-01-22 20:01:03 +0000",
       "apple": "2025-01-22 19:30:26 +0000",
       "pumpkin_pie": "2025-01-22 01:40:38 +0000",
       "bread": "2025-01-19 23:55:39 +0000",
@@ -3046,6 +3054,12 @@
   "rechiseled:recipes/rechiseled/chisel": {
     "criteria": {
       "recipe_condition": "2025-01-20 00:31:30 +0000"
+    },
+    "done": true
+  },
+  "betterdungeons:zombie_dungeon": {
+    "criteria": {
+      "in_better_zombie_dungeon": "2025-01-22 20:06:24 +0000"
     },
     "done": true
   },

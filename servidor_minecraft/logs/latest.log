@@ -3369,3 +3369,201 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 [22Jan2025 19:54:23.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 tried to swim in lava to escape Antoo
 [22Jan2025 19:54:32.346] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpa Antoo
 [22Jan2025 19:54:39.688] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpaccept
+[22Jan2025 19:56:22.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo tried to swim in lava to escape alexis83
+[22Jan2025 19:56:33.668] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:56:33.670] [Async Chat Thread - #33/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> JAJAJAJAJAJ
+[22Jan2025 19:56:34.299] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa alexis83
+[22Jan2025 19:56:37.095] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 19:56:56.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 was burnt to a crisp whilst fighting PanchikoKW
+[22Jan2025 19:57:03.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW was slain by Antoo
+[22Jan2025 19:57:06.136] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lim0ncit0Dulce moved too quickly! -7.968746251365246,-0.5040129017765196,6.3290395183875034
+[22Jan2025 19:57:06.649] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpa Antoo
+[22Jan2025 19:57:11.796] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpa Antoo
+[22Jan2025 19:57:14.171] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpaccept
+[22Jan2025 19:57:20.193] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpaccept
+[22Jan2025 19:57:21.519] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpa PanchikoKW
+[22Jan2025 19:57:36.062] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lim0ncit0Dulce lost connection: Disconnected
+[22Jan2025 19:57:36.062] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Lim0ncit0Dulce
+[22Jan2025 19:57:36.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce left the game
+[22Jan2025 19:57:42.565] [User Authenticator #18/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Lim0ncit0Dulce is 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[22Jan2025 19:57:45.321] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@b019d05
+[22Jan2025 19:57:45.325] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Lim0ncit0Dulce[/127.138.136.51:51333] logged in with entity id 113865 at (-1762.544696073138, 84.0, -775.7643153164998)
+[22Jan2025 19:57:45.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce joined the game
+[22Jan2025 19:57:45.634] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Lim0ncit0Dulce (18)
+[22Jan2025 19:57:45.634] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Lim0ncit0Dulce
+[22Jan2025 19:57:48.713] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[22Jan2025 19:57:49.726] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2ddd9b46-0427-3b1d-9b4e-0259d562a0a6
+[22Jan2025 19:57:49.726] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Lim0ncit0Dulce (2ddd9b46-0427-3b1d-9b4e-0259d562a0a6) successfully connected to voice chat
+[22Jan2025 19:57:57.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo tried to swim in lava to escape PanchikoKW
+[22Jan2025 19:57:57.614] [Netty Epoll Server IO #1/ERROR] [net.bettercombat.network.ServerNetwork/]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[22Jan2025 19:57:57.614] [Netty Epoll Server IO #1/ERROR] [net.bettercombat.network.ServerNetwork/]: Combo count: 3 is dual wielding: false
+[22Jan2025 19:57:57.614] [Netty Epoll Server IO #1/ERROR] [net.bettercombat.network.ServerNetwork/]: Main-hand stack: 1 air
+[22Jan2025 19:57:57.614] [Netty Epoll Server IO #1/ERROR] [net.bettercombat.network.ServerNetwork/]: Off-hand stack: 1 air
+[22Jan2025 19:57:57.614] [Netty Epoll Server IO #1/ERROR] [net.bettercombat.network.ServerNetwork/]: Selected slot server: 5 | client: 5
+[22Jan2025 19:58:11.728] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa alexis83
+[22Jan2025 19:58:15.418] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 19:59:41.860] [Craft Scheduler Thread - 39/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 9
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 20:00:33.061] [Netty Epoll Server IO #3/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:00:33.065] [Async Chat Thread - #34/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[22Jan2025 20:01:13.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo tried to swim in lava
+[22Jan2025 20:01:15.974] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:01:15.975] [Async Chat Thread - #34/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <franciscum> zzzz
+[22Jan2025 20:01:23.344] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa alexis83
+[22Jan2025 20:01:26.895] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 20:01:31.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo was doomed to fall by alexis83
+[22Jan2025 20:01:39.254] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa alexis83
+[22Jan2025 20:01:48.532] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa PanchikoKW
+[22Jan2025 20:01:57.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW was doomed to fall by alexis83
+[22Jan2025 20:02:01.777] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:02:01.778] [Async Chat Thread - #34/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> JAAAA
+[22Jan2025 20:02:06.020] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa alexis83
+[22Jan2025 20:02:06.989] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpa alexis83
+[22Jan2025 20:02:09.232] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 20:02:11.204] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:02:11.219] [Async Chat Thread - #34/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <franciscum> QUE HACEN
+[22Jan2025 20:02:23.946] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa ale
+[22Jan2025 20:02:26.071] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 20:02:32.208] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:02:32.212] [Async Chat Thread - #34/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Es el tonto del Ale
+[22Jan2025 20:02:50.836] [Netty Epoll Server IO #3/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:02:50.836] [Async Chat Thread - #34/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> duerman
+[22Jan2025 20:02:56.920] [Netty Epoll Server IO #3/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:02:56.920] [Async Chat Thread - #34/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> o que uno salga 2 segundos
+[22Jan2025 20:03:04.112] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW lost connection: Disconnected
+[22Jan2025 20:03:04.112] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client PanchikoKW
+[22Jan2025 20:03:04.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW left the game
+[22Jan2025 20:03:05.352] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:03:05.353] [Async Chat Thread - #34/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <franciscum> es muy gracioso ver las notis de como se mueren
+[22Jan2025 20:03:15.251] [User Authenticator #19/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player PanchikoKW is 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 20:03:18.217] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@e8b3674
+[22Jan2025 20:03:18.221] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PanchikoKW[/127.61.240.200:56149] logged in with entity id 115762 at (-1434.300000011921, -52.0, -265.6895539153906)
+[22Jan2025 20:03:18.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW joined the game
+[22Jan2025 20:03:18.418] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of PanchikoKW (18)
+[22Jan2025 20:03:18.418] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to PanchikoKW
+[22Jan2025 20:03:21.051] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 20:03:22.051] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 20:03:22.051] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player PanchikoKW (905d1f7b-6652-3a99-9dd9-a3db220a872b) successfully connected to voice chat
+[22Jan2025 20:03:37.905] [Netty Epoll Server IO #3/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:03:37.911] [Async Chat Thread - #34/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> esta medio bugeado lo de dormir
+[22Jan2025 20:04:20.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo was slain by PanchikoKW
+[22Jan2025 20:04:28.145] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa a
+[22Jan2025 20:04:33.619] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa alexis83
+[22Jan2025 20:04:35.736] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 20:06:13.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [When in Rome]
+[22Jan2025 20:06:24.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW has made the advancement [When in Rome]
+[22Jan2025 20:06:28.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW was slain by Zombie
+[22Jan2025 20:06:28.601] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[22Jan2025 20:06:28.601] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Combo count: 2 is dual wielding: false
+[22Jan2025 20:06:28.601] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Main-hand stack: 1 air
+[22Jan2025 20:06:28.601] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Off-hand stack: 1 air
+[22Jan2025 20:06:28.601] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Selected slot server: 0 | client: 0
+[22Jan2025 20:06:35.829] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpa alexis83
+[22Jan2025 20:06:37.696] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 20:07:18.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo has made the advancement [When in Rome]
+[22Jan2025 20:07:29.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo was slain by Skeleton
+[22Jan2025 20:07:34.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW was slain by Skeleton
+[22Jan2025 20:07:34.401] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[22Jan2025 20:07:34.401] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Combo count: 4 is dual wielding: false
+[22Jan2025 20:07:34.401] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Main-hand stack: 1 air
+[22Jan2025 20:07:34.401] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Off-hand stack: 1 air
+[22Jan2025 20:07:34.401] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Selected slot server: 0 | client: 0
+[22Jan2025 20:07:34.533] [Netty Epoll Server IO #3/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:07:34.564] [Async Chat Thread - #35/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> donde estan ??
+[22Jan2025 20:07:38.891] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa PanchikoKW
+[22Jan2025 20:07:38.945] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpa alexis83
+[22Jan2025 20:07:40.728] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 20:07:40.865] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:07:40.869] [Async Chat Thread - #35/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <franciscum> DUERMAAAAAAAAAAAAN
+[22Jan2025 20:07:41.018] [Netty Epoll Server IO #5/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:07:41.019] [Async Chat Thread - #35/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> En queti
+[22Jan2025 20:07:50.769] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa alexis83
+[22Jan2025 20:08:31.016] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpaccept
+[22Jan2025 20:08:46.572] [Netty Epoll Server IO #3/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:08:46.573] [Async Chat Thread - #36/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> el que duerme tiene pito para comer
+[22Jan2025 20:10:05.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo was slain by Zombie
+[22Jan2025 20:10:12.186] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa alexis83
+[22Jan2025 20:10:15.667] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: java.io.FileNotFoundException: https://www.minecraft.net/en-us/haspaid.jsp?user=Antoo
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:2032)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1625)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at java.base/java.net.URL.openStream(URL.java:1161)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at de.TrustedCreeper.SkinMe.SkinMe.existAccount(SkinMe.java:115)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at de.TrustedCreeper.SkinMe.SkinMeEventHandler.onPlayerClickPlayer(SkinMeEventHandler.java:35)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/arclight@1.19.2-1.0.5-696a298/org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/arclight@1.19.2-1.0.5-696a298/org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/arclight@1.19.2-1.0.5-696a298/org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl$1Handler$23ccc6d0571949dd83428fd37843eb86.performInteraction(ServerPlayNetHandlerMixin.java:1273)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl$1Handler$23ccc6d0571949dd83428fd37843eb86.m_142299_(ServerPlayNetHandlerMixin.java:1319)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerPlayNetHandlerMixin.java:3195)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.PacketUtils.md1d8add$lambda$ensureRunningOnSameThread$0$0(PacketThreadUtilMixin.java:537)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.TickTask.run(TickTask.java:18)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServerMixin.java:763)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServerMixin.java:157)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServerMixin.java:746)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServerMixin.java:740)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServerMixin.java:726)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2131)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:244)
+[22Jan2025 20:10:17.388] [Server thread/ERROR] [STDERR/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: java.io.FileNotFoundException: https://www.minecraft.net/en-us/haspaid.jsp?user=Antoo
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:2032)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1625)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at java.base/java.net.URL.openStream(URL.java:1161)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at de.TrustedCreeper.SkinMe.SkinMe.existAccount(SkinMe.java:115)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at de.TrustedCreeper.SkinMe.SkinMeEventHandler.onPlayerClickPlayer(SkinMeEventHandler.java:35)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/arclight@1.19.2-1.0.5-696a298/org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/arclight@1.19.2-1.0.5-696a298/org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/arclight@1.19.2-1.0.5-696a298/org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl$1Handler$23ccc6d0571949dd83428fd37843eb86.performInteraction(ServerPlayNetHandlerMixin.java:1273)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl$1Handler$23ccc6d0571949dd83428fd37843eb86.m_142299_(ServerPlayNetHandlerMixin.java:1319)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerPlayNetHandlerMixin.java:3195)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.PacketUtils.md1d8add$lambda$ensureRunningOnSameThread$0$0(PacketThreadUtilMixin.java:537)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.TickTask.run(TickTask.java:18)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServerMixin.java:763)
+[22Jan2025 20:10:17.593] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServerMixin.java:157)
+[22Jan2025 20:10:17.594] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+[22Jan2025 20:10:17.594] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServerMixin.java:746)
+[22Jan2025 20:10:17.594] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServerMixin.java:740)
+[22Jan2025 20:10:17.594] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116)
+[22Jan2025 20:10:17.594] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServerMixin.java:725)
+[22Jan2025 20:10:17.594] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2131)
+[22Jan2025 20:10:17.594] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:244)
+[22Jan2025 20:10:17.594] [Server thread/ERROR] [STDERR/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[22Jan2025 20:14:11.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 was slain by Zombie
+[22Jan2025 20:14:22.331] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpa PanchikoKW
+[22Jan2025 20:14:24.471] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpaccept
+[22Jan2025 20:14:41.838] [Craft Scheduler Thread - 39/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 9
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}

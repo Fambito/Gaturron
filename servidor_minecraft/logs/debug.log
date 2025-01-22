@@ -10727,3 +10727,198 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 [22Jan2025 02:34:23.808] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/blay09/mods/waystones/core/PlayerWaystoneManager$1
 [22Jan2025 02:35:20.261] [Server thread/DEBUG] [mixin/]: Mixing world.inventory.ContainerLevelAccessMixin from mixins.arclight.core.json into net.minecraft.world.inventory.ContainerLevelAccess
 [22Jan2025 02:35:20.262] [Server thread/DEBUG] [mixin/]: Generating mapped inner class net/minecraft/world/inventory/ContainerLevelAccess$1Anonymous$4ee558b51101452cb6ccca92853351ab (originally io/izzel/arclight/common/mixin/core/world/inventory/ContainerLevelAccessMixin$1Anonymous)
+[22Jan2025 02:38:56.260] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Jan2025 02:38:56.271] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Jan2025 02:40:16.302] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Filling switch table for class org.bukkit.Material
+[22Jan2025 02:40:16.304] [Server thread/DEBUG] [mixin/]: Mixing world.level.block.PortalShapeMixin from mixins.arclight.core.json into net.minecraft.world.level.portal.PortalShape
+[22Jan2025 02:40:16.305] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$arclight$buildPortal$0(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)V to md4c4d40$lambda$arclight$buildPortal$0$0 in mixins.arclight.core.json:world.level.block.PortalShapeMixin
+[22Jan2025 02:40:47.127] [Worker-Main-16/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/levelgen/structure/placement/RandomSpreadType$1
+[22Jan2025 02:40:47.172] [Worker-Main-17/DEBUG] [mixin/]: Mixing world.gen.WorldGenRegionMixin from mixins.arclight.core.json into net.minecraft.server.level.WorldGenRegion
+[22Jan2025 02:40:47.173] [Worker-Main-17/DEBUG] [mixin/]: Mixing accessor.WorldGenRegionAccessor from betterdungeons.mixins.json into net.minecraft.server.level.WorldGenRegion
+[22Jan2025 02:40:47.173] [Worker-Main-17/DEBUG] [mixin/]: Mixing common.WorldGenRegionAccessor from infernal-expansion.mixins.json into net.minecraft.server.level.WorldGenRegion
+[22Jan2025 02:40:47.174] [Worker-Main-17/DEBUG] [mixin/]: Unexpected: Registered method getStructureManager()Lnet/minecraft/world/level/StructureManager; in net.minecraft.server.level.WorldGenRegion was not merged
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: java.io.IOException: Base resource not found: dbr.class
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.ChunkStatus.m_223349_(ChunkStatus.java:87)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.ChunkStatus.m_223279_(ChunkStatus.java:292)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$25(ChunkMapMixin.java:621)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/datafixerupper@5.0.28/com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMapMixin.java:619)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[22Jan2025 02:40:47.185] [Worker-Main-3/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: java.io.IOException: Base resource not found: dbr$1.class
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.ChunkStatus.m_223349_(ChunkStatus.java:87)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.ChunkStatus.m_223279_(ChunkStatus.java:292)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$25(ChunkMapMixin.java:621)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/datafixerupper@5.0.28/com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMapMixin.java:619)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[22Jan2025 02:40:47.188] [Worker-Main-3/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[22Jan2025 02:40:47.928] [Worker-Main-25/ERROR] [STDERR/]: java.io.IOException: Base resource not found: dbr$a.class
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.NoiseChunk.<init>(NoiseChunk.java:58)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.NoiseChunk.m_224352_(NoiseChunk.java:111)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.m_224256_(NoiseBasedChunkGenerator.java:112)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.m_224336_(NoiseBasedChunkGenerator.java:104)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.ChunkAccess.m_223012_(ChunkAccessMixin.java:345)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.m_224291_(NoiseBasedChunkGenerator.java:104)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.m_224331_(NoiseBasedChunkGenerator.java:98)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[22Jan2025 02:40:47.929] [Worker-Main-25/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[22Jan2025 02:40:47.938] [Worker-Main-25/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/levelgen/NoiseChunk$2
+[22Jan2025 02:40:48.264] [Worker-Main-24/DEBUG] [mixin/]: Mixing common.SurfaceRulesContextAccessor from infernal-expansion.mixins.json into net.minecraft.world.level.levelgen.SurfaceRules$Context
+[22Jan2025 02:40:48.634] [Worker-Main-16/DEBUG] [mixin/]: Mixing JigsawPlacementPlacerMixin from waystones.mixins.json into net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement$Placer
+[22Jan2025 02:40:48.985] [Worker-Main-17/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/core/BlockPos$5
+[22Jan2025 02:40:51.462] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraftforge/common/ForgeHooks$2
+[22Jan2025 02:43:56.247] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Jan2025 02:43:56.256] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Jan2025 02:43:56.296] [Craft Scheduler Thread - 3/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 9
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 02:44:48.717] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Filling switch table for class org.bukkit.Material
+[22Jan2025 02:48:56.240] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Jan2025 02:48:56.249] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Jan2025 02:49:38.155] [Server thread/ERROR] [STDERR/]: java.io.IOException: Base resource not found: aft$2.class
+[22Jan2025 02:49:38.156] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.Patcher.applyPatch(Patcher.java:146)
+[22Jan2025 02:49:38.156] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+[22Jan2025 02:49:38.156] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+[22Jan2025 02:49:38.156] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:291)
+[22Jan2025 02:49:38.156] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:260)
+[22Jan2025 02:49:38.156] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:171)
+[22Jan2025 02:49:38.156] [Server thread/ERROR] [STDERR/]: 	at LAYER SERVICE/optifine/optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+[22Jan2025 02:49:38.156] [Server thread/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+[22Jan2025 02:49:38.156] [Server thread/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+[22Jan2025 02:49:38.156] [Server thread/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+[22Jan2025 02:49:38.156] [Server thread/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+[22Jan2025 02:49:38.156] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+[22Jan2025 02:49:38.156] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+[22Jan2025 02:49:38.156] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+[22Jan2025 02:49:38.156] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+[22Jan2025 02:49:38.163] [Server thread/ERROR] [STDERR/]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+[22Jan2025 02:49:38.163] [Server thread/ERROR] [STDERR/]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+[22Jan2025 02:49:38.163] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.m_183726_(ChunkMapMixin.java:305)
+[22Jan2025 02:49:38.163] [Server thread/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+[22Jan2025 02:49:38.163] [Server thread/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+[22Jan2025 02:49:38.164] [Server thread/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+[22Jan2025 02:49:38.164] [Server thread/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+[22Jan2025 02:49:38.164] [Server thread/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[22Jan2025 02:49:38.164] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62)
+[22Jan2025 02:49:38.164] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+[22Jan2025 02:49:38.164] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache_MainThreadExecutorMixin.java:535)
+[22Jan2025 02:49:38.164] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+[22Jan2025 02:49:38.164] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache_MainThreadExecutorMixin.java:629)
+[22Jan2025 02:49:38.164] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerChunkCache.m_8466_(ServerChunkCacheMixin.java:267)
+[22Jan2025 02:49:38.164] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServerMixin.java:751)
+[22Jan2025 02:49:38.164] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServerMixin.java:740)
+[22Jan2025 02:49:38.164] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
+[22Jan2025 02:49:38.164] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServerMixin.java:726)
+[22Jan2025 02:49:38.164] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2131)
+[22Jan2025 02:49:38.164] [Server thread/ERROR] [STDERR/]: 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:244)
+[22Jan2025 02:49:38.164] [Server thread/ERROR] [STDERR/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[22Jan2025 02:50:03.894] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/BaseRailBlock$1
+[22Jan2025 02:50:05.719] [Worker-Main-25/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/CrossCollisionBlock$1
+[22Jan2025 02:50:05.722] [Worker-Main-25/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/RailBlock$1
+[22Jan2025 02:50:08.840] [Worker-Main-25/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/Rotation$1
+[22Jan2025 02:50:15.530] [Worker-Main-3/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/StairBlock$1
+[22Jan2025 02:50:15.530] [Worker-Main-3/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/WallBlock$1
+[22Jan2025 02:50:15.531] [Worker-Main-3/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/RotatedPillarBlock$1
+[22Jan2025 02:50:15.533] [Worker-Main-3/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/FaceAttachedHorizontalDirectionalBlock$1
+[22Jan2025 02:50:15.535] [Worker-Main-3/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/entity/Entity$1
+[22Jan2025 02:51:05.078] [Worker-Main-17/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class com/mojang/math/OctahedralGroup$1
+[22Jan2025 02:51:09.703] [Worker-Main-24/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/Mirror$1
+[22Jan2025 02:51:12.557] [Worker-Main-16/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class com/yungnickyoung/minecraft/betterdungeons/world/processor/zombie_dungeon/ZombieMainStairsProcessor$1
+[22Jan2025 02:51:15.034] [Worker-Main-24/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/levelgen/structure/structures/MineshaftPieces$1
+[22Jan2025 02:53:56.254] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Jan2025 02:53:56.265] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Jan2025 02:54:04.387] [Worker-Main-17/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$1
+[22Jan2025 02:54:21.864] [Worker-Main-25/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/levelgen/Beardifier$1
+[22Jan2025 02:54:29.140] [Worker-Main-16/DEBUG] [mixin/]: Mixing world.entity.ai.behavior.VillagerMakeLoveMixin from mixins.arclight.core.json into net.minecraft.world.entity.ai.behavior.VillagerMakeLove
+[22Jan2025 02:54:38.514] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class io/izzel/arclight/common/mixin/core/world/level/block/PressurePlateBlockMixin$1
+[22Jan2025 02:54:47.965] [Server thread/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/blay09/mods/waystones/worldgen/namegen/NameGenerator$1
+[22Jan2025 02:55:06.317] [Worker-Main-3/DEBUG] [Implementer/SWITCH_TABLE]: Candidate switch enum method <clinit>()V class net/minecraft/world/level/block/VineBlock$1
+[22Jan2025 02:55:14.965] [Worker-Main-25/DEBUG] [mixin/]: Mixing world.item.MerchantOfferMixin from mixins.arclight.core.json into net.minecraft.world.item.trading.MerchantOffer
+[22Jan2025 02:55:42.200] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo lost connection: Disconnected
+[22Jan2025 02:55:42.202] [Server thread/DEBUG] [voicechat/]: [voicechat] Removing state of Antoo
+[22Jan2025 02:55:42.203] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Antoo
+[22Jan2025 02:55:42.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo left the game

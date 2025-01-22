@@ -207,3 +207,10 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
 [22Jan2025 01:23:38.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo was slain by Gelada Monkey
 [22Jan2025 01:23:59.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo was slain by Gelada Monkey
+[22Jan2025 01:26:31.534] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa alexis83
+[22Jan2025 01:26:36.375] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 01:30:16.679] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 01:30:16.686] [Async Chat Thread - #23/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Zzzz
+[22Jan2025 01:30:19.635] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 lost connection: Disconnected
+[22Jan2025 01:30:19.635] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client alexis83
+[22Jan2025 01:30:19.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 left the game

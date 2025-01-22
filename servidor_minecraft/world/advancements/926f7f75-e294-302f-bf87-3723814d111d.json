@@ -371,6 +371,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2025-01-22 01:15:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2025-01-20 02:52:11 +0000"
@@ -491,6 +497,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2025-01-22 01:15:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-01-20 02:43:49 +0000",
@@ -585,6 +597,12 @@
   "farmersdelight:recipes/farmersdelight/cooking/apple_cider": {
     "criteria": {
       "has_apple": "2025-01-21 02:53:32 +0000"
+    },
+    "done": true
+  },
+  "simplytools:recipes/simplytools/diamond_hammer_head": {
+    "criteria": {
+      "criterion0": "2025-01-22 01:15:15 +0000"
     },
     "done": true
   },
@@ -1045,6 +1063,12 @@
     },
     "done": true
   },
+  "simplytools:recipes/simplytools/diamond_excavator_head": {
+    "criteria": {
+      "criterion0": "2025-01-22 01:15:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2025-01-20 02:31:28 +0000"
@@ -1084,6 +1108,12 @@
   "minecraft:recipes/decorations/grindstone": {
     "criteria": {
       "has_stone_slab": "2025-01-20 03:13:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2025-01-22 01:15:15 +0000"
     },
     "done": true
   },
@@ -1367,6 +1397,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2025-01-22 01:15:15 +0000"
+    },
+    "done": true
+  },
   "simplytools:recipes/simplytools/stone_excavator_head": {
     "criteria": {
       "criterion0": "2025-01-21 02:33:28 +0000"
@@ -1394,6 +1430,12 @@
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2025-01-20 02:40:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2025-01-22 01:15:15 +0000"
     },
     "done": true
   },
@@ -1592,6 +1634,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2025-01-22 01:15:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2025-01-20 02:31:28 +0000"
@@ -1754,6 +1802,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2025-01-22 01:15:15 +0000"
+    },
+    "done": true
+  },
   "simplytools:recipes/simplytools/stone_hammer_head": {
     "criteria": {
       "criterion0": "2025-01-21 02:33:28 +0000"
@@ -1763,6 +1817,12 @@
   "minecraft:recipes/building_blocks/dark_oak_stairs": {
     "criteria": {
       "has_planks": "2025-01-21 02:41:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2025-01-22 01:15:15 +0000"
     },
     "done": true
   },
@@ -1820,6 +1880,12 @@
     },
     "done": true
   },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-01-22 01:15:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2025-01-20 02:32:04 +0000"
@@ -1829,6 +1895,12 @@
   "alexsmobs:alexsmobs/root": {
     "criteria": {
       "useitem": "2025-01-20 02:20:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2025-01-22 01:15:15 +0000"
     },
     "done": true
   },
@@ -1894,9 +1966,16 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
-      "wheat": "2025-01-21 02:53:35 +0000"
+      "wheat": "2025-01-21 02:53:35 +0000",
+      "carrot": "2025-01-22 01:20:14 +0000"
     },
     "done": false
+  },
+  "shieldexp:recipes/diamond_shield": {
+    "criteria": {
+      "has_diamond": "2025-01-22 01:15:15 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/loom": {
     "criteria": {
@@ -1913,6 +1992,12 @@
   "minecraft:recipes/building_blocks/green_wool": {
     "criteria": {
       "has_white_wool": "2025-01-22 00:51:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2025-01-22 01:15:15 +0000"
     },
     "done": true
   },
@@ -2228,6 +2313,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/diamond_knife": {
+    "criteria": {
+      "has_diamond": "2025-01-22 01:15:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2025-01-20 02:40:59 +0000"
@@ -2321,6 +2412,12 @@
   "minecraft:recipes/decorations/dark_oak_fence": {
     "criteria": {
       "has_planks": "2025-01-21 02:41:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2025-01-22 01:15:15 +0000"
     },
     "done": true
   },

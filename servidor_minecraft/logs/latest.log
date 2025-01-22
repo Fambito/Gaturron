@@ -3567,3 +3567,59 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
 	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 20:18:52.226] [Netty Epoll Server IO #5/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:18:52.227] [Async Chat Thread - #37/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Permuto hacha de diamante por fiat 1
+[22Jan2025 20:18:58.518] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:18:58.550] [Async Chat Thread - #37/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> SIGUE BOLUDA
+[22Jan2025 20:19:27.748] [Netty Epoll Server IO #3/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:19:27.749] [Async Chat Thread - #37/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> y por 2 de madera ??
+[22Jan2025 20:19:45.349] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:19:45.350] [Async Chat Thread - #37/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <franciscum> tengo 2 de tierra sirve?
+[22Jan2025 20:19:56.211] [Netty Epoll Server IO #5/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:19:56.216] [Async Chat Thread - #37/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> 0 gente seria en este server
+[22Jan2025 20:20:09.016] [Netty Epoll Server IO #5/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:20:09.017] [Async Chat Thread - #37/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Como se nota que la administración esta manejada por kukas
+[22Jan2025 20:21:28.765] [Netty Epoll Server IO #3/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:21:28.766] [Async Chat Thread - #38/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[22Jan2025 20:22:49.524] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:22:49.526] [Async Chat Thread - #39/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> me retiro cabreees no encontre mis cosas, despues las busco jejeje, me rindooo
+[22Jan2025 20:22:54.865] [Netty Epoll Server IO #5/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:22:54.866] [Async Chat Thread - #39/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> :'v
+[22Jan2025 20:23:17.452] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:23:17.452] [Async Chat Thread - #39/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> ahi me conecto marratito, bye byeee
+[22Jan2025 20:23:18.612] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo lost connection: Disconnected
+[22Jan2025 20:23:18.613] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Antoo
+[22Jan2025 20:23:18.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo left the game
+[22Jan2025 20:24:07.315] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 lost connection: Disconnected
+[22Jan2025 20:24:07.316] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client alexis83
+[22Jan2025 20:24:07.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 left the game
+[22Jan2025 20:26:17.515] [Netty Epoll Server IO #5/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:26:17.516] [Async Chat Thread - #40/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Al fin sali de la cueva
+[22Jan2025 20:26:19.431] [Netty Epoll Server IO #5/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 20:26:19.431] [Async Chat Thread - #40/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Lpm
+[22Jan2025 20:29:41.809] [Craft Scheduler Thread - 47/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 9
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 20:33:26.882] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player a1897d81-b3fe-38f1-9fe3-4bc04d8e6204 timed out
+[22Jan2025 20:33:26.882] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player franciscum
+[22Jan2025 20:33:26.883] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to franciscum
+[22Jan2025 20:33:28.520] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a1897d81-b3fe-38f1-9fe3-4bc04d8e6204
+[22Jan2025 20:33:29.520] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a1897d81-b3fe-38f1-9fe3-4bc04d8e6204
+[22Jan2025 20:33:29.520] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player franciscum (a1897d81-b3fe-38f1-9fe3-4bc04d8e6204) successfully connected to voice chat
+[22Jan2025 20:44:41.807] [Craft Scheduler Thread - 49/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 9
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}

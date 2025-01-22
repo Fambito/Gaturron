@@ -1934,6 +1934,12 @@
     },
     "done": true
   },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "requirement": "2025-01-22 02:33:56 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2025-01-20 03:49:14 +0000"
@@ -1966,6 +1972,7 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
+      "potato": "2025-01-22 02:33:50 +0000",
       "wheat": "2025-01-21 02:53:35 +0000",
       "carrot": "2025-01-22 01:20:14 +0000"
     },

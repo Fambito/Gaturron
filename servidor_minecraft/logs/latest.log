@@ -2795,3 +2795,478 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 [22Jan2025 17:51:49.815] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 905d1f7b-6652-3a99-9dd9-a3db220a872b
 [22Jan2025 17:51:50.815] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 905d1f7b-6652-3a99-9dd9-a3db220a872b
 [22Jan2025 17:51:50.815] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player PanchikoKW (905d1f7b-6652-3a99-9dd9-a3db220a872b) successfully connected to voice chat
+[22Jan2025 17:54:47.373] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 17:54:47.391] [Async Chat Thread - #7/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[22Jan2025 17:55:01.075] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW lost connection: Timed out
+[22Jan2025 17:55:01.075] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client PanchikoKW
+[22Jan2025 17:55:01.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW left the game.
+[22Jan2025 17:55:10.787] [User Authenticator #9/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player PanchikoKW is 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 17:55:14.868] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@22124a6
+[22Jan2025 17:55:14.873] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PanchikoKW[/127.61.240.200:34033] logged in with entity id 27662 at (638.0040484494399, 68.0, -577.4832068060007)
+[22Jan2025 17:55:14.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW joined the game
+[22Jan2025 17:55:15.230] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of PanchikoKW (18)
+[22Jan2025 17:55:15.230] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to PanchikoKW
+[22Jan2025 17:55:44.919] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW lost connection: Timed out
+[22Jan2025 17:55:44.920] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client PanchikoKW
+[22Jan2025 17:55:44.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW left the game.
+[22Jan2025 17:56:22.281] [User Authenticator #10/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player PanchikoKW is 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 17:56:25.621] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@51e4b640
+[22Jan2025 17:56:25.625] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PanchikoKW[/127.61.240.200:60359] logged in with entity id 28610 at (638.0040484494399, 68.0, -577.4832068060007)
+[22Jan2025 17:56:25.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW joined the game
+[22Jan2025 17:56:25.941] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of PanchikoKW (18)
+[22Jan2025 17:56:25.941] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to PanchikoKW
+[22Jan2025 17:56:29.528] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 17:56:30.530] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 17:56:30.530] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player PanchikoKW (905d1f7b-6652-3a99-9dd9-a3db220a872b) successfully connected to voice chat
+[22Jan2025 17:56:46.012] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 17:56:46.018] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> c
+[22Jan2025 17:56:49.631] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 17:56:49.631] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> La puta que lo pario
+[22Jan2025 17:56:54.140] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 17:56:54.141] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> q
+[22Jan2025 17:57:02.219] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 17:57:02.228] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> que paso ??
+[22Jan2025 17:57:08.881] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 17:57:08.882] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Anda re lageado
+[22Jan2025 17:57:14.310] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 17:57:14.318] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> a vos
+[22Jan2025 17:57:15.263] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 17:57:15.267] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Me sacó dos veces
+[22Jan2025 17:57:17.164] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 17:57:17.169] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> JAJAJAJA
+[22Jan2025 17:57:18.123] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 17:57:18.123] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> >:c
+[22Jan2025 17:57:25.046] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 17:57:25.046] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> a mi me vapiola
+[22Jan2025 17:57:26.413] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 17:57:26.419] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> Tenes 1 barrita boluda
+[22Jan2025 17:57:32.211] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 17:57:32.219] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Esto en aternos no pasaba
+[22Jan2025 17:58:35.616] [User Authenticator #11/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player franciscum is a1897d81-b3fe-38f1-9fe3-4bc04d8e6204
+[22Jan2025 17:58:41.923] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@53ac7e28
+[22Jan2025 17:58:41.927] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: franciscum[/127.92.136.39:58531] logged in with entity id 30200 at (-1797.9915870047396, 83.02442408821369, -669.735152687874)
+[22Jan2025 17:58:41.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: franciscum joined the game
+[22Jan2025 17:58:42.837] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of franciscum (18)
+[22Jan2025 17:58:42.837] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to franciscum
+[22Jan2025 17:58:48.100] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a1897d81-b3fe-38f1-9fe3-4bc04d8e6204
+[22Jan2025 17:58:49.100] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a1897d81-b3fe-38f1-9fe3-4bc04d8e6204
+[22Jan2025 17:58:49.100] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player franciscum (a1897d81-b3fe-38f1-9fe3-4bc04d8e6204) successfully connected to voice chat
+[22Jan2025 17:58:50.989] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 17:58:50.990] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> ?
+[22Jan2025 17:58:57.198] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 17:58:57.199] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> olooo
+[22Jan2025 17:58:57.337] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 17:58:57.338] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Quien so vo
+[22Jan2025 17:59:02.204] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 17:59:02.233] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> quien so
+[22Jan2025 17:59:07.508] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 17:59:07.524] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> se metio un hacker
+[22Jan2025 17:59:09.593] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 17:59:09.593] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <franciscum> tu mama
+[22Jan2025 17:59:21.239] [Craft Scheduler Thread - 17/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 9
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 17:59:25.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] Eimon: No compren con los giles
+[22Jan2025 17:59:57.565] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 17:59:57.569] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> e la fran loco
+[22Jan2025 18:00:08.922] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:00:08.923] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> ¿Posta? JDSAKJDAS
+[22Jan2025 18:00:08.934] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:00:08.935] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <franciscum> masivo
+[22Jan2025 18:00:14.946] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:00:14.947] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Holi Fran
+[22Jan2025 18:00:24.421] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:00:24.430] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> le explotamos la aldea al puto este?
+[22Jan2025 18:00:26.680] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:00:26.681] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <franciscum> hola meeeel :3
+[22Jan2025 18:00:31.494] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:00:31.495] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> uhh no puse el msg
+[22Jan2025 18:00:32.250] [Netty Epoll Server IO #2/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:00:32.251] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> :3 :3 :3 :3
+[22Jan2025 18:01:26.020] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW lost connection: Timed out
+[22Jan2025 18:01:26.021] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client PanchikoKW
+[22Jan2025 18:01:26.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW left the game.
+[22Jan2025 18:01:49.364] [User Authenticator #12/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player PanchikoKW is 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 18:02:02.626] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@64da3f5e
+[22Jan2025 18:02:02.631] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PanchikoKW[/127.61.240.200:53115] logged in with entity id 32641 at (283.57973311423103, 67.0, -720.7061909365899)
+[22Jan2025 18:02:02.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW joined the game
+[22Jan2025 18:02:05.483] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of PanchikoKW (18)
+[22Jan2025 18:02:05.483] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to PanchikoKW
+[22Jan2025 18:02:05.496] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2792ms or 55 ticks behind
+[22Jan2025 18:02:09.917] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 18:02:10.923] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 18:02:10.923] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player PanchikoKW (905d1f7b-6652-3a99-9dd9-a3db220a872b) successfully connected to voice chat
+[22Jan2025 18:02:19.604] [Netty Epoll Server IO #5/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:02:19.605] [Async Chat Thread - #10/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> >:C
+[22Jan2025 18:05:49.823] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:05:49.838] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[22Jan2025 18:06:17.973] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW lost connection: Timed out
+[22Jan2025 18:06:17.974] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client PanchikoKW
+[22Jan2025 18:06:17.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW left the game.
+[22Jan2025 18:07:31.532] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /performance
+[22Jan2025 18:10:24.419] [User Authenticator #13/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player PanchikoKW is 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 18:10:27.579] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@25210da9
+[22Jan2025 18:10:27.585] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PanchikoKW[/127.61.240.200:43647] logged in with entity id 40094 at (292.51249998807907, 90.48684842522455, -732.6999999880791)
+[22Jan2025 18:10:27.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW joined the game
+[22Jan2025 18:10:30.770] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of PanchikoKW (18)
+[22Jan2025 18:10:30.770] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to PanchikoKW
+[22Jan2025 18:10:30.780] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo moved too quickly! -4.033853158121133,-1.1767592750642422,-12.99523813519852
+[22Jan2025 18:10:30.780] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 moved too quickly! 4.454888535402347,-5.0,-7.450139753845974
+[22Jan2025 18:10:30.794] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3140ms or 62 ticks behind
+[22Jan2025 18:10:32.278] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 18:10:33.265] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 905d1f7b-6652-3a99-9dd9-a3db220a872b
+[22Jan2025 18:10:33.265] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player PanchikoKW (905d1f7b-6652-3a99-9dd9-a3db220a872b) successfully connected to voice chat
+[22Jan2025 18:14:27.089] [Craft Scheduler Thread - 20/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 9
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 18:14:54.749] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:14:54.750] [Async Chat Thread - #12/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> HAY HAMBURGUESA DE CANGURO
+[22Jan2025 18:15:00.853] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:15:00.854] [Async Chat Thread - #12/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> JAJAJAJA
+[22Jan2025 18:15:02.536] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:15:02.539] [Async Chat Thread - #12/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> QUEEEEE
+[22Jan2025 18:15:10.519] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:15:10.520] [Async Chat Thread - #12/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Listo
+[22Jan2025 18:15:13.477] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:15:13.478] [Async Chat Thread - #12/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Nueva meta
+[22Jan2025 18:15:49.520] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo lost connection: Disconnected
+[22Jan2025 18:15:49.520] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Antoo
+[22Jan2025 18:15:49.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo left the game
+[22Jan2025 18:16:02.502] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:16:02.503] [Async Chat Thread - #12/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> anto se asombro tanto que tuvo que salir del juego
+[22Jan2025 18:16:14.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW has reached the goal [Flowers of the Savanna]
+[22Jan2025 18:16:23.118] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:16:23.119] [Async Chat Thread - #12/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> falopera
+[22Jan2025 18:16:30.015] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:16:30.016] [Async Chat Thread - #12/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Cerra el orto
+[22Jan2025 18:17:20.386] [User Authenticator #14/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Antoo is 926f7f75-e294-302f-bf87-3723814d111d
+[22Jan2025 18:17:23.570] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@50e24330
+[22Jan2025 18:17:23.575] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Antoo[/127.135.177.225:44707] logged in with entity id 44430 at (-753.945971107755, 91.0, -735.1404689631349)
+[22Jan2025 18:17:23.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo joined the game
+[22Jan2025 18:17:26.882] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Antoo (18)
+[22Jan2025 18:17:26.883] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Antoo
+[22Jan2025 18:17:26.893] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lim0ncit0Dulce moved too quickly! -10.313198422880305,0.4186640077748365,9.578174241181273
+[22Jan2025 18:17:26.904] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3250ms or 65 ticks behind
+[22Jan2025 18:17:30.808] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 926f7f75-e294-302f-bf87-3723814d111d
+[22Jan2025 18:17:31.796] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 926f7f75-e294-302f-bf87-3723814d111d
+[22Jan2025 18:17:31.797] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Antoo (926f7f75-e294-302f-bf87-3723814d111d) successfully connected to voice chat
+[22Jan2025 18:17:37.918] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:17:37.924] [Async Chat Thread - #13/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[22Jan2025 18:18:04.564] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:18:04.572] [Async Chat Thread - #13/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> duerman
+[22Jan2025 18:18:14.173] [Netty Epoll Server IO #3/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:18:14.173] [Async Chat Thread - #13/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> zzzz
+[22Jan2025 18:19:09.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: alexis83 has made the advancement [Alex's Mobs]
+[22Jan2025 18:20:51.152] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:20:51.153] [Async Chat Thread - #14/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Quien fue el que me dejó un cartel en la torre
+[22Jan2025 18:21:06.136] [Netty Epoll Server IO #3/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:21:06.137] [Async Chat Thread - #14/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> yo noop
+[22Jan2025 18:21:08.944] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:21:08.945] [Async Chat Thread - #14/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Tengo información que podría llevar al arresto de Alexis fernandez de Kirchner
+[22Jan2025 18:21:29.799] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:21:29.800] [Async Chat Thread - #14/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> te van a borrar
+[22Jan2025 18:21:39.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce has made the advancement [Mine? Mine? Mine?]
+[22Jan2025 18:22:06.287] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:22:06.287] [Async Chat Thread - #14/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> los mapaches roban cosas de cofres y barriles
+[22Jan2025 18:22:20.222] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:22:20.226] [Async Chat Thread - #14/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Te cago a palos si me falta algo
+[22Jan2025 18:22:32.480] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:22:32.481] [Async Chat Thread - #14/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> pero se pueden adomesticar
+[22Jan2025 18:26:47.133] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:26:47.134] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Les informo a los vecinos que anda un negro de mierda dando vueltas
+[22Jan2025 18:26:50.873] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:26:50.873] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Cuiden sus cosas
+[22Jan2025 18:27:18.075] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:27:18.075] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> pero quines son los vecinos ??
+[22Jan2025 18:27:33.153] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:27:33.154] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Todos menos el negro de mierda del Ale
+[22Jan2025 18:28:28.044] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:28:28.045] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> pero yo que hice??
+[22Jan2025 18:28:39.240] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:28:39.240] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Vos q
+[22Jan2025 18:28:54.955] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:28:54.973] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> mel yo te quiero
+[22Jan2025 18:29:15.600] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:29:15.601] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> los mapaches te roban comida de los cofres
+[22Jan2025 18:29:22.940] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:29:22.941] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Los odio muchisimo
+[22Jan2025 18:29:30.335] [Craft Scheduler Thread - 22/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 9
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 18:29:38.328] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:29:38.329] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> los monos te cojen el culo
+[22Jan2025 18:29:52.146] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:29:52.147] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Vos los tenés ahí nomás a los monos eh
+[22Jan2025 18:29:53.198] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:29:53.232] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzzz
+[22Jan2025 18:30:01.593] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:30:01.593] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Lo decís por experiencia
+[22Jan2025 18:30:04.583] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:30:04.584] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> porque te pensas que los tengo tan cerca
+[22Jan2025 18:30:09.868] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:30:09.872] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> el fran tiene al lado una manada
+[22Jan2025 18:30:26.066] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:30:26.078] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> duerman
+[22Jan2025 18:30:29.031] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:30:29.032] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Zzz
+[22Jan2025 18:30:34.180] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:30:34.181] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> tecnicamente anto esta mas cerca
+[22Jan2025 18:30:43.115] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo lost connection: Disconnected
+[22Jan2025 18:30:43.115] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Antoo
+[22Jan2025 18:30:43.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo left the game
+[22Jan2025 18:30:46.663] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:30:46.669] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> se enojo
+[22Jan2025 18:30:51.376] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:30:51.377] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Anto ya sufrío la ira de los monos como cuatro veces
+[22Jan2025 18:31:15.070] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:31:15.071] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Zzzzz
+[22Jan2025 18:31:18.069] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:31:18.069] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzzz
+[22Jan2025 18:31:44.896] [User Authenticator #15/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Antoo is 926f7f75-e294-302f-bf87-3723814d111d
+[22Jan2025 18:31:48.775] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7579bd90
+[22Jan2025 18:31:48.779] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Antoo[/127.135.177.225:44713] logged in with entity id 58251 at (-652.57268510945, 62.07326432466507, -368.625)
+[22Jan2025 18:31:48.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo joined the game
+[22Jan2025 18:31:51.424] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Antoo (18)
+[22Jan2025 18:31:51.425] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Antoo
+[22Jan2025 18:31:51.437] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lim0ncit0Dulce moved too quickly! 0.9040912136977113,1.853960979112145,-10.14211789305864
+[22Jan2025 18:31:51.448] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2643ms or 52 ticks behind
+[22Jan2025 18:31:53.680] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 926f7f75-e294-302f-bf87-3723814d111d
+[22Jan2025 18:31:54.680] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 926f7f75-e294-302f-bf87-3723814d111d
+[22Jan2025 18:31:54.680] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Antoo (926f7f75-e294-302f-bf87-3723814d111d) successfully connected to voice chat
+[22Jan2025 18:37:07.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lim0ncit0Dulce has made the advancement [Cobweb Entanglement]
+[22Jan2025 18:37:10.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: franciscum has made the advancement [Crops of the Wild]
+[22Jan2025 18:39:04.984] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:39:04.985] [Async Chat Thread - #16/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Entramos en primavera ¿Hacemos asado?
+[22Jan2025 18:39:15.280] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:39:15.281] [Async Chat Thread - #16/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> nos juntamos?
+[22Jan2025 18:39:21.586] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:39:21.586] [Async Chat Thread - #16/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Listooo
+[22Jan2025 18:39:27.168] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:39:27.177] [Async Chat Thread - #16/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Yo hago el asado
+[22Jan2025 18:39:27.600] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:39:27.601] [Async Chat Thread - #16/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> quien pone casa
+[22Jan2025 18:39:38.320] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:39:38.330] [Async Chat Thread - #16/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> nosotros no tenemos casa
+[22Jan2025 18:39:45.456] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:39:45.474] [Async Chat Thread - #16/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> ah tranki
+[22Jan2025 18:39:50.888] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:39:50.888] [Async Chat Thread - #16/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> ASJKDASJ
+[22Jan2025 18:39:52.624] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:39:52.625] [Async Chat Thread - #16/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> ahi paso a toma unos mates mel
+[22Jan2025 18:39:54.807] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:39:54.823] [Async Chat Thread - #16/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> yo pongo casa :3
+[22Jan2025 18:39:59.158] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:39:59.173] [Async Chat Thread - #16/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Dale dale
+[22Jan2025 18:40:03.168] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:40:03.174] [Async Chat Thread - #16/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> casa a medias
+[22Jan2025 18:40:10.990] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:40:10.991] [Async Chat Thread - #16/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> No tiene ni techo
+[22Jan2025 18:40:17.560] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:40:17.573] [Async Chat Thread - #16/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> es lo que hay :c
+[22Jan2025 18:40:58.627] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:40:58.627] [Async Chat Thread - #16/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> pero igual pongo la casa de Mel, se las presto, creo que esta mejor que la mia jeje
+[22Jan2025 18:42:26.071] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2117ms or 42 ticks behind
+[22Jan2025 18:42:26.096] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lim0ncit0Dulce moved too quickly! -8.420113014524759,1.7461092740512356,5.164035919945377
+[22Jan2025 18:42:30.459] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo moved too quickly! 2.6989104160842885,0.001335979112141672,-9.997368070367258
+[22Jan2025 18:42:39.992] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:42:39.993] [Async Chat Thread - #17/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[22Jan2025 18:42:56.603] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpa alexis83
+[22Jan2025 18:43:01.601] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 18:43:19.178] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:43:19.179] [Async Chat Thread - #17/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> duermaaaan
+[22Jan2025 18:43:20.821] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo lost connection: Disconnected
+[22Jan2025 18:43:20.821] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Antoo
+[22Jan2025 18:43:20.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo left the game
+[22Jan2025 18:43:30.401] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:43:30.402] [Async Chat Thread - #17/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> solo falta uno loco
+[22Jan2025 18:43:32.658] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:43:32.670] [Async Chat Thread - #17/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> naza
+[22Jan2025 18:43:35.439] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:43:35.439] [Async Chat Thread - #17/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> donde viven
+[22Jan2025 18:43:40.076] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:43:40.077] [Async Chat Thread - #17/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> no
+[22Jan2025 18:43:53.453] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:43:53.454] [Async Chat Thread - #17/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> no sabemos si nos quedamos aca
+[22Jan2025 18:43:59.510] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:43:59.523] [Async Chat Thread - #17/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzzz
+[22Jan2025 18:44:02.469] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:44:02.470] [Async Chat Thread - #17/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> rapido loco
+[22Jan2025 18:44:03.818] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:44:03.820] [Async Chat Thread - #17/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> duerman
+[22Jan2025 18:44:35.041] [Craft Scheduler Thread - 26/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 9
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 18:44:36.144] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:44:36.145] [Async Chat Thread - #17/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> ahh no tan ma en la japo?
+[22Jan2025 18:44:46.515] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:44:46.517] [Async Chat Thread - #17/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> nono nos fuimos
+[22Jan2025 18:46:56.367] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpa Lim0ncit0Dulce
+[22Jan2025 18:47:09.549] [User Authenticator #16/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Antoo is 926f7f75-e294-302f-bf87-3723814d111d
+[22Jan2025 18:47:12.821] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@51478e8
+[22Jan2025 18:47:12.825] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Antoo[/127.135.177.225:49609] logged in with entity id 74427 at (-284.0481804297771, 73.0, -444.30000001192093)
+[22Jan2025 18:47:12.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo joined the game
+[22Jan2025 18:47:15.121] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Antoo (18)
+[22Jan2025 18:47:15.121] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Antoo
+[22Jan2025 18:47:15.129] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2225ms or 44 ticks behind
+[22Jan2025 18:47:16.978] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 926f7f75-e294-302f-bf87-3723814d111d
+[22Jan2025 18:47:17.981] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 926f7f75-e294-302f-bf87-3723814d111d
+[22Jan2025 18:47:17.982] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Antoo (926f7f75-e294-302f-bf87-3723814d111d) successfully connected to voice chat
+[22Jan2025 18:47:34.497] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpa Lim0ncit0Dulce
+[22Jan2025 18:47:39.617] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:47:39.622] [Async Chat Thread - #18/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Dale loco que vamos a tomar unos mates
+[22Jan2025 18:51:23.954] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2200ms or 44 ticks behind
+[22Jan2025 18:51:23.974] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: franciscum moved too quickly! 7.646561397608366,0.243240711822736,6.530340882137693
+[22Jan2025 18:51:23.974] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW moved too quickly! 11.26139638552695,0.0,-0.4857709100847387
+[22Jan2025 18:51:23.974] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo moved too quickly! -3.7617722353979275,0.16610926093821377,-9.628278794986073
+[22Jan2025 18:51:26.834] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:51:26.835] [Async Chat Thread - #19/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> anto
+[22Jan2025 18:51:30.018] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:51:30.026] [Async Chat Thread - #19/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> donde andas
+[22Jan2025 18:51:30.467] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:51:30.473] [Async Chat Thread - #19/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> euuu
+[22Jan2025 18:51:32.945] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:51:32.946] [Async Chat Thread - #19/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> vamo a toma mate
+[22Jan2025 18:51:50.015] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:51:50.020] [Async Chat Thread - #19/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> me perdiii, dejame encontrar un cofre que se me perdio y voooy
+[22Jan2025 18:52:00.817] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:52:00.825] [Async Chat Thread - #19/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> ok
+[22Jan2025 18:52:56.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo has made the advancement [Alligator In Name Only]
+[22Jan2025 18:53:20.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo has made the advancement [Chompy]
+[22Jan2025 18:53:21.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo was slain by Crocodile
+[22Jan2025 18:53:38.847] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:53:38.849] [Async Chat Thread - #20/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> cocodrilo de mierda
+[22Jan2025 18:53:52.320] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:53:52.321] [Async Chat Thread - #20/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> se me perdieron todas mis cosaaaaaaas
+[22Jan2025 18:53:56.878] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:53:56.879] [Async Chat Thread - #20/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> Aleeeeeeeeee
+[22Jan2025 18:55:37.836] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 18:55:37.837] [Async Chat Thread - #21/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzzz
+[22Jan2025 18:56:03.423] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: franciscum moved too quickly! -2.7045426278073137,-0.33319999363422426,11.516764536713367
+[22Jan2025 18:56:10.822] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpa PanchikoKW
+[22Jan2025 18:56:11.673] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpaccept
+[22Jan2025 18:58:30.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo was killed by Witch using magic
+[22Jan2025 18:59:39.440] [Craft Scheduler Thread - 27/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 9
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 18:59:49.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo was killed by Witch using magic
+[22Jan2025 19:00:50.468] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:00:50.482] [Async Chat Thread - #22/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> mithlesh ola
+[22Jan2025 19:01:16.783] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2428ms or 48 ticks behind
+[22Jan2025 19:01:16.804] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo moved too quickly! -8.599552114858852,2.750812921255317,-4.581169713270697
+[22Jan2025 19:01:23.330] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpa p
+[22Jan2025 19:01:24.204] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpaccept
+[22Jan2025 19:04:06.976] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:04:06.977] [Async Chat Thread - #23/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> anto
+[22Jan2025 19:04:11.748] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:04:11.749] [Async Chat Thread - #23/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> euu
+[22Jan2025 19:04:11.885] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:04:11.886] [Async Chat Thread - #23/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> arrancamos con el asado
+[22Jan2025 19:04:18.868] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa a
+[22Jan2025 19:04:29.488] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa alexis83
+[22Jan2025 19:04:34.315] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 19:05:16.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PanchikoKW was doomed to fall
+[22Jan2025 19:05:25.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo fell from a high place
+[22Jan2025 19:05:28.614] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpa alexis83
+[22Jan2025 19:05:32.396] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 19:05:34.450] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa alexis83
+[22Jan2025 19:06:14.387] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa alexis83
+[22Jan2025 19:06:28.231] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa PanchikoKW
+[22Jan2025 19:06:36.668] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa alexis83
+[22Jan2025 19:06:38.266] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpaccept
+[22Jan2025 19:07:24.980] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:07:24.981] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzzz
+[22Jan2025 19:07:29.782] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:07:29.783] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Disculpa negro
+[22Jan2025 19:07:33.986] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:07:33.987] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> Tamos haciendo asado
+[22Jan2025 19:07:53.546] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:07:53.547] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[22Jan2025 19:08:08.319] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:08:08.320] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> nosotros estamos jodidos ayuda
+[22Jan2025 19:08:17.421] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:08:17.421] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PanchikoKW> No nos aceptaste el mate
+[22Jan2025 19:08:20.633] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:08:20.634] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[22Jan2025 19:08:25.519] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:08:25.520] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <franciscum> zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+[22Jan2025 19:08:28.720] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:08:28.721] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> pero estamos re lejos
+[22Jan2025 19:08:55.279] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:08:55.280] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <franciscum> duerman o los mato
+[22Jan2025 19:09:30.023] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:09:30.024] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzzz
+[22Jan2025 19:09:54.370] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo moved wrongly!
+[22Jan2025 19:09:57.137] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:09:57.138] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzzz
+[22Jan2025 19:10:09.607] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:10:09.612] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <franciscum> zzzzzz
+[22Jan2025 19:11:26.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo was slain by Gelada Monkey
+[22Jan2025 19:11:42.603] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa PanchikoKW
+[22Jan2025 19:11:46.820] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpaccept
+[22Jan2025 19:12:36.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Antoo was slain by PanchikoKW
+[22Jan2025 19:12:41.235] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: alexis83 issued server command: /tpa Antoo
+[22Jan2025 19:12:49.647] [Netty Epoll Server IO #6/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:12:49.649] [Async Chat Thread - #25/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <alexis83> acepta antoo
+[22Jan2025 19:12:50.492] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpaccept
+[22Jan2025 19:12:54.927] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PanchikoKW issued server command: /tpa Antoo
+[22Jan2025 19:13:11.768] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpa
+[22Jan2025 19:13:22.538] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Antoo issued server command: /tpaccept
+[22Jan2025 19:14:41.826] [Craft Scheduler Thread - 27/WARN] [SkinMe/]: Plugin SkinMe v1.3.1 generated an exception while executing task 9
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.metrics.Metrics.postPlugin(Metrics.java:336) ~[?:?] {}
+	at org.mcstats.metrics.Metrics.access$4(Metrics.java:329) ~[?:?] {}
+	at org.mcstats.metrics.Metrics$1.run(Metrics.java:224) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [arclight-1.19.2-1.0.5-696a298.jar%23206!/:arclight-1.19.2-1.0.5-696a298] {re:classloading}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?] {}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin,re:mixin}
+[22Jan2025 19:21:09.288] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:21:09.290] [Async Chat Thread - #26/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzz
+[22Jan2025 19:21:13.569] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:21:13.570] [Async Chat Thread - #26/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <franciscum> zzzzz
+[22Jan2025 19:21:18.369] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:21:18.370] [Async Chat Thread - #26/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzzz
+[22Jan2025 19:21:44.123] [Netty Epoll Server IO #1/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:21:44.124] [Async Chat Thread - #26/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Antoo> zzz
+[22Jan2025 19:22:52.778] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:22:52.783] [Async Chat Thread - #27/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> que onda
+[22Jan2025 19:22:59.815] [Netty Epoll Server IO #4/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:22:59.820] [Async Chat Thread - #27/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <franciscum> watafa
+[22Jan2025 19:23:52.351] [Netty Epoll Server IO #7/WARN] [Implementer/ASYNC_CATCHER]: Async chunk entity get
+[22Jan2025 19:23:52.351] [Async Chat Thread - #27/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lim0ncit0Dulce> zzzz

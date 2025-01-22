@@ -253,7 +253,8 @@
   },
   "betterdungeons:all_dungeons": {
     "criteria": {
-      "in_better_monster_room": "2025-01-20 05:00:27 +0000"
+      "in_better_monster_room": "2025-01-20 05:00:27 +0000",
+      "in_better_spider_dungeon": "2025-01-22 18:37:07 +0000"
     },
     "done": false
   },
@@ -284,6 +285,12 @@
   "simplytools:recipes/simplytools/diamond_hammer": {
     "criteria": {
       "criterion1": "2025-01-21 02:29:24 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/sweet_berry_cookie": {
+    "criteria": {
+      "has_sweet_berries": "2025-01-22 18:23:13 +0000"
     },
     "done": true
   },
@@ -710,6 +717,12 @@
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2025-01-19 23:55:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2025-01-22 18:35:25 +0000"
     },
     "done": true
   },
@@ -1283,6 +1296,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/seagull_steal": {
+    "criteria": {
+      "ex": "2025-01-22 18:21:39 +0000"
+    },
+    "done": true
+  },
   "infernalexp:recipes/combat/glowsilk_bow": {
     "criteria": {
       "has_glowsilk": "2025-01-19 23:22:44 +0000"
@@ -1310,6 +1329,7 @@
       "minecraft:dripstone_caves": "2025-01-20 04:49:34 +0000",
       "minecraft:swamp": "2025-01-20 01:06:59 +0000",
       "minecraft:grove": "2025-01-21 02:49:17 +0000",
+      "minecraft:cold_ocean": "2025-01-22 18:21:01 +0000",
       "minecraft:forest": "2025-01-19 23:48:20 +0000",
       "minecraft:lush_caves": "2025-01-21 03:29:07 +0000",
       "minecraft:meadow": "2025-01-19 23:38:34 +0000",
@@ -1581,6 +1601,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2025-01-22 18:22:20 +0000"
+    },
+    "done": true
+  },
   "simplytools:recipes/simplytools/diamond_excavator": {
     "criteria": {
       "criterion1": "2025-01-21 02:29:24 +0000"
@@ -1810,6 +1836,12 @@
   "infernalexp:recipes/food/cooked_hogchop_smelting": {
     "criteria": {
       "has_hogchop": "2025-01-19 23:22:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2025-01-22 18:35:25 +0000"
     },
     "done": true
   },
@@ -2353,6 +2385,12 @@
     },
     "done": true
   },
+  "betterdungeons:spider_dungeon": {
+    "criteria": {
+      "in_better_spider_dungeon": "2025-01-22 18:37:07 +0000"
+    },
+    "done": true
+  },
   "infernalexp:recipes/redstone/soul_slate_pressure_plate": {
     "criteria": {
       "has_soul_slate": "2025-01-19 23:22:44 +0000"
@@ -2445,6 +2483,7 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
+      "sweet_berries": "2025-01-22 18:40:00 +0000",
       "potato": "2025-01-21 04:50:41 +0000",
       "wheat": "2025-01-22 17:03:03 +0000"
     },

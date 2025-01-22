@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "decorative_blocks:recipes/decorative_blocks.general/birch_seat": {
+    "criteria": {
+      "has_plank": "2025-01-22 19:15:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/acacia_button": {
     "criteria": {
       "has_planks": "2025-01-21 23:58:08 +0000"
@@ -68,6 +74,12 @@
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2025-01-21 02:45:10 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/alligator_snapping_turtle": {
+    "criteria": {
+      "killed_by": "2025-01-22 18:52:56 +0000"
     },
     "done": true
   },
@@ -221,6 +233,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/sweet_berry_cookie": {
+    "criteria": {
+      "has_sweet_berries": "2025-01-22 17:52:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2025-01-21 02:45:10 +0000"
@@ -254,6 +272,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2025-01-20 02:31:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2025-01-22 18:00:28 +0000"
     },
     "done": true
   },
@@ -473,6 +497,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2025-01-22 19:15:41 +0000"
+    },
+    "done": true
+  },
   "knight_quest:kq_quest_source": {
     "criteria": {
       "kq_quest_source": "2025-01-20 02:16:47 +0000"
@@ -530,9 +560,16 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-01-20 02:43:49 +0000",
+      "minecraft:spider": "2025-01-22 18:20:19 +0000",
       "minecraft:zombie": "2025-01-20 02:25:00 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-01-22 18:37:55 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/yellow_banner": {
     "criteria": {
@@ -546,9 +583,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-01-22 18:39:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2025-01-20 02:32:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2025-01-22 17:57:28 +0000"
     },
     "done": true
   },
@@ -702,6 +751,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2025-01-22 18:34:18 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/cooked_bacon_from_smoking": {
     "criteria": {
       "cooked_bacon": "2025-01-20 03:44:09 +0000"
@@ -753,6 +808,24 @@
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
       "has_iron_ingot": "2025-01-21 02:45:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2025-01-22 19:15:41 +0000"
+    },
+    "done": true
+  },
+  "sereneseasons:recipes/tools/calendar": {
+    "criteria": {
+      "has_paper": "2025-01-22 17:57:55 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/copper_backpack": {
+    "criteria": {
+      "has_backpack": "2025-01-22 18:34:18 +0000"
     },
     "done": true
   },
@@ -894,9 +967,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-01-22 17:57:55 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/iron_knife": {
     "criteria": {
       "has_iron_ingot": "2025-01-21 02:45:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-01-22 19:15:41 +0000"
     },
     "done": true
   },
@@ -1044,6 +1129,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-01-22 18:37:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2025-01-21 05:31:49 +0000",
@@ -1054,8 +1145,10 @@
       "minecraft:river": "2025-01-20 03:14:28 +0000",
       "minecraft:dripstone_caves": "2025-01-22 00:09:44 +0000",
       "minecraft:grove": "2025-01-21 02:30:46 +0000",
+      "minecraft:cold_ocean": "2025-01-22 17:53:52 +0000",
       "minecraft:forest": "2025-01-20 02:27:06 +0000",
       "minecraft:lush_caves": "2025-01-21 02:35:19 +0000",
+      "minecraft:deep_cold_ocean": "2025-01-22 17:54:47 +0000",
       "minecraft:windswept_savanna": "2025-01-22 00:10:51 +0000",
       "minecraft:frozen_peaks": "2025-01-21 02:39:41 +0000",
       "minecraft:meadow": "2025-01-20 02:26:34 +0000",
@@ -1075,6 +1168,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-01-22 17:57:55 +0000"
+    },
+    "done": true
+  },
   "simplytools:recipes/simplytools/wooden_hammer_head": {
     "criteria": {
       "criterion0": "2025-01-21 02:33:04 +0000"
@@ -1086,6 +1185,12 @@
       "log_spam_fixer": "2025-01-20 02:16:48 +0000"
     },
     "done": false
+  },
+  "farmersdelight:recipes/farmersdelight/nether_salad": {
+    "criteria": {
+      "has_bowl": "2025-01-22 17:57:43 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
@@ -1120,6 +1225,12 @@
   "simplytools:recipes/simplytools/diamond_excavator_head": {
     "criteria": {
       "criterion0": "2025-01-22 01:15:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-01-22 19:05:42 +0000"
     },
     "done": true
   },
@@ -1174,6 +1285,12 @@
   "farmersdelight:recipes/farmersdelight/cooking/pumpkin_soup": {
     "criteria": {
       "has_any_ingredient": "2025-01-20 03:43:21 +0000"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/decorative_blocks.general/soul_brazier": {
+    "criteria": {
+      "has_bar": "2025-01-22 18:18:27 +0000"
     },
     "done": true
   },
@@ -1303,6 +1420,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-01-22 18:37:55 +0000"
+    },
+    "done": true
+  },
   "simplytools:recipes/simplytools/diamond_excavator": {
     "criteria": {
       "criterion1": "2025-01-21 02:33:16 +0000"
@@ -1318,6 +1441,12 @@
   "minecraft:recipes/building_blocks/purple_wool": {
     "criteria": {
       "has_white_wool": "2025-01-22 00:51:14 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooking/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2025-01-22 17:57:04 +0000"
     },
     "done": true
   },
@@ -1390,6 +1519,12 @@
   "mca:recipes/misc/needle_and_thread": {
     "criteria": {
       "has_item": "2025-01-20 03:26:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-01-22 19:15:41 +0000"
     },
     "done": true
   },
@@ -1517,9 +1652,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2025-01-22 17:57:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2025-01-22 17:57:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
       "has_gunpowder": "2025-01-20 03:26:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2025-01-22 17:57:39 +0000"
     },
     "done": true
   },
@@ -1543,6 +1696,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-01-22 19:17:05 +0000",
       "cooked_beef": "2025-01-20 02:33:58 +0000",
       "baked_potato": "2025-01-21 02:42:46 +0000",
       "bread": "2025-01-20 03:41:06 +0000",
@@ -1580,6 +1734,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2025-01-22 19:15:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-01-21 02:48:01 +0000"
@@ -1595,6 +1755,12 @@
   "simplytools:recipes/simplytools/iron_excavator": {
     "criteria": {
       "criterion1": "2025-01-21 02:33:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-01-22 18:39:10 +0000"
     },
     "done": true
   },
@@ -1760,6 +1926,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2025-01-22 17:57:04 +0000"
+    },
+    "done": true
+  },
   "dungeons_arise:find_illager_campsite": {
     "criteria": {
       "location0": "2025-01-20 03:32:29 +0000"
@@ -1799,6 +1971,12 @@
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2025-01-20 02:20:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-01-22 18:39:10 +0000"
     },
     "done": true
   },
@@ -1862,6 +2040,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2025-01-22 17:57:39 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:main/root": {
     "criteria": {
       "seeds": "2025-01-20 02:16:47 +0000"
@@ -1883,6 +2067,12 @@
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
       "has_cobblestone": "2025-01-20 02:31:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-01-22 18:39:10 +0000"
     },
     "done": true
   },
@@ -1970,6 +2160,18 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/mixed_salad": {
+    "criteria": {
+      "has_bowl": "2025-01-22 17:57:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2025-01-22 19:15:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/birch_chest_boat": {
     "criteria": {
       "has_boat": "2025-01-22 17:27:13 +0000"
@@ -2027,6 +2229,12 @@
   "minecraft:recipes/decorations/blue_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-01-21 02:48:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2025-01-22 19:15:41 +0000"
     },
     "done": true
   },
@@ -2164,9 +2372,21 @@
     },
     "done": true
   },
+  "mca:recipes/misc/books": {
+    "criteria": {
+      "has_item": "2025-01-22 17:57:55 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/cooking/ratatouille": {
     "criteria": {
       "has_any_ingredient": "2025-01-21 21:45:38 +0000"
+    },
+    "done": true
+  },
+  "simplytools:recipes/simplytools/paper_compress": {
+    "criteria": {
+      "has_item": "2025-01-22 17:57:55 +0000"
     },
     "done": true
   },
@@ -2188,9 +2408,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2025-01-22 17:57:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_coal": "2025-01-20 02:44:51 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooking/mushroom_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-22 17:57:39 +0000"
     },
     "done": true
   },
@@ -2233,6 +2465,18 @@
   "farmersdelight:recipes/farmersdelight/cooking/bone_broth": {
     "criteria": {
       "has_bone": "2025-01-20 02:22:29 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooking/mushroom_rice": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-22 17:57:39 +0000"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/decorative_blocks.general/brazier": {
+    "criteria": {
+      "has_bar": "2025-01-22 18:18:27 +0000"
     },
     "done": true
   },
@@ -2314,6 +2558,18 @@
     },
     "done": true
   },
+  "decorative_blocks:recipes/decorative_blocks.general/birch_support": {
+    "criteria": {
+      "has_plank": "2025-01-22 19:15:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-01-22 18:39:10 +0000"
+    },
+    "done": true
+  },
   "mca:recipes/misc/whistle": {
     "criteria": {
       "has_item": "2025-01-21 02:45:10 +0000"
@@ -2326,9 +2582,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2025-01-22 18:37:58 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/cooking/noodle_soup": {
     "criteria": {
       "has_any_ingredient": "2025-01-20 03:43:21 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/crocodile": {
+    "criteria": {
+      "killed_by": "2025-01-22 18:53:20 +0000"
     },
     "done": true
   },
@@ -2353,6 +2621,12 @@
   "minecraft:recipes/building_blocks/acacia_planks": {
     "criteria": {
       "has_log": "2025-01-21 21:59:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-01-22 18:39:10 +0000"
     },
     "done": true
   },
@@ -2422,6 +2696,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-01-22 18:00:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/magenta_dye_from_allium": {
     "criteria": {
       "has_allium": "2025-01-21 02:56:02 +0000"
@@ -2467,6 +2747,12 @@
   "farmersdelight:recipes/farmersdelight/onion_crate": {
     "criteria": {
       "has_onion": "2025-01-21 21:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2025-01-22 19:15:41 +0000"
     },
     "done": true
   },
@@ -2524,9 +2810,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-01-22 19:15:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2025-01-20 03:49:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-01-22 18:39:10 +0000"
     },
     "done": true
   },
@@ -2563,6 +2861,12 @@
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2025-01-22 01:15:15 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/blueprint": {
+    "criteria": {
+      "has_item": "2025-01-22 17:57:55 +0000"
     },
     "done": true
   },
